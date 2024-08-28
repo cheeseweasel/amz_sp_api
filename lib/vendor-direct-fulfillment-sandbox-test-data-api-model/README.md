@@ -56,7 +56,7 @@ Please follow the [installation](#installation) procedure and then run the follo
 require 'vendor-direct-fulfillment-sandbox-test-data-api-model'
 
 api_instance = AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::VendorDFSandboxApi.new
-body = AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::GenerateOrderScenarioRequest.new # GenerateOrderScenarioRequest | 
+body = AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::GenerateOrderScenarioRequest.new # GenerateOrderScenarioRequest | The request payload that contain parameters to generate test order data scenarios.
 
 
 begin
@@ -67,7 +67,7 @@ rescue AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::ApiError => e
 end
 
 api_instance = AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::VendorDFSandboxtransactionstatusApi.new
-transaction_id = 'transaction_id_example' # String | The transaction identifier returned in the response to the generateOrderScenarios operation.
+transaction_id = 'transaction_id_example' # String | The transaction identifier returned in the response for the `generateOrderScenarios` operation.
 
 
 begin

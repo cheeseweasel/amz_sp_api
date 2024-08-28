@@ -56,7 +56,7 @@ Please follow the [installation](#installation) procedure and then run the follo
 require 'vendor-invoices-api-model'
 
 api_instance = AmzSpApi::VendorInvoicesApiModel::VendorPaymentsApi.new
-body = AmzSpApi::VendorInvoicesApiModel::SubmitInvoicesRequest.new # SubmitInvoicesRequest | 
+body = AmzSpApi::VendorInvoicesApiModel::SubmitInvoicesRequest.new # SubmitInvoicesRequest | The request body containing the invoice data to submit.
 
 
 begin

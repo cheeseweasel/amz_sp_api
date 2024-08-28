@@ -80,7 +80,7 @@ rescue AmzSpApi::FulfillmentInboundApiModel::ApiError => e
 end
 
 api_instance = AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi.new
-body = AmzSpApi::FulfillmentInboundApiModel::InboundShipmentRequest.new # InboundShipmentRequest | 
+body = AmzSpApi::FulfillmentInboundApiModel::InboundShipmentRequest.new # InboundShipmentRequest | The request schema for the InboundShipmentRequest operation.
 shipment_id = 'shipment_id_example' # String | A shipment identifier originally returned by the createInboundShipmentPlan operation.
 
 
@@ -92,7 +92,7 @@ rescue AmzSpApi::FulfillmentInboundApiModel::ApiError => e
 end
 
 api_instance = AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi.new
-body = AmzSpApi::FulfillmentInboundApiModel::CreateInboundShipmentPlanRequest.new # CreateInboundShipmentPlanRequest | 
+body = AmzSpApi::FulfillmentInboundApiModel::CreateInboundShipmentPlanRequest.new # CreateInboundShipmentPlanRequest | The request schema for the CreateInboundShipmentPlanRequest operation.
 
 
 begin
@@ -122,20 +122,6 @@ begin
   p result
 rescue AmzSpApi::FulfillmentInboundApiModel::ApiError => e
   puts "Exception when calling FbaInboundApi->get_bill_of_lading: #{e}"
-end
-
-api_instance = AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi.new
-marketplace_id = 'marketplace_id_example' # String | A marketplace identifier. Specifies the marketplace where the product would be stored.
-opts = { 
-  seller_sku_list: ['seller_sku_list_example'], # Array<String> | A list of SellerSKU values. Used to identify items for which you want inbound guidance for shipment to Amazon's fulfillment network. Note: SellerSKU is qualified by the SellerId, which is included with every Selling Partner API operation that you submit. If you specify a SellerSKU that identifies a variation parent ASIN, this operation returns an error. A variation parent ASIN represents a generic product that cannot be sold. Variation child ASINs represent products that have specific characteristics (such as size and color) and can be sold. 
-  asin_list: ['asin_list_example'] # Array<String> | A list of ASIN values. Used to identify items for which you want inbound guidance for shipment to Amazon's fulfillment network. Note: If you specify a ASIN that identifies a variation parent ASIN, this operation returns an error. A variation parent ASIN represents a generic product that cannot be sold. Variation child ASINs represent products that have specific characteristics (such as size and color) and can be sold.
-}
-
-begin
-  result = api_instance.get_inbound_guidance(marketplace_id, opts)
-  p result
-rescue AmzSpApi::FulfillmentInboundApiModel::ApiError => e
-  puts "Exception when calling FbaInboundApi->get_inbound_guidance: #{e}"
 end
 
 api_instance = AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi.new
@@ -241,7 +227,7 @@ rescue AmzSpApi::FulfillmentInboundApiModel::ApiError => e
 end
 
 api_instance = AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi.new
-body = AmzSpApi::FulfillmentInboundApiModel::PutTransportDetailsRequest.new # PutTransportDetailsRequest | 
+body = AmzSpApi::FulfillmentInboundApiModel::PutTransportDetailsRequest.new # PutTransportDetailsRequest | The request schema for the PutTransportDetailsRequest operation.
 shipment_id = 'shipment_id_example' # String | A shipment identifier originally returned by the createInboundShipmentPlan operation.
 
 
@@ -253,7 +239,7 @@ rescue AmzSpApi::FulfillmentInboundApiModel::ApiError => e
 end
 
 api_instance = AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi.new
-body = AmzSpApi::FulfillmentInboundApiModel::InboundShipmentRequest.new # InboundShipmentRequest | 
+body = AmzSpApi::FulfillmentInboundApiModel::InboundShipmentRequest.new # InboundShipmentRequest | The request schema for the InboundShipmentRequest operation.
 shipment_id = 'shipment_id_example' # String | A shipment identifier originally returned by the createInboundShipmentPlan operation.
 
 
@@ -288,7 +274,6 @@ Class | Method | HTTP request | Description
 *AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi* | [**create_inbound_shipment_plan**](docs/FbaInboundApi.md#create_inbound_shipment_plan) | **POST** /fba/inbound/v0/plans | 
 *AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi* | [**estimate_transport**](docs/FbaInboundApi.md#estimate_transport) | **POST** /fba/inbound/v0/shipments/{shipmentId}/transport/estimate | 
 *AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi* | [**get_bill_of_lading**](docs/FbaInboundApi.md#get_bill_of_lading) | **GET** /fba/inbound/v0/shipments/{shipmentId}/billOfLading | 
-*AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi* | [**get_inbound_guidance**](docs/FbaInboundApi.md#get_inbound_guidance) | **GET** /fba/inbound/v0/itemsGuidance | 
 *AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi* | [**get_labels**](docs/FbaInboundApi.md#get_labels) | **GET** /fba/inbound/v0/shipments/{shipmentId}/labels | 
 *AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi* | [**get_preorder_info**](docs/FbaInboundApi.md#get_preorder_info) | **GET** /fba/inbound/v0/shipments/{shipmentId}/preorder | 
 *AmzSpApi::FulfillmentInboundApiModel::FbaInboundApi* | [**get_prep_instructions**](docs/FbaInboundApi.md#get_prep_instructions) | **GET** /fba/inbound/v0/prepInstructions | 
@@ -332,7 +317,6 @@ Class | Method | HTTP request | Description
  - [AmzSpApi::FulfillmentInboundApiModel::ErrorReason](docs/ErrorReason.md)
  - [AmzSpApi::FulfillmentInboundApiModel::EstimateTransportResponse](docs/EstimateTransportResponse.md)
  - [AmzSpApi::FulfillmentInboundApiModel::GetBillOfLadingResponse](docs/GetBillOfLadingResponse.md)
- - [AmzSpApi::FulfillmentInboundApiModel::GetInboundGuidanceResponse](docs/GetInboundGuidanceResponse.md)
  - [AmzSpApi::FulfillmentInboundApiModel::GetInboundGuidanceResult](docs/GetInboundGuidanceResult.md)
  - [AmzSpApi::FulfillmentInboundApiModel::GetLabelsResponse](docs/GetLabelsResponse.md)
  - [AmzSpApi::FulfillmentInboundApiModel::GetPreorderInfoResponse](docs/GetPreorderInfoResponse.md)

@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 
-Returns the status of the transaction indicated by the specified transactionId. If the transaction was successful, also returns the requested test order data.
+Retrieves the transaction status identified by the specified `transactionId`, and returns the requested test order data if the transaction is successful.
 
 ### Example
 ```ruby
@@ -19,7 +19,7 @@ Returns the status of the transaction indicated by the specified transactionId. 
 require 'vendor-direct-fulfillment-sandbox-test-data-api-model'
 
 api_instance = AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::VendorDFSandboxtransactionstatusApi.new
-transaction_id = 'transaction_id_example' # String | The transaction identifier returned in the response to the generateOrderScenarios operation.
+transaction_id = 'transaction_id_example' # String | The transaction identifier returned in the response for the `generateOrderScenarios` operation.
 
 
 begin
@@ -34,7 +34,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **transaction_id** | **String**| The transaction identifier returned in the response to the generateOrderScenarios operation. | 
+ **transaction_id** | **String**| The transaction identifier returned in the response for the &#x60;generateOrderScenarios&#x60; operation. | 
 
 ### Return type
 

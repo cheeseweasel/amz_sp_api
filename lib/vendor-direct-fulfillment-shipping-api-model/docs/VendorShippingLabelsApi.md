@@ -4,9 +4,57 @@ All URIs are relative to *https://sellingpartnerapi-na.amazon.com/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
+[**create_shipping_labels**](VendorShippingLabelsApi.md#create_shipping_labels) | **POST** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels/{purchaseOrderNumber} | 
 [**get_shipping_label**](VendorShippingLabelsApi.md#get_shipping_label) | **GET** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels/{purchaseOrderNumber} | 
 [**get_shipping_labels**](VendorShippingLabelsApi.md#get_shipping_labels) | **GET** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels | 
 [**submit_shipping_label_request**](VendorShippingLabelsApi.md#submit_shipping_label_request) | **POST** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels | 
+
+# **create_shipping_labels**
+> ShippingLabel create_shipping_labels(bodypurchase_order_number)
+
+
+
+Creates shipping labels for a purchase order and returns the labels.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 10 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values then those shown here. For more information, see [Usage Plans and Rate Limits in the Selling Partner API](doc:usage-plans-and-rate-limits-in-the-sp-api).
+
+### Example
+```ruby
+# load the gem
+require 'vendor-direct-fulfillment-shipping-api-model'
+
+api_instance = AmzSpApi::VendorDirectFulfillmentShippingApiModel::VendorShippingLabelsApi.new
+body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::CreateShippingLabelsRequest.new # CreateShippingLabelsRequest | The request payload that contains parameters for creating shipping labels.
+purchase_order_number = 'purchase_order_number_example' # String | The purchase order number for which you want to return the shipping labels. It should be the same purchaseOrderNumber as received in the order.
+
+
+begin
+  result = api_instance.create_shipping_labels(bodypurchase_order_number)
+  p result
+rescue AmzSpApi::VendorDirectFulfillmentShippingApiModel::ApiError => e
+  puts "Exception when calling VendorShippingLabelsApi->create_shipping_labels: #{e}"
+end
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **body** | [**CreateShippingLabelsRequest**](CreateShippingLabelsRequest.md)| The request payload that contains parameters for creating shipping labels. | 
+ **purchase_order_number** | **String**| The purchase order number for which you want to return the shipping labels. It should be the same purchaseOrderNumber as received in the order. | 
+
+### Return type
+
+[**ShippingLabel**](ShippingLabel.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+
 
 # **get_shipping_label**
 > ShippingLabel get_shipping_label(purchase_order_number)
@@ -21,7 +69,7 @@ Returns a shipping label for the purchaseOrderNumber that you specify.  **Usage 
 require 'vendor-direct-fulfillment-shipping-api-model'
 
 api_instance = AmzSpApi::VendorDirectFulfillmentShippingApiModel::VendorShippingLabelsApi.new
-purchase_order_number = 'purchase_order_number_example' # String | The purchase order number for which you want to return the shipping label. It should be the same purchaseOrderNumber as received in the order.
+purchase_order_number = 'purchase_order_number_example' # String | The purchase order number for which you want to return the shipping label. Should be the same `purchaseOrderNumber` as received in the order.
 
 
 begin
@@ -36,7 +84,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **purchase_order_number** | **String**| The purchase order number for which you want to return the shipping label. It should be the same purchaseOrderNumber as received in the order. | 
+ **purchase_order_number** | **String**| The purchase order number for which you want to return the shipping label. Should be the same &#x60;purchaseOrderNumber&#x60; as received in the order. | 
 
 ### Return type
 
@@ -122,7 +170,7 @@ Creates a shipping label for a purchase order and returns a transactionId for re
 require 'vendor-direct-fulfillment-shipping-api-model'
 
 api_instance = AmzSpApi::VendorDirectFulfillmentShippingApiModel::VendorShippingLabelsApi.new
-body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::SubmitShippingLabelsRequest.new # SubmitShippingLabelsRequest | 
+body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::SubmitShippingLabelsRequest.new # SubmitShippingLabelsRequest | Request body that contains the shipping labels data.
 
 
 begin
@@ -137,7 +185,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**SubmitShippingLabelsRequest**](SubmitShippingLabelsRequest.md)|  | 
+ **body** | [**SubmitShippingLabelsRequest**](SubmitShippingLabelsRequest.md)| Request body that contains the shipping labels data. | 
 
 ### Return type
 

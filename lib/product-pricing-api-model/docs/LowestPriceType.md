@@ -8,8 +8,8 @@ Name | Type | Description | Notes
 **offer_type** | [**OfferCustomerType**](OfferCustomerType.md) |  | [optional] 
 **quantity_tier** | **Integer** | Indicates at what quantity this price becomes active. | [optional] 
 **quantity_discount_type** | [**QuantityDiscountType**](QuantityDiscountType.md) |  | [optional] 
-**landed_price** | [**MoneyType**](MoneyType.md) |  | 
+**landed_price** | [**MoneyType**](MoneyType.md) |  | [optional] 
 **listing_price** | [**MoneyType**](MoneyType.md) |  | 
-**shipping** | [**MoneyType**](MoneyType.md) |  | 
+**shipping** | [**MoneyType**](MoneyType.md) |  | [optional] 
 **points** | [**Points**](Points.md) |  | [optional] 
 
