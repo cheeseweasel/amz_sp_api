@@ -104,7 +104,8 @@ api_instance = AmzSpApi::FulfillmentOutboundApiModel::FbaOutboundApi.new
 marketplace_id = 'marketplace_id_example' # String | The marketplace for which to return a list of the inventory that is eligible for the specified feature.
 feature_name = 'feature_name_example' # String | The name of the feature for which to return a list of eligible inventory.
 opts = { 
-  next_token: 'next_token_example' # String | A string token returned in the response to your previous request that is used to return the next response page. A value of null will return the first page.
+  next_token: 'next_token_example', # String | A string token returned in the response to your previous request that is used to return the next response page. A value of null will return the first page.
+  query_start_date: DateTime.parse('2013-10-20T19:20:30+01:00') # DateTime | A date that you can use to select inventory that has been updated since a specified date. An update is defined as any change in feature-enabled inventory availability. The date must be in the format yyyy-MM-ddTHH:mm:ss.sssZ
 }
 
 begin
@@ -264,12 +265,14 @@ Class | Method | HTTP request | Description
  - [AmzSpApi::FulfillmentOutboundApiModel::CurrentStatus](docs/CurrentStatus.md)
  - [AmzSpApi::FulfillmentOutboundApiModel::DateRange](docs/DateRange.md)
  - [AmzSpApi::FulfillmentOutboundApiModel::Decimal](docs/Decimal.md)
+ - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryDocument](docs/DeliveryDocument.md)
+ - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryDocumentList](docs/DeliveryDocumentList.md)
+ - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryInformation](docs/DeliveryInformation.md)
  - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryMessage](docs/DeliveryMessage.md)
  - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryOffer](docs/DeliveryOffer.md)
  - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryOffersList](docs/DeliveryOffersList.md)
  - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryPolicy](docs/DeliveryPolicy.md)
  - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryPreferences](docs/DeliveryPreferences.md)
- - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryQuantity](docs/DeliveryQuantity.md)
  - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryWindow](docs/DeliveryWindow.md)
  - [AmzSpApi::FulfillmentOutboundApiModel::DeliveryWindowList](docs/DeliveryWindowList.md)
  - [AmzSpApi::FulfillmentOutboundApiModel::Destination](docs/Destination.md)

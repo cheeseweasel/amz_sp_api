@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentOrdersApiModel
-  # The total tax object within the shipment that relates to the order.
+  # The total Tax object within shipment that relates to the order.
   class OrderDetailsTaxTotal
     attr_accessor :tax_line_item
 

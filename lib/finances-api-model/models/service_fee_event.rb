@@ -34,6 +34,9 @@ module AmzSpApi::FinancesApiModel
     # The Amazon Standard Identification Number (ASIN) of the item.
     attr_accessor :asin
 
+    # The name of the store where the event occurred.
+    attr_accessor :store_name
+
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
@@ -43,7 +46,8 @@ module AmzSpApi::FinancesApiModel
         :'seller_sku' => :'SellerSKU',
         :'fn_sku' => :'FnSKU',
         :'fee_description' => :'FeeDescription',
-        :'asin' => :'ASIN'
+        :'asin' => :'ASIN',
+        :'store_name' => :'StoreName'
       }
     end
 
@@ -56,7 +60,8 @@ module AmzSpApi::FinancesApiModel
         :'seller_sku' => :'Object',
         :'fn_sku' => :'Object',
         :'fee_description' => :'Object',
-        :'asin' => :'Object'
+        :'asin' => :'Object',
+        :'store_name' => :'Object'
       }
     end
 
@@ -108,6 +113,10 @@ module AmzSpApi::FinancesApiModel
       if attributes.key?(:'asin')
         self.asin = attributes[:'asin']
       end
+
+      if attributes.key?(:'store_name')
+        self.store_name = attributes[:'store_name']
+      end
     end
 
     # Show invalid properties with the reasons. Usually used together with valid?
@@ -134,7 +143,8 @@ module AmzSpApi::FinancesApiModel
           seller_sku == o.seller_sku &&
           fn_sku == o.fn_sku &&
           fee_description == o.fee_description &&
-          asin == o.asin
+          asin == o.asin &&
+          store_name == o.store_name
     end
 
     # @see the `==` method
@@ -146,7 +156,7 @@ module AmzSpApi::FinancesApiModel
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [amazon_order_id, fee_reason, fee_list, seller_sku, fn_sku, fee_description, asin].hash
+      [amazon_order_id, fee_reason, fee_list, seller_sku, fn_sku, fee_description, asin, store_name].hash
     end
 
     # Builds the object from hash

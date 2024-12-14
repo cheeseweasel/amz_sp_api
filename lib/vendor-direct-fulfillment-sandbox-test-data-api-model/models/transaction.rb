@@ -12,9 +12,9 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
-  # The transaction details that include the status. If the transaction is successful, also includes the requested test order data.
+  # The transaction details including the status. If the transaction was successful, also includes the requested test order data.
   class Transaction
-    # The unique identifier returned in the response for the `generateOrderScenarios` request.
+    # The unique identifier returned in the response to the generateOrderScenarios request.
     attr_accessor :transaction_id
 
     # The current processing status of the transaction.

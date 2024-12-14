@@ -16,7 +16,7 @@ module AmzSpApi::VendorDirectFulfillmentShippingApiModel
   class CustomerInvoiceList
     attr_accessor :pagination
 
-    # Represents a customer invoice within the `CustomerInvoiceList`.
+    # Represents a customer invoice within the CustomerInvoiceList.
     attr_accessor :customer_invoices
 
     # Attribute mapping from ruby-style variable name to JSON key.

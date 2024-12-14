@@ -205,7 +205,7 @@ Submits acknowledgements for one or more purchase orders.  **Usage Plan:**  | Ra
 require 'vendor-orders-api-model'
 
 api_instance = AmzSpApi::VendorOrdersApiModel::VendorOrdersApi.new
-body = AmzSpApi::VendorOrdersApiModel::SubmitAcknowledgementRequest.new # SubmitAcknowledgementRequest | 
+body = AmzSpApi::VendorOrdersApiModel::SubmitAcknowledgementRequest.new # SubmitAcknowledgementRequest | Submits acknowledgements for one or more purchase orders from a vendor.
 
 
 begin
@@ -220,7 +220,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**SubmitAcknowledgementRequest**](SubmitAcknowledgementRequest.md)|  | 
+ **body** | [**SubmitAcknowledgementRequest**](SubmitAcknowledgementRequest.md)| Submits acknowledgements for one or more purchase orders from a vendor. | 
 
 ### Return type
 

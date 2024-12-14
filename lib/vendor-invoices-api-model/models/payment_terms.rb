@@ -1,5 +1,5 @@
 =begin
-#Selling Partner API for Retail Procurement Payments
+#Vendor Invoices v1
 
 #The Selling Partner API for Retail Procurement Payments provides programmatic access to vendors payments data.
 
@@ -19,7 +19,7 @@ module AmzSpApi::VendorInvoicesApiModel
 
     attr_accessor :discount_percent
 
-    # The number of calendar days from the base date (Invoice date) until the discount is no longer valid.
+    # The number of calendar days from the Base date (Invoice date) until the discount is no longer valid.
     attr_accessor :discount_due_days
 
     # The number of calendar days from the base date (invoice date) until the total amount on the invoice is due.

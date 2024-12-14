@@ -14,7 +14,7 @@ require 'date'
 module AmzSpApi::VendorDirectFulfillmentShippingApiModel
   # A list of error responses returned when a request is unsuccessful.
   class ErrorList
-    # An array of error objects that represents individual errors encountered during the request.
+    # An array of Error objects representing individual errors encountered during the request.
     attr_accessor :errors
 
     # Attribute mapping from ruby-style variable name to JSON key.

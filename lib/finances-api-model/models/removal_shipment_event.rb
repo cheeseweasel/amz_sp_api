@@ -25,6 +25,9 @@ module AmzSpApi::FinancesApiModel
     # The type of removal order.  Possible values:  * WHOLESALE_LIQUIDATION
     attr_accessor :transaction_type
 
+    # The name of the store where the event occurred.
+    attr_accessor :store_name
+
     attr_accessor :removal_shipment_item_list
 
     # Attribute mapping from ruby-style variable name to JSON key.
@@ -34,6 +37,7 @@ module AmzSpApi::FinancesApiModel
         :'merchant_order_id' => :'MerchantOrderId',
         :'order_id' => :'OrderId',
         :'transaction_type' => :'TransactionType',
+        :'store_name' => :'StoreName',
         :'removal_shipment_item_list' => :'RemovalShipmentItemList'
       }
     end
@@ -45,6 +49,7 @@ module AmzSpApi::FinancesApiModel
         :'merchant_order_id' => :'Object',
         :'order_id' => :'Object',
         :'transaction_type' => :'Object',
+        :'store_name' => :'Object',
         :'removal_shipment_item_list' => :'Object'
       }
     end
@@ -86,6 +91,10 @@ module AmzSpApi::FinancesApiModel
         self.transaction_type = attributes[:'transaction_type']
       end
 
+      if attributes.key?(:'store_name')
+        self.store_name = attributes[:'store_name']
+      end
+
       if attributes.key?(:'removal_shipment_item_list')
         self.removal_shipment_item_list = attributes[:'removal_shipment_item_list']
       end
@@ -113,6 +122,7 @@ module AmzSpApi::FinancesApiModel
           merchant_order_id == o.merchant_order_id &&
           order_id == o.order_id &&
           transaction_type == o.transaction_type &&
+          store_name == o.store_name &&
           removal_shipment_item_list == o.removal_shipment_item_list
     end
 
@@ -125,7 +135,7 @@ module AmzSpApi::FinancesApiModel
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [posted_date, merchant_order_id, order_id, transaction_type, removal_shipment_item_list].hash
+      [posted_date, merchant_order_id, order_id, transaction_type, store_name, removal_shipment_item_list].hash
     end
 
     # Builds the object from hash

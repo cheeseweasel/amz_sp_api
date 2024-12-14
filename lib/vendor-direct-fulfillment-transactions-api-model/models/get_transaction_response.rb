@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentTransactionsApiModel
-  # The response schema for the `getTransactionStatus` operation.
+  # The response schema for the getTransactionStatus operation.
   class GetTransactionResponse
     attr_accessor :payload
 

@@ -1,5 +1,5 @@
 =begin
-#Selling Partner API for Listings Items
+#Listings Items v2021-08-01
 
 #The Selling Partner API for Listings Items (Listings Items API) provides programmatic access to selling partner listings on Amazon. Use this API in collaboration with the Selling Partner API for Product Type Definitions, which you use to retrieve the information about Amazon product types needed to use the Listings Items API.  For more information, see the [Listings Items API Use Case Guide](https://developer-docs.amazon.com/sp-api/docs/listings-items-api-v2021-08-01-use-case-guide).
 
@@ -16,6 +16,7 @@ require 'listings-items-api-model/version'
 require 'listings-items-api-model/configuration'
 
 # Models
+require 'listings-items-api-model/models/audience'
 require 'listings-items-api-model/models/decimal'
 require 'listings-items-api-model/models/error'
 require 'listings-items-api-model/models/error_list'
@@ -33,17 +34,19 @@ require 'listings-items-api-model/models/item_issues'
 require 'listings-items-api-model/models/item_offer_by_marketplace'
 require 'listings-items-api-model/models/item_offers'
 require 'listings-items-api-model/models/item_procurement'
+require 'listings-items-api-model/models/item_search_results'
 require 'listings-items-api-model/models/item_summaries'
 require 'listings-items-api-model/models/item_summary_by_marketplace'
 require 'listings-items-api-model/models/listings_item_patch_request'
 require 'listings-items-api-model/models/listings_item_put_request'
 require 'listings-items-api-model/models/listings_item_submission_response'
 require 'listings-items-api-model/models/money'
+require 'listings-items-api-model/models/pagination'
 require 'listings-items-api-model/models/patch_operation'
 require 'listings-items-api-model/models/points'
 
 # APIs
-require 'listings-items-api-model/api/listings_api'
+require 'listings-items-api-model/api/listings_items_api'
 
 module AmzSpApi::ListingsItemsApiModel
   class << self

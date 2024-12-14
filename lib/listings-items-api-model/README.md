@@ -1,6 +1,6 @@
 # listings-items-api-model
 
-AmzSpApi::ListingsItemsApiModel - the Ruby gem for the Selling Partner API for Listings Items
+AmzSpApi::ListingsItemsApiModel - the Ruby gem for the Listings Items v2021-08-01
 
 The Selling Partner API for Listings Items (Listings Items API) provides programmatic access to selling partner listings on Amazon. Use this API in collaboration with the Selling Partner API for Product Type Definitions, which you use to retrieve the information about Amazon product types needed to use the Listings Items API.  For more information, see the [Listings Items API Use Case Guide](https://developer-docs.amazon.com/sp-api/docs/listings-items-api-v2021-08-01-use-case-guide).
 
@@ -55,7 +55,7 @@ Please follow the [installation](#installation) procedure and then run the follo
 # Load the gem
 require 'listings-items-api-model'
 
-api_instance = AmzSpApi::ListingsItemsApiModel::ListingsApi.new
+api_instance = AmzSpApi::ListingsItemsApiModel::ListingsItemsApi.new
 seller_id = 'seller_id_example' # String | A selling partner identifier, such as a merchant account or vendor code.
 sku = 'sku_example' # String | A selling partner provided identifier for an Amazon listing.
 marketplace_ids = ['marketplace_ids_example'] # Array<String> | A comma-delimited list of Amazon marketplace identifiers for the request.
@@ -64,13 +64,14 @@ opts = {
 }
 
 begin
+  #deleteListingsItem
   result = api_instance.delete_listings_item(seller_id, sku, marketplace_ids, opts)
   p result
 rescue AmzSpApi::ListingsItemsApiModel::ApiError => e
-  puts "Exception when calling ListingsApi->delete_listings_item: #{e}"
+  puts "Exception when calling ListingsItemsApi->delete_listings_item: #{e}"
 end
 
-api_instance = AmzSpApi::ListingsItemsApiModel::ListingsApi.new
+api_instance = AmzSpApi::ListingsItemsApiModel::ListingsItemsApi.new
 seller_id = 'seller_id_example' # String | A selling partner identifier, such as a merchant account or vendor code.
 sku = 'sku_example' # String | A selling partner provided identifier for an Amazon listing.
 marketplace_ids = ['marketplace_ids_example'] # Array<String> | A comma-delimited list of Amazon marketplace identifiers for the request.
@@ -80,13 +81,14 @@ opts = {
 }
 
 begin
+  #getListingsItem
   result = api_instance.get_listings_item(seller_id, sku, marketplace_ids, opts)
   p result
 rescue AmzSpApi::ListingsItemsApiModel::ApiError => e
-  puts "Exception when calling ListingsApi->get_listings_item: #{e}"
+  puts "Exception when calling ListingsItemsApi->get_listings_item: #{e}"
 end
 
-api_instance = AmzSpApi::ListingsItemsApiModel::ListingsApi.new
+api_instance = AmzSpApi::ListingsItemsApiModel::ListingsItemsApi.new
 body = AmzSpApi::ListingsItemsApiModel::ListingsItemPatchRequest.new # ListingsItemPatchRequest | The request body schema for the `patchListingsItem` operation.
 seller_id = 'seller_id_example' # String | A selling partner identifier, such as a merchant account or vendor code.
 sku = 'sku_example' # String | A selling partner provided identifier for an Amazon listing.
@@ -98,13 +100,14 @@ opts = {
 }
 
 begin
+  #patchListingsItem
   result = api_instance.patch_listings_item(body, seller_id, sku, marketplace_ids, opts)
   p result
 rescue AmzSpApi::ListingsItemsApiModel::ApiError => e
-  puts "Exception when calling ListingsApi->patch_listings_item: #{e}"
+  puts "Exception when calling ListingsItemsApi->patch_listings_item: #{e}"
 end
 
-api_instance = AmzSpApi::ListingsItemsApiModel::ListingsApi.new
+api_instance = AmzSpApi::ListingsItemsApiModel::ListingsItemsApi.new
 body = AmzSpApi::ListingsItemsApiModel::ListingsItemPutRequest.new # ListingsItemPutRequest | The request body schema for the `putListingsItem` operation.
 seller_id = 'seller_id_example' # String | A selling partner identifier, such as a merchant account or vendor code.
 sku = 'sku_example' # String | A selling partner provided identifier for an Amazon listing.
@@ -116,10 +119,11 @@ opts = {
 }
 
 begin
+  #putListingsItem
   result = api_instance.put_listings_item(body, seller_id, sku, marketplace_ids, opts)
   p result
 rescue AmzSpApi::ListingsItemsApiModel::ApiError => e
-  puts "Exception when calling ListingsApi->put_listings_item: #{e}"
+  puts "Exception when calling ListingsItemsApi->put_listings_item: #{e}"
 end
 ```
 
@@ -129,13 +133,14 @@ All URIs are relative to *https://sellingpartnerapi-na.amazon.com/*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AmzSpApi::ListingsItemsApiModel::ListingsApi* | [**delete_listings_item**](docs/ListingsApi.md#delete_listings_item) | **DELETE** /listings/2021-08-01/items/{sellerId}/{sku} | 
-*AmzSpApi::ListingsItemsApiModel::ListingsApi* | [**get_listings_item**](docs/ListingsApi.md#get_listings_item) | **GET** /listings/2021-08-01/items/{sellerId}/{sku} | 
-*AmzSpApi::ListingsItemsApiModel::ListingsApi* | [**patch_listings_item**](docs/ListingsApi.md#patch_listings_item) | **PATCH** /listings/2021-08-01/items/{sellerId}/{sku} | 
-*AmzSpApi::ListingsItemsApiModel::ListingsApi* | [**put_listings_item**](docs/ListingsApi.md#put_listings_item) | **PUT** /listings/2021-08-01/items/{sellerId}/{sku} | 
+*AmzSpApi::ListingsItemsApiModel::ListingsItemsApi* | [**delete_listings_item**](docs/ListingsItemsApi.md#delete_listings_item) | **DELETE** /listings/2021-08-01/items/{sellerId}/{sku} | deleteListingsItem
+*AmzSpApi::ListingsItemsApiModel::ListingsItemsApi* | [**get_listings_item**](docs/ListingsItemsApi.md#get_listings_item) | **GET** /listings/2021-08-01/items/{sellerId}/{sku} | getListingsItem
+*AmzSpApi::ListingsItemsApiModel::ListingsItemsApi* | [**patch_listings_item**](docs/ListingsItemsApi.md#patch_listings_item) | **PATCH** /listings/2021-08-01/items/{sellerId}/{sku} | patchListingsItem
+*AmzSpApi::ListingsItemsApiModel::ListingsItemsApi* | [**put_listings_item**](docs/ListingsItemsApi.md#put_listings_item) | **PUT** /listings/2021-08-01/items/{sellerId}/{sku} | putListingsItem
 
 ## Documentation for Models
 
+ - [AmzSpApi::ListingsItemsApiModel::Audience](docs/Audience.md)
  - [AmzSpApi::ListingsItemsApiModel::Decimal](docs/Decimal.md)
  - [AmzSpApi::ListingsItemsApiModel::Error](docs/Error.md)
  - [AmzSpApi::ListingsItemsApiModel::ErrorList](docs/ErrorList.md)
@@ -153,12 +158,14 @@ Class | Method | HTTP request | Description
  - [AmzSpApi::ListingsItemsApiModel::ItemOfferByMarketplace](docs/ItemOfferByMarketplace.md)
  - [AmzSpApi::ListingsItemsApiModel::ItemOffers](docs/ItemOffers.md)
  - [AmzSpApi::ListingsItemsApiModel::ItemProcurement](docs/ItemProcurement.md)
+ - [AmzSpApi::ListingsItemsApiModel::ItemSearchResults](docs/ItemSearchResults.md)
  - [AmzSpApi::ListingsItemsApiModel::ItemSummaries](docs/ItemSummaries.md)
  - [AmzSpApi::ListingsItemsApiModel::ItemSummaryByMarketplace](docs/ItemSummaryByMarketplace.md)
  - [AmzSpApi::ListingsItemsApiModel::ListingsItemPatchRequest](docs/ListingsItemPatchRequest.md)
  - [AmzSpApi::ListingsItemsApiModel::ListingsItemPutRequest](docs/ListingsItemPutRequest.md)
  - [AmzSpApi::ListingsItemsApiModel::ListingsItemSubmissionResponse](docs/ListingsItemSubmissionResponse.md)
  - [AmzSpApi::ListingsItemsApiModel::Money](docs/Money.md)
+ - [AmzSpApi::ListingsItemsApiModel::Pagination](docs/Pagination.md)
  - [AmzSpApi::ListingsItemsApiModel::PatchOperation](docs/PatchOperation.md)
  - [AmzSpApi::ListingsItemsApiModel::Points](docs/Points.md)
 

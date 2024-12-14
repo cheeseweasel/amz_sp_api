@@ -4,20 +4,20 @@ All URIs are relative to *https://sellingpartnerapi-na.amazon.com/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**cancel_report**](ReportsApi.md#cancel_report) | **DELETE** /reports/2021-06-30/reports/{reportId} | 
-[**cancel_report_schedule**](ReportsApi.md#cancel_report_schedule) | **DELETE** /reports/2021-06-30/schedules/{reportScheduleId} | 
-[**create_report**](ReportsApi.md#create_report) | **POST** /reports/2021-06-30/reports | 
-[**create_report_schedule**](ReportsApi.md#create_report_schedule) | **POST** /reports/2021-06-30/schedules | 
-[**get_report**](ReportsApi.md#get_report) | **GET** /reports/2021-06-30/reports/{reportId} | 
-[**get_report_document**](ReportsApi.md#get_report_document) | **GET** /reports/2021-06-30/documents/{reportDocumentId} | 
-[**get_report_schedule**](ReportsApi.md#get_report_schedule) | **GET** /reports/2021-06-30/schedules/{reportScheduleId} | 
-[**get_report_schedules**](ReportsApi.md#get_report_schedules) | **GET** /reports/2021-06-30/schedules | 
-[**get_reports**](ReportsApi.md#get_reports) | **GET** /reports/2021-06-30/reports | 
+[**cancel_report**](ReportsApi.md#cancel_report) | **DELETE** /reports/2021-06-30/reports/{reportId} | cancelReport
+[**cancel_report_schedule**](ReportsApi.md#cancel_report_schedule) | **DELETE** /reports/2021-06-30/schedules/{reportScheduleId} | cancelReportSchedule
+[**create_report**](ReportsApi.md#create_report) | **POST** /reports/2021-06-30/reports | createReport
+[**create_report_schedule**](ReportsApi.md#create_report_schedule) | **POST** /reports/2021-06-30/schedules | createReportSchedule
+[**get_report**](ReportsApi.md#get_report) | **GET** /reports/2021-06-30/reports/{reportId} | getReport
+[**get_report_document**](ReportsApi.md#get_report_document) | **GET** /reports/2021-06-30/documents/{reportDocumentId} | getReportDocument
+[**get_report_schedule**](ReportsApi.md#get_report_schedule) | **GET** /reports/2021-06-30/schedules/{reportScheduleId} | getReportSchedule
+[**get_report_schedules**](ReportsApi.md#get_report_schedules) | **GET** /reports/2021-06-30/schedules | getReportSchedules
+[**get_reports**](ReportsApi.md#get_reports) | **GET** /reports/2021-06-30/reports | getReports
 
 # **cancel_report**
 > cancel_report(report_id)
 
-
+cancelReport
 
 Cancels the report that you specify. Only reports with `processingStatus=IN_QUEUE` can be cancelled. Cancelled reports are returned in subsequent calls to the `getReport` and `getReports` operations.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0222 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -31,6 +31,7 @@ report_id = 'report_id_example' # String | The identifier for the report. This i
 
 
 begin
+  #cancelReport
   api_instance.cancel_report(report_id)
 rescue AmzSpApi::ReportsApiModel::ApiError => e
   puts "Exception when calling ReportsApi->cancel_report: #{e}"
@@ -61,7 +62,7 @@ No authorization required
 # **cancel_report_schedule**
 > cancel_report_schedule(report_schedule_id)
 
-
+cancelReportSchedule
 
 Cancels the report schedule that you specify.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0222 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -75,6 +76,7 @@ report_schedule_id = 'report_schedule_id_example' # String | The identifier for 
 
 
 begin
+  #cancelReportSchedule
   api_instance.cancel_report_schedule(report_schedule_id)
 rescue AmzSpApi::ReportsApiModel::ApiError => e
   puts "Exception when calling ReportsApi->cancel_report_schedule: #{e}"
@@ -105,7 +107,7 @@ No authorization required
 # **create_report**
 > CreateReportResponse create_report(body)
 
-
+createReport
 
 Creates a report.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0167 | 15 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -119,6 +121,7 @@ body = AmzSpApi::ReportsApiModel::CreateReportSpecification.new # CreateReportSp
 
 
 begin
+  #createReport
   result = api_instance.create_report(body)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -150,7 +153,7 @@ No authorization required
 # **create_report_schedule**
 > CreateReportScheduleResponse create_report_schedule(body)
 
-
+createReportSchedule
 
 Creates a report schedule. If a report schedule with the same report type and marketplace IDs already exists, it will be cancelled and replaced with this one.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0222 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -164,6 +167,7 @@ body = AmzSpApi::ReportsApiModel::CreateReportScheduleSpecification.new # Create
 
 
 begin
+  #createReportSchedule
   result = api_instance.create_report_schedule(body)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -195,7 +199,7 @@ No authorization required
 # **get_report**
 > Report get_report(report_id)
 
-
+getReport
 
 Returns report details (including the `reportDocumentId`, if available) for the report that you specify.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 2 | 15 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -209,6 +213,7 @@ report_id = 'report_id_example' # String | The identifier for the report. This i
 
 
 begin
+  #getReport
   result = api_instance.get_report(report_id)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -240,7 +245,7 @@ No authorization required
 # **get_report_document**
 > ReportDocument get_report_document(report_document_id)
 
-
+getReportDocument
 
 Returns the information required for retrieving a report document's contents.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0167 | 15 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -254,6 +259,7 @@ report_document_id = 'report_document_id_example' # String | The identifier for 
 
 
 begin
+  #getReportDocument
   result = api_instance.get_report_document(report_document_id)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -285,7 +291,7 @@ No authorization required
 # **get_report_schedule**
 > ReportSchedule get_report_schedule(report_schedule_id)
 
-
+getReportSchedule
 
 Returns report schedule details for the report schedule that you specify.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0222 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -299,6 +305,7 @@ report_schedule_id = 'report_schedule_id_example' # String | The identifier for 
 
 
 begin
+  #getReportSchedule
   result = api_instance.get_report_schedule(report_schedule_id)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -330,7 +337,7 @@ No authorization required
 # **get_report_schedules**
 > ReportScheduleList get_report_schedules(report_types)
 
-
+getReportSchedules
 
 Returns report schedule details that match the filters that you specify.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0222 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -344,6 +351,7 @@ report_types = ['report_types_example'] # Array<String> | A list of report types
 
 
 begin
+  #getReportSchedules
   result = api_instance.get_report_schedules(report_types)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -375,7 +383,7 @@ No authorization required
 # **get_reports**
 > GetReportsResponse get_reports(opts)
 
-
+getReports
 
 Returns report details for the reports that match the filters that you specify.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0222 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -396,6 +404,7 @@ opts = {
 }
 
 begin
+  #getReports
   result = api_instance.get_reports(opts)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e

@@ -168,7 +168,7 @@ This operation is only to be used by Vendor-Own-Carrier (VOC) vendors. Calling t
 require 'vendor-direct-fulfillment-shipping-api-model'
 
 api_instance = AmzSpApi::VendorDirectFulfillmentShippingApiModel::VendorShippingApi.new
-body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::SubmitShipmentStatusUpdatesRequest.new # SubmitShipmentStatusUpdatesRequest | Request body that contains the shipment status update data.
+body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::SubmitShipmentStatusUpdatesRequest.new # SubmitShipmentStatusUpdatesRequest | Request body containing the shipment status update data.
 
 
 begin
@@ -183,7 +183,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**SubmitShipmentStatusUpdatesRequest**](SubmitShipmentStatusUpdatesRequest.md)| Request body that contains the shipment status update data. | 
+ **body** | [**SubmitShipmentStatusUpdatesRequest**](SubmitShipmentStatusUpdatesRequest.md)| Request body containing the shipment status update data. | 
 
 ### Return type
 

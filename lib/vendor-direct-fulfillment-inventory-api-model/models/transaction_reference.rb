@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentInventoryApiModel
-  # A response that contains the transaction ID.
+  # Response containing the transaction ID.
   class TransactionReference
     # GUID to identify this transaction. This value can be used with the Transaction Status API to return the status of this transaction.
     attr_accessor :transaction_id

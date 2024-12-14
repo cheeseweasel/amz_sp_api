@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentShippingApiModel
-  # Represents the confirmation details of a shipment. Includes the purchase order number and other shipment details.
+  # Represents the confirmation details of a shipment, including the purchase order number and other shipment details.
   class ShipmentConfirmation
     # Purchase order number corresponding to the shipment.
     attr_accessor :purchase_order_number

@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentInventoryApiModel
-  # The request body for the `submitInventoryUpdate` operation.
+  # The request body for the submitInventoryUpdate operation.
   class SubmitInventoryUpdateRequest
     attr_accessor :inventory
 

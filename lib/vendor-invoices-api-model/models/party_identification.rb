@@ -1,5 +1,5 @@
 =begin
-#Selling Partner API for Retail Procurement Payments
+#Vendor Invoices v1
 
 #The Selling Partner API for Retail Procurement Payments provides programmatic access to vendors payments data.
 
@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorInvoicesApiModel
-  # Name, address, and tax details of a party.
+  # Name, address and tax details of a party.
   class PartyIdentification
     # Assigned identification for the party.
     attr_accessor :party_id

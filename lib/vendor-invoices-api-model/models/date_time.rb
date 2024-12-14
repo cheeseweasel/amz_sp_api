@@ -1,5 +1,5 @@
 =begin
-#Selling Partner API for Retail Procurement Payments
+#Vendor Invoices v1
 
 #The Selling Partner API for Retail Procurement Payments provides programmatic access to vendors payments data.
 
@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorInvoicesApiModel
-  # Defines a date and time according to <a href='https://developer-docs.amazon.com/sp-api/docs/iso-8601'>ISO 8601</a>.
+  # Defines a date and time according to ISO8601.
   class DateTime
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map

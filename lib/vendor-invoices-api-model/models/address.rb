@@ -1,5 +1,5 @@
 =begin
-#Selling Partner API for Retail Procurement Payments
+#Vendor Invoices v1
 
 #The Selling Partner API for Retail Procurement Payments provides programmatic access to vendors payments data.
 
@@ -26,19 +26,19 @@ module AmzSpApi::VendorInvoicesApiModel
     # Additional address information, if required.
     attr_accessor :address_line3
 
-    # The city where the person, business, or institution is located.
+    # The city where the person, business or institution is located.
     attr_accessor :city
 
-    # The county where person, business, or institution is located.
+    # The county where person, business or institution is located.
     attr_accessor :county
 
-    # The district where person, business, or institution is located.
+    # The district where person, business or institution is located.
     attr_accessor :district
 
-    # The state or region where person, business, or institution is located.
+    # The state or region where person, business or institution is located.
     attr_accessor :state_or_region
 
-    # The postal or zip code of that address. It contains a series of letters, digits, or both, sometimes including spaces or punctuation.
+    # The postal or zip code of that address. It contains a series of letters or digits or both, sometimes including spaces or punctuation.
     attr_accessor :postal_or_zip_code
 
     # The two digit country code. In ISO 3166-1 alpha-2 format.

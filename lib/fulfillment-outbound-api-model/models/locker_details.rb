@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::FulfillmentOutboundApiModel
-  # The locker details, if provided can be used to access locker delivery box.
+  # The locker details, which you can use to access the locker delivery box.
   class LockerDetails
     # Indicates the locker number
     attr_accessor :locker_number

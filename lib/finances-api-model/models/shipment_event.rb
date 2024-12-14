@@ -23,6 +23,9 @@ module AmzSpApi::FinancesApiModel
     # The name of the marketplace where the event occurred.
     attr_accessor :marketplace_name
 
+    # The name of the store where the event occurred.
+    attr_accessor :store_name
+
     attr_accessor :order_charge_list
 
     attr_accessor :order_charge_adjustment_list
@@ -49,6 +52,7 @@ module AmzSpApi::FinancesApiModel
         :'amazon_order_id' => :'AmazonOrderId',
         :'seller_order_id' => :'SellerOrderId',
         :'marketplace_name' => :'MarketplaceName',
+        :'store_name' => :'StoreName',
         :'order_charge_list' => :'OrderChargeList',
         :'order_charge_adjustment_list' => :'OrderChargeAdjustmentList',
         :'shipment_fee_list' => :'ShipmentFeeList',
@@ -68,6 +72,7 @@ module AmzSpApi::FinancesApiModel
         :'amazon_order_id' => :'Object',
         :'seller_order_id' => :'Object',
         :'marketplace_name' => :'Object',
+        :'store_name' => :'Object',
         :'order_charge_list' => :'Object',
         :'order_charge_adjustment_list' => :'Object',
         :'shipment_fee_list' => :'Object',
@@ -112,6 +117,10 @@ module AmzSpApi::FinancesApiModel
 
       if attributes.key?(:'marketplace_name')
         self.marketplace_name = attributes[:'marketplace_name']
+      end
+
+      if attributes.key?(:'store_name')
+        self.store_name = attributes[:'store_name']
       end
 
       if attributes.key?(:'order_charge_list')
@@ -176,6 +185,7 @@ module AmzSpApi::FinancesApiModel
           amazon_order_id == o.amazon_order_id &&
           seller_order_id == o.seller_order_id &&
           marketplace_name == o.marketplace_name &&
+          store_name == o.store_name &&
           order_charge_list == o.order_charge_list &&
           order_charge_adjustment_list == o.order_charge_adjustment_list &&
           shipment_fee_list == o.shipment_fee_list &&
@@ -197,7 +207,7 @@ module AmzSpApi::FinancesApiModel
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [amazon_order_id, seller_order_id, marketplace_name, order_charge_list, order_charge_adjustment_list, shipment_fee_list, shipment_fee_adjustment_list, order_fee_list, order_fee_adjustment_list, direct_payment_list, posted_date, shipment_item_list, shipment_item_adjustment_list].hash
+      [amazon_order_id, seller_order_id, marketplace_name, store_name, order_charge_list, order_charge_adjustment_list, shipment_fee_list, shipment_fee_adjustment_list, order_fee_list, order_fee_adjustment_list, direct_payment_list, posted_date, shipment_item_list, shipment_item_adjustment_list].hash
     end
 
     # Builds the object from hash

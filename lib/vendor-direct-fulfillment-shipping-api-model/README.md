@@ -123,7 +123,7 @@ rescue AmzSpApi::VendorDirectFulfillmentShippingApiModel::ApiError => e
 end
 
 api_instance = AmzSpApi::VendorDirectFulfillmentShippingApiModel::VendorShippingApi.new
-body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::SubmitShipmentStatusUpdatesRequest.new # SubmitShipmentStatusUpdatesRequest | Request body that contains the shipment status update data.
+body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::SubmitShipmentStatusUpdatesRequest.new # SubmitShipmentStatusUpdatesRequest | Request body containing the shipment status update data.
 
 
 begin
@@ -134,7 +134,7 @@ rescue AmzSpApi::VendorDirectFulfillmentShippingApiModel::ApiError => e
 end
 
 api_instance = AmzSpApi::VendorDirectFulfillmentShippingApiModel::VendorShippingLabelsApi.new
-body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::CreateShippingLabelsRequest.new # CreateShippingLabelsRequest | The request payload that contains parameters for creating shipping labels.
+body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::CreateShippingLabelsRequest.new # CreateShippingLabelsRequest | The request payload containing parameters for creating shipping labels.
 purchase_order_number = 'purchase_order_number_example' # String | The purchase order number for which you want to return the shipping labels. It should be the same purchaseOrderNumber as received in the order.
 
 
@@ -146,7 +146,7 @@ rescue AmzSpApi::VendorDirectFulfillmentShippingApiModel::ApiError => e
 end
 
 api_instance = AmzSpApi::VendorDirectFulfillmentShippingApiModel::VendorShippingLabelsApi.new
-purchase_order_number = 'purchase_order_number_example' # String | The purchase order number for which you want to return the shipping label. Should be the same `purchaseOrderNumber` as received in the order.
+purchase_order_number = 'purchase_order_number_example' # String | The purchase order number for which you want to return the shipping label and should be the same purchaseOrderNumber as received in the order.
 
 
 begin
@@ -174,7 +174,7 @@ rescue AmzSpApi::VendorDirectFulfillmentShippingApiModel::ApiError => e
 end
 
 api_instance = AmzSpApi::VendorDirectFulfillmentShippingApiModel::VendorShippingLabelsApi.new
-body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::SubmitShippingLabelsRequest.new # SubmitShippingLabelsRequest | Request body that contains the shipping labels data.
+body = AmzSpApi::VendorDirectFulfillmentShippingApiModel::SubmitShippingLabelsRequest.new # SubmitShippingLabelsRequest | Request body containing the shipping labels data.
 
 
 begin
@@ -205,7 +205,12 @@ Class | Method | HTTP request | Description
 ## Documentation for Models
 
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::Address](docs/Address.md)
+ - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::CarrierId](docs/CarrierId.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::Container](docs/Container.md)
+ - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::ContainerLabel](docs/ContainerLabel.md)
+ - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::ContainerLabelFormat](docs/ContainerLabelFormat.md)
+ - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::CreateContainerLabelRequest](docs/CreateContainerLabelRequest.md)
+ - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::CreateContainerLabelResponse](docs/CreateContainerLabelResponse.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::CreateShippingLabelsRequest](docs/CreateShippingLabelsRequest.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::CustomerInvoice](docs/CustomerInvoice.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::CustomerInvoiceList](docs/CustomerInvoiceList.md)
@@ -216,6 +221,8 @@ Class | Method | HTTP request | Description
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::Item](docs/Item.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::ItemQuantity](docs/ItemQuantity.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::LabelData](docs/LabelData.md)
+ - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::Package](docs/Package.md)
+ - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::Packages](docs/Packages.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::PackedItem](docs/PackedItem.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::PackingSlip](docs/PackingSlip.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::PackingSlipList](docs/PackingSlipList.md)
@@ -234,6 +241,7 @@ Class | Method | HTTP request | Description
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::SubmitShippingLabelsRequest](docs/SubmitShippingLabelsRequest.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::TaxRegistrationDetails](docs/TaxRegistrationDetails.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::TransactionReference](docs/TransactionReference.md)
+ - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::VendorContainerId](docs/VendorContainerId.md)
  - [AmzSpApi::VendorDirectFulfillmentShippingApiModel::Weight](docs/Weight.md)
 
 ## Documentation for Authorization

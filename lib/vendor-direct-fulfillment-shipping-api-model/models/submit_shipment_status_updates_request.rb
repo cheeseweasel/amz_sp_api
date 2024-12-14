@@ -12,9 +12,9 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentShippingApiModel
-  # The `submitShipmentStatusUpdates` request schema.
+  # The request schema for the submitShipmentStatusUpdates operation.
   class SubmitShipmentStatusUpdatesRequest
-    # Contains a list of one or more `ShipmentStatusUpdate` objects, each represents a status update of a specific shipment.
+    # Contains a list of one or more ShipmentStatusUpdate objects, each representing an update to the status of a specific shipment.
     attr_accessor :shipment_status_updates
 
     # Attribute mapping from ruby-style variable name to JSON key.

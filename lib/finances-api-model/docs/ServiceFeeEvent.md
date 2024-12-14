@@ -10,4 +10,5 @@ Name | Type | Description | Notes
 **fn_sku** | **String** | A unique identifier assigned by Amazon to products stored in and fulfilled from an Amazon fulfillment center. | [optional] 
 **fee_description** | **String** | A short description of the service fee event. | [optional] 
 **asin** | **String** | The Amazon Standard Identification Number (ASIN) of the item. | [optional] 
+**store_name** | **String** | The name of the store where the event occurred. | [optional] 
 

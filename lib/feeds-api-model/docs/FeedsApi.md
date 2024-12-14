@@ -4,17 +4,17 @@ All URIs are relative to *https://sellingpartnerapi-na.amazon.com/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**cancel_feed**](FeedsApi.md#cancel_feed) | **DELETE** /feeds/2021-06-30/feeds/{feedId} | 
-[**create_feed**](FeedsApi.md#create_feed) | **POST** /feeds/2021-06-30/feeds | 
-[**create_feed_document**](FeedsApi.md#create_feed_document) | **POST** /feeds/2021-06-30/documents | 
-[**get_feed**](FeedsApi.md#get_feed) | **GET** /feeds/2021-06-30/feeds/{feedId} | 
-[**get_feed_document**](FeedsApi.md#get_feed_document) | **GET** /feeds/2021-06-30/documents/{feedDocumentId} | 
-[**get_feeds**](FeedsApi.md#get_feeds) | **GET** /feeds/2021-06-30/feeds | 
+[**cancel_feed**](FeedsApi.md#cancel_feed) | **DELETE** /feeds/2021-06-30/feeds/{feedId} | cancelFeed
+[**create_feed**](FeedsApi.md#create_feed) | **POST** /feeds/2021-06-30/feeds | createFeed
+[**create_feed_document**](FeedsApi.md#create_feed_document) | **POST** /feeds/2021-06-30/documents | createFeedDocument
+[**get_feed**](FeedsApi.md#get_feed) | **GET** /feeds/2021-06-30/feeds/{feedId} | getFeed
+[**get_feed_document**](FeedsApi.md#get_feed_document) | **GET** /feeds/2021-06-30/documents/{feedDocumentId} | getFeedDocument
+[**get_feeds**](FeedsApi.md#get_feeds) | **GET** /feeds/2021-06-30/feeds | getFeeds
 
 # **cancel_feed**
 > cancel_feed(feed_id)
 
-
+cancelFeed
 
 Cancels the feed that you specify. Only feeds with `processingStatus=IN_QUEUE` can be cancelled. Cancelled feeds are returned in subsequent calls to the [`getFeed`](https://developer-docs.amazon.com/sp-api/docs/feeds-api-v2021-06-30-reference#getfeed) and [`getFeeds`](https://developer-docs.amazon.com/sp-api/docs/feeds-api-v2021-06-30-reference#getfeeds) operations.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 2 | 15 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -28,6 +28,7 @@ feed_id = 'feed_id_example' # String | The identifier for the feed. This identif
 
 
 begin
+  #cancelFeed
   api_instance.cancel_feed(feed_id)
 rescue AmzSpApi::FeedsApiModel::ApiError => e
   puts "Exception when calling FeedsApi->cancel_feed: #{e}"
@@ -58,7 +59,7 @@ No authorization required
 # **create_feed**
 > CreateFeedResponse create_feed(body)
 
-
+createFeed
 
 Creates a feed. Upload the contents of the feed document before calling this operation.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0083 | 15 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).  The rate limit for the [`JSON_LISTINGS_FEED`](https://developer-docs.amazon.com/sp-api/docs/listings-feed-type-values#listings-feed) feed type differs from the rate limit for the [`createFeed`](https://developer-docs.amazon.com/sp-api/docs/feeds-api-v2021-06-30-reference#post-feeds2021-06-30feeds) operation. For more information, refer to the [Building Listings Management Workflows Guide](https://developer-docs.amazon.com/sp-api/docs/building-listings-management-workflows-guide#should-i-submit-in-bulk-using-the-json_listings_feed-or-individually-with-the-listings-items-api).
 
@@ -72,6 +73,7 @@ body = AmzSpApi::FeedsApiModel::CreateFeedSpecification.new # CreateFeedSpecific
 
 
 begin
+  #createFeed
   result = api_instance.create_feed(body)
   p result
 rescue AmzSpApi::FeedsApiModel::ApiError => e
@@ -103,7 +105,7 @@ No authorization required
 # **create_feed_document**
 > CreateFeedDocumentResponse create_feed_document(body)
 
-
+createFeedDocument
 
 Creates a feed document for the feed type that you specify. This operation returns a presigned URL for uploading the feed document contents. It also returns a `feedDocumentId` value that you can pass in with a subsequent call to the [`createFeed`](https://developer-docs.amazon.com/sp-api/docs/feeds-api-v2021-06-30-reference#createfeed) operation.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.5 | 15 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -117,6 +119,7 @@ body = AmzSpApi::FeedsApiModel::CreateFeedDocumentSpecification.new # CreateFeed
 
 
 begin
+  #createFeedDocument
   result = api_instance.create_feed_document(body)
   p result
 rescue AmzSpApi::FeedsApiModel::ApiError => e
@@ -148,7 +151,7 @@ No authorization required
 # **get_feed**
 > Feed get_feed(feed_id)
 
-
+getFeed
 
 Returns feed details (including the `resultDocumentId`, if available) for the feed that you specify.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 2 | 15 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -162,6 +165,7 @@ feed_id = 'feed_id_example' # String | The identifier for the feed. This identif
 
 
 begin
+  #getFeed
   result = api_instance.get_feed(feed_id)
   p result
 rescue AmzSpApi::FeedsApiModel::ApiError => e
@@ -193,7 +197,7 @@ No authorization required
 # **get_feed_document**
 > FeedDocument get_feed_document(feed_document_id)
 
-
+getFeedDocument
 
 Returns the information required for retrieving a feed document's contents.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0222 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -207,6 +211,7 @@ feed_document_id = 'feed_document_id_example' # String | The identifier of the f
 
 
 begin
+  #getFeedDocument
   result = api_instance.get_feed_document(feed_document_id)
   p result
 rescue AmzSpApi::FeedsApiModel::ApiError => e
@@ -238,7 +243,7 @@ No authorization required
 # **get_feeds**
 > GetFeedsResponse get_feeds(opts)
 
-
+getFeeds
 
 Returns feed details for the feeds that match the filters that you specify.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 0.0222 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
@@ -259,6 +264,7 @@ opts = {
 }
 
 begin
+  #getFeeds
   result = api_instance.get_feeds(opts)
   p result
 rescue AmzSpApi::FeedsApiModel::ApiError => e

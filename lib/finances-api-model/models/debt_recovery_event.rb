@@ -14,7 +14,7 @@ require 'date'
 module AmzSpApi::FinancesApiModel
   # A debt payment or debt adjustment.
   class DebtRecoveryEvent
-    # The debt recovery type.  Possible values:  * DebtPayment  * DebtPaymentFailure  *DebtAdjustment
+    # The debt recovery type.  Possible values:  * DebtPayment  * DebtPaymentFailure  * DebtAdjustment
     attr_accessor :debt_recovery_type
 
     attr_accessor :recovery_amount

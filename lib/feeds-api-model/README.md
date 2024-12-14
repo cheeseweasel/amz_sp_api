@@ -1,6 +1,6 @@
 # feeds-api-model
 
-AmzSpApi::FeedsApiModel - the Ruby gem for the Selling Partner API for Feeds
+AmzSpApi::FeedsApiModel - the Ruby gem for the Feeds v2021-06-30
 
 The Selling Partner API for Feeds lets you upload data to Amazon on behalf of a selling partner.
 
@@ -60,6 +60,7 @@ feed_id = 'feed_id_example' # String | The identifier for the feed. This identif
 
 
 begin
+  #cancelFeed
   api_instance.cancel_feed(feed_id)
 rescue AmzSpApi::FeedsApiModel::ApiError => e
   puts "Exception when calling FeedsApi->cancel_feed: #{e}"
@@ -70,6 +71,7 @@ body = AmzSpApi::FeedsApiModel::CreateFeedSpecification.new # CreateFeedSpecific
 
 
 begin
+  #createFeed
   result = api_instance.create_feed(body)
   p result
 rescue AmzSpApi::FeedsApiModel::ApiError => e
@@ -81,6 +83,7 @@ body = AmzSpApi::FeedsApiModel::CreateFeedDocumentSpecification.new # CreateFeed
 
 
 begin
+  #createFeedDocument
   result = api_instance.create_feed_document(body)
   p result
 rescue AmzSpApi::FeedsApiModel::ApiError => e
@@ -92,6 +95,7 @@ feed_id = 'feed_id_example' # String | The identifier for the feed. This identif
 
 
 begin
+  #getFeed
   result = api_instance.get_feed(feed_id)
   p result
 rescue AmzSpApi::FeedsApiModel::ApiError => e
@@ -103,6 +107,7 @@ feed_document_id = 'feed_document_id_example' # String | The identifier of the f
 
 
 begin
+  #getFeedDocument
   result = api_instance.get_feed_document(feed_document_id)
   p result
 rescue AmzSpApi::FeedsApiModel::ApiError => e
@@ -121,6 +126,7 @@ opts = {
 }
 
 begin
+  #getFeeds
   result = api_instance.get_feeds(opts)
   p result
 rescue AmzSpApi::FeedsApiModel::ApiError => e
@@ -134,12 +140,12 @@ All URIs are relative to *https://sellingpartnerapi-na.amazon.com/*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AmzSpApi::FeedsApiModel::FeedsApi* | [**cancel_feed**](docs/FeedsApi.md#cancel_feed) | **DELETE** /feeds/2021-06-30/feeds/{feedId} | 
-*AmzSpApi::FeedsApiModel::FeedsApi* | [**create_feed**](docs/FeedsApi.md#create_feed) | **POST** /feeds/2021-06-30/feeds | 
-*AmzSpApi::FeedsApiModel::FeedsApi* | [**create_feed_document**](docs/FeedsApi.md#create_feed_document) | **POST** /feeds/2021-06-30/documents | 
-*AmzSpApi::FeedsApiModel::FeedsApi* | [**get_feed**](docs/FeedsApi.md#get_feed) | **GET** /feeds/2021-06-30/feeds/{feedId} | 
-*AmzSpApi::FeedsApiModel::FeedsApi* | [**get_feed_document**](docs/FeedsApi.md#get_feed_document) | **GET** /feeds/2021-06-30/documents/{feedDocumentId} | 
-*AmzSpApi::FeedsApiModel::FeedsApi* | [**get_feeds**](docs/FeedsApi.md#get_feeds) | **GET** /feeds/2021-06-30/feeds | 
+*AmzSpApi::FeedsApiModel::FeedsApi* | [**cancel_feed**](docs/FeedsApi.md#cancel_feed) | **DELETE** /feeds/2021-06-30/feeds/{feedId} | cancelFeed
+*AmzSpApi::FeedsApiModel::FeedsApi* | [**create_feed**](docs/FeedsApi.md#create_feed) | **POST** /feeds/2021-06-30/feeds | createFeed
+*AmzSpApi::FeedsApiModel::FeedsApi* | [**create_feed_document**](docs/FeedsApi.md#create_feed_document) | **POST** /feeds/2021-06-30/documents | createFeedDocument
+*AmzSpApi::FeedsApiModel::FeedsApi* | [**get_feed**](docs/FeedsApi.md#get_feed) | **GET** /feeds/2021-06-30/feeds/{feedId} | getFeed
+*AmzSpApi::FeedsApiModel::FeedsApi* | [**get_feed_document**](docs/FeedsApi.md#get_feed_document) | **GET** /feeds/2021-06-30/documents/{feedDocumentId} | getFeedDocument
+*AmzSpApi::FeedsApiModel::FeedsApi* | [**get_feeds**](docs/FeedsApi.md#get_feeds) | **GET** /feeds/2021-06-30/feeds | getFeeds
 
 ## Documentation for Models
 

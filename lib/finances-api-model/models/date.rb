@@ -12,6 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::FinancesApiModel
+  # Fields with a schema type of date are in ISO 8601 date time format (for example GroupBeginDate).
   class Date
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map

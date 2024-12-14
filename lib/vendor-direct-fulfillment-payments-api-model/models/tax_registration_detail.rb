@@ -17,7 +17,7 @@ module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel
     # Tax registration type for the entity.
     attr_accessor :tax_registration_type
 
-    # Tax registration number for the entity. For example, VAT ID or Consumption Tax ID.
+    # Tax registration number for the entity. For example, VAT ID, Consumption Tax ID.
     attr_accessor :tax_registration_number
 
     attr_accessor :tax_registration_address

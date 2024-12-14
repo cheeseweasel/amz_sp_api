@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::FulfillmentOutboundApiModel
-  # The delivery preferences applied to the destination address. These preferences will be applied when possible and are best effort. This feature is currently supported only in the JP marketplace and not applicable for other marketplaces.
+  # The delivery preferences applied to the destination address. These preferences are applied when possible and are best effort. This feature is currently supported only in the JP marketplace and not applicable for other marketplaces. For eligible orders, the default delivery preference will be to deliver the package unattended at the front door, unless you specify otherwise.
   class DeliveryPreferences
     # Additional delivery instructions. For example, this could be instructions on how to enter a building, nearby landmark or navigation instructions, 'Beware of dogs', etc.
     attr_accessor :delivery_instructions

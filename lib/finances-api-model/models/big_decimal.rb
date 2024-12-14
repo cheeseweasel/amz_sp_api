@@ -12,6 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::FinancesApiModel
+  # Fields with a schema type of BigDecimal are a signed decimal number (for example CurrencyAmount).
   class BigDecimal
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map

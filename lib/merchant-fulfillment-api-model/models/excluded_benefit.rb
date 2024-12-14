@@ -1,7 +1,7 @@
 =begin
 #Selling Partner API for Merchant Fulfillment
 
-#The Selling Partner API for Merchant Fulfillment helps you build applications that let sellers purchase shipping for non-Prime and Prime orders using Amazon’s Buy Shipping Services.
+#With the Selling Partner API for Merchant Fulfillment, you can build applications that sellers can use to purchase shipping for non-Prime and Prime orders using Amazon's Buy Shipping Services.
 
 OpenAPI spec version: v0
 
@@ -12,9 +12,9 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::MerchantFulfillmentApiModel
-  # Object representing an excluded benefit that is excluded for a shipping offer or rate.
+  # An object representing an excluded benefit that is excluded for a shipping offer or rate.
   class ExcludedBenefit
-    # Benefit that is being excluded from a shipment.
+    # A benefit that is being excluded from a shipment.
     attr_accessor :benefit
 
     attr_accessor :reason_codes

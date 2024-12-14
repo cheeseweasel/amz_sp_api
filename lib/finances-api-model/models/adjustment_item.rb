@@ -33,6 +33,9 @@ module AmzSpApi::FinancesApiModel
     # The Amazon Standard Identification Number (ASIN) of the item.
     attr_accessor :asin
 
+    # The transaction number that is related to the adjustment.
+    attr_accessor :transaction_number
+
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
@@ -42,7 +45,8 @@ module AmzSpApi::FinancesApiModel
         :'seller_sku' => :'SellerSKU',
         :'fn_sku' => :'FnSKU',
         :'product_description' => :'ProductDescription',
-        :'asin' => :'ASIN'
+        :'asin' => :'ASIN',
+        :'transaction_number' => :'TransactionNumber'
       }
     end
 
@@ -55,7 +59,8 @@ module AmzSpApi::FinancesApiModel
         :'seller_sku' => :'Object',
         :'fn_sku' => :'Object',
         :'product_description' => :'Object',
-        :'asin' => :'Object'
+        :'asin' => :'Object',
+        :'transaction_number' => :'Object'
       }
     end
 
@@ -107,6 +112,10 @@ module AmzSpApi::FinancesApiModel
       if attributes.key?(:'asin')
         self.asin = attributes[:'asin']
       end
+
+      if attributes.key?(:'transaction_number')
+        self.transaction_number = attributes[:'transaction_number']
+      end
     end
 
     # Show invalid properties with the reasons. Usually used together with valid?
@@ -133,7 +142,8 @@ module AmzSpApi::FinancesApiModel
           seller_sku == o.seller_sku &&
           fn_sku == o.fn_sku &&
           product_description == o.product_description &&
-          asin == o.asin
+          asin == o.asin &&
+          transaction_number == o.transaction_number
     end
 
     # @see the `==` method
@@ -145,7 +155,7 @@ module AmzSpApi::FinancesApiModel
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [quantity, per_unit_amount, total_amount, seller_sku, fn_sku, product_description, asin].hash
+      [quantity, per_unit_amount, total_amount, seller_sku, fn_sku, product_description, asin, transaction_number].hash
     end
 
     # Builds the object from hash

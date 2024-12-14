@@ -55,6 +55,12 @@ describe 'RemovalShipmentEvent' do
     end
   end
 
+  describe 'test attribute "store_name"' do
+    it 'should work' do
+      # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
+    end
+  end
+
   describe 'test attribute "removal_shipment_item_list"' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers

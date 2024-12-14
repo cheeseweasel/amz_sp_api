@@ -12,11 +12,11 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentShippingApiModel
-  # Response payload with the shipping labels list.
+  # Response payload with the list of shipping labels.
   class ShippingLabelList
     attr_accessor :pagination
 
-    # An array that contains the details of the generated shipping labels.
+    # An array containing the details of the generated shipping labels.
     attr_accessor :shipping_labels
 
     # Attribute mapping from ruby-style variable name to JSON key.

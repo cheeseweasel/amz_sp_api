@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentOrdersApiModel
-  # The order's tax details.
+  # The tax details related to the order.
   class TaxDetails
     attr_accessor :tax_rate
 

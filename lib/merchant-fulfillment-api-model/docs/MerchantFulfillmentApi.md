@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 
-Cancel the shipment indicated by the specified shipment identifier.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 1 | 1 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, see [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
+Cancel the shipment indicated by the specified shipment identifier.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 1 | 1 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that are applied to the requested operation when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the SP-API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
 ### Example
 ```ruby
@@ -60,7 +60,7 @@ No authorization required
 
 
 
-Create a shipment with the information provided.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 1 | 1 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, see [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
+Create a shipment with the information provided.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 2 | 2 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that are applied to the requested operation when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the SP-API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
 ### Example
 ```ruby
@@ -68,7 +68,7 @@ Create a shipment with the information provided.  **Usage Plan:**  | Rate (reque
 require 'merchant-fulfillment-api-model'
 
 api_instance = AmzSpApi::MerchantFulfillmentApiModel::MerchantFulfillmentApi.new
-body = AmzSpApi::MerchantFulfillmentApiModel::CreateShipmentRequest.new # CreateShipmentRequest | Request schema for CreateShipment operation.
+body = AmzSpApi::MerchantFulfillmentApiModel::CreateShipmentRequest.new # CreateShipmentRequest | The request schema for the `CreateShipment` operation.
 
 
 begin
@@ -83,7 +83,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**CreateShipmentRequest**](CreateShipmentRequest.md)| Request schema for CreateShipment operation. | 
+ **body** | [**CreateShipmentRequest**](CreateShipmentRequest.md)| The request schema for the &#x60;CreateShipment&#x60; operation. | 
 
 ### Return type
 
@@ -105,7 +105,7 @@ No authorization required
 
 
 
-Gets a list of additional seller inputs required for a ship method. This is generally used for international shipping.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 1 | 1 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, see [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
+Gets a list of additional seller inputs required for a ship method. This is generally used for international shipping.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 1 | 1 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that are applied to the requested operation when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the SP-API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
 ### Example
 ```ruby
@@ -113,7 +113,7 @@ Gets a list of additional seller inputs required for a ship method. This is gene
 require 'merchant-fulfillment-api-model'
 
 api_instance = AmzSpApi::MerchantFulfillmentApiModel::MerchantFulfillmentApi.new
-body = AmzSpApi::MerchantFulfillmentApiModel::GetAdditionalSellerInputsRequest.new # GetAdditionalSellerInputsRequest | Request schema for GetAdditionalSellerInputs operation.
+body = AmzSpApi::MerchantFulfillmentApiModel::GetAdditionalSellerInputsRequest.new # GetAdditionalSellerInputsRequest | The request schema for the `GetAdditionalSellerInputs` operation.
 
 
 begin
@@ -128,7 +128,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**GetAdditionalSellerInputsRequest**](GetAdditionalSellerInputsRequest.md)| Request schema for GetAdditionalSellerInputs operation. | 
+ **body** | [**GetAdditionalSellerInputsRequest**](GetAdditionalSellerInputsRequest.md)| The request schema for the &#x60;GetAdditionalSellerInputs&#x60; operation. | 
 
 ### Return type
 
@@ -150,7 +150,7 @@ No authorization required
 
 
 
-Returns a list of shipping service offers that satisfy the specified shipment request details.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 5 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, see [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
+Returns a list of shipping service offers that satisfy the specified shipment request details.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 6 | 12 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that are applied to the requested operation when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the SP-API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
 ### Example
 ```ruby
@@ -158,7 +158,7 @@ Returns a list of shipping service offers that satisfy the specified shipment re
 require 'merchant-fulfillment-api-model'
 
 api_instance = AmzSpApi::MerchantFulfillmentApiModel::MerchantFulfillmentApi.new
-body = AmzSpApi::MerchantFulfillmentApiModel::GetEligibleShipmentServicesRequest.new # GetEligibleShipmentServicesRequest | Request schema for GetEligibleShipmentServices operation.
+body = AmzSpApi::MerchantFulfillmentApiModel::GetEligibleShipmentServicesRequest.new # GetEligibleShipmentServicesRequest | The request schema for the `GetEligibleShipmentServices` operation.
 
 
 begin
@@ -173,7 +173,7 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**GetEligibleShipmentServicesRequest**](GetEligibleShipmentServicesRequest.md)| Request schema for GetEligibleShipmentServices operation. | 
+ **body** | [**GetEligibleShipmentServicesRequest**](GetEligibleShipmentServicesRequest.md)| The request schema for the &#x60;GetEligibleShipmentServices&#x60; operation. | 
 
 ### Return type
 
@@ -195,7 +195,7 @@ No authorization required
 
 
 
-Returns the shipment information for an existing shipment.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 1 | 1 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values than those shown here. For more information, see [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
+Returns the shipment information for an existing shipment.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 1 | 1 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that are applied to the requested operation when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the SP-API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
 
 ### Example
 ```ruby

@@ -1,7 +1,7 @@
 =begin
-#Selling Partner API for Orders
+#Orders v0
 
-#The Selling Partner API for Orders helps you programmatically retrieve order information. These APIs let you develop fast, flexible, custom applications in areas like order synchronization, order research, and demand-based decision support tools. The Orders API supports orders that are two years old or less. Orders more than two years old will not show in the API response.  **Note:** The Orders API supports orders from 2016 and after for the JP, AU, and SG marketplaces.
+#Use the Orders Selling Partner API to programmatically retrieve order information. With this API, you can develop fast, flexible, and custom applications to manage order synchronization, perform order research, and create demand-based decision support tools.   _Note:_ For the JP, AU, and SG marketplaces, the Orders API supports orders from 2016 onward. For all other marketplaces, the Orders API supports orders for the last two years (orders older than this don't show up in the response).
 
 OpenAPI spec version: v0
 
@@ -12,18 +12,18 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::OrdersApiModel
-  # The container of extended address fields. For example, street name, street number. Only available with Brazil shipping addresses as of now.
+  # The container for address extended fields (such as `street name` and `street number`). Currently only available with Brazil shipping addresses.
   class AddressExtendedFields
     # The street name.
     attr_accessor :street_name
 
-    # The house number/building number/property number in the street.
+    # The house, building, or property number associated with the location's street address.
     attr_accessor :street_number
 
     # The floor number/unit number in the building/private house number.
     attr_accessor :complement
 
-    # The neighborhood. It's smaller than a region and an integral part of an address. It is used in some countries like Brazil.
+    # The neighborhood. This value is only used in some countries (such as Brazil).
     attr_accessor :neighborhood
 
     # Attribute mapping from ruby-style variable name to JSON key.

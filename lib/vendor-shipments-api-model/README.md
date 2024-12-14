@@ -1,6 +1,6 @@
 # vendor-shipments-api-model
 
-AmzSpApi::VendorShipmentsApiModel - the Ruby gem for the Selling Partner API for Retail Procurement Shipments
+AmzSpApi::VendorShipmentsApiModel - the Ruby gem for the Vendor Shipments v1
 
 The Selling Partner API for Retail Procurement Shipments provides programmatic access to retail shipping data for vendors.
 
@@ -55,7 +55,7 @@ Please follow the [installation](#installation) procedure and then run the follo
 # Load the gem
 require 'vendor-shipments-api-model'
 
-api_instance = AmzSpApi::VendorShipmentsApiModel::VendorShippingApi.new
+api_instance = AmzSpApi::VendorShipmentsApiModel::VendorShipmentsApi.new
 opts = { 
   limit: 789, # Integer | The limit to the number of records returned. Default value is 50 records.
   sort_order: 'sort_order_example', # String | Sort in ascending or descending order by purchase order creation date.
@@ -84,32 +84,35 @@ opts = {
 }
 
 begin
+  #GetShipmentDetails
   result = api_instance.get_shipment_details(opts)
   p result
 rescue AmzSpApi::VendorShipmentsApiModel::ApiError => e
-  puts "Exception when calling VendorShippingApi->get_shipment_details: #{e}"
+  puts "Exception when calling VendorShipmentsApi->get_shipment_details: #{e}"
 end
 
-api_instance = AmzSpApi::VendorShipmentsApiModel::VendorShippingApi.new
+api_instance = AmzSpApi::VendorShipmentsApiModel::VendorShipmentsApi.new
 body = AmzSpApi::VendorShipmentsApiModel::SubmitShipmentConfirmationsRequest.new # SubmitShipmentConfirmationsRequest | A request to submit shipment confirmation.
 
 
 begin
+  #SubmitShipmentConfirmations
   result = api_instance.submit_shipment_confirmations(body)
   p result
 rescue AmzSpApi::VendorShipmentsApiModel::ApiError => e
-  puts "Exception when calling VendorShippingApi->submit_shipment_confirmations: #{e}"
+  puts "Exception when calling VendorShipmentsApi->submit_shipment_confirmations: #{e}"
 end
 
-api_instance = AmzSpApi::VendorShipmentsApiModel::VendorShippingApi.new
+api_instance = AmzSpApi::VendorShipmentsApiModel::VendorShipmentsApi.new
 body = AmzSpApi::VendorShipmentsApiModel::SubmitShipments.new # SubmitShipments | A request to submit shipment request.
 
 
 begin
+  #SubmitShipments
   result = api_instance.submit_shipments(body)
   p result
 rescue AmzSpApi::VendorShipmentsApiModel::ApiError => e
-  puts "Exception when calling VendorShippingApi->submit_shipments: #{e}"
+  puts "Exception when calling VendorShipmentsApi->submit_shipments: #{e}"
 end
 ```
 
@@ -119,9 +122,9 @@ All URIs are relative to *https://sellingpartnerapi-na.amazon.com/*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AmzSpApi::VendorShipmentsApiModel::VendorShippingApi* | [**get_shipment_details**](docs/VendorShippingApi.md#get_shipment_details) | **GET** /vendor/shipping/v1/shipments | 
-*AmzSpApi::VendorShipmentsApiModel::VendorShippingApi* | [**submit_shipment_confirmations**](docs/VendorShippingApi.md#submit_shipment_confirmations) | **POST** /vendor/shipping/v1/shipmentConfirmations | 
-*AmzSpApi::VendorShipmentsApiModel::VendorShippingApi* | [**submit_shipments**](docs/VendorShippingApi.md#submit_shipments) | **POST** /vendor/shipping/v1/shipments | 
+*AmzSpApi::VendorShipmentsApiModel::VendorShipmentsApi* | [**get_shipment_details**](docs/VendorShipmentsApi.md#get_shipment_details) | **GET** /vendor/shipping/v1/shipments | GetShipmentDetails
+*AmzSpApi::VendorShipmentsApiModel::VendorShipmentsApi* | [**submit_shipment_confirmations**](docs/VendorShipmentsApi.md#submit_shipment_confirmations) | **POST** /vendor/shipping/v1/shipmentConfirmations | SubmitShipmentConfirmations
+*AmzSpApi::VendorShipmentsApiModel::VendorShipmentsApi* | [**submit_shipments**](docs/VendorShipmentsApi.md#submit_shipments) | **POST** /vendor/shipping/v1/shipments | SubmitShipments
 
 ## Documentation for Models
 
@@ -166,6 +169,7 @@ Class | Method | HTTP request | Description
  - [AmzSpApi::VendorShipmentsApiModel::SubmitShipmentConfirmationsResponse](docs/SubmitShipmentConfirmationsResponse.md)
  - [AmzSpApi::VendorShipmentsApiModel::SubmitShipments](docs/SubmitShipments.md)
  - [AmzSpApi::VendorShipmentsApiModel::TaxRegistrationDetails](docs/TaxRegistrationDetails.md)
+ - [AmzSpApi::VendorShipmentsApiModel::TotalWeight](docs/TotalWeight.md)
  - [AmzSpApi::VendorShipmentsApiModel::TransactionReference](docs/TransactionReference.md)
  - [AmzSpApi::VendorShipmentsApiModel::TransportShipmentMeasurements](docs/TransportShipmentMeasurements.md)
  - [AmzSpApi::VendorShipmentsApiModel::TransportationDetails](docs/TransportationDetails.md)

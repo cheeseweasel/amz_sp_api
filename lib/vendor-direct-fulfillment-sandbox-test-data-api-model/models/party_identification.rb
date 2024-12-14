@@ -12,9 +12,9 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
-  # The identification object for the party information. For example, warehouse code or vendor code.
+  # The identification object for the party information. For example, warehouse code or vendor code. Please refer to specific party for more details.
   class PartyIdentification
-    # Assigned identification for the party. For example, warehouse code or vendor code.
+    # Assigned identification for the party. For example, warehouse code or vendor code. Please refer to specific party for more details.
     attr_accessor :party_id
 
     # Attribute mapping from ruby-style variable name to JSON key.

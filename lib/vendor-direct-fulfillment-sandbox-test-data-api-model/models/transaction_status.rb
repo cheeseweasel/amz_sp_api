@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
-  # The payload for `getOrderScenarios`.
+  # The payload for the getOrderScenarios operation.
   class TransactionStatus
     attr_accessor :transaction_status
 

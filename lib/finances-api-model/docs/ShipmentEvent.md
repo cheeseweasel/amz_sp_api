@@ -6,6 +6,7 @@ Name | Type | Description | Notes
 **amazon_order_id** | **String** | An Amazon-defined identifier for an order. | [optional] 
 **seller_order_id** | **String** | A seller-defined identifier for an order. | [optional] 
 **marketplace_name** | **String** | The name of the marketplace where the event occurred. | [optional] 
+**store_name** | **String** | The name of the store where the event occurred. | [optional] 
 **order_charge_list** | [**ChargeComponentList**](ChargeComponentList.md) |  | [optional] 
 **order_charge_adjustment_list** | [**ChargeComponentList**](ChargeComponentList.md) |  | [optional] 
 **shipment_fee_list** | [**FeeComponentList**](FeeComponentList.md) |  | [optional] 

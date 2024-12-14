@@ -16,8 +16,8 @@ module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
     def initialize(api_client = ApiClient.default)
       @api_client = api_client
     end
-    # Retrieves the transaction status identified by the specified `transactionId`, and returns the requested test order data if the transaction is successful.
-    # @param transaction_id The transaction identifier returned in the response for the &#x60;generateOrderScenarios&#x60; operation.
+    # Returns the status of the transaction indicated by the specified transactionId. If the transaction was successful, also returns the requested test order data.
+    # @param transaction_id The transaction identifier returned in the response to the generateOrderScenarios operation.
     # @param [Hash] opts the optional parameters
     # @return [TransactionStatus]
     def get_order_scenarios(transaction_id, opts = {})
@@ -25,8 +25,8 @@ module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
       data
     end
 
-    # Retrieves the transaction status identified by the specified &#x60;transactionId&#x60;, and returns the requested test order data if the transaction is successful.
-    # @param transaction_id The transaction identifier returned in the response for the &#x60;generateOrderScenarios&#x60; operation.
+    # Returns the status of the transaction indicated by the specified transactionId. If the transaction was successful, also returns the requested test order data.
+    # @param transaction_id The transaction identifier returned in the response to the generateOrderScenarios operation.
     # @param [Hash] opts the optional parameters
     # @return [Array<(TransactionStatus, Integer, Hash)>] TransactionStatus data, response status code and response headers
     def get_order_scenarios_with_http_info(transaction_id, opts = {})

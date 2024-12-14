@@ -27,6 +27,8 @@ module AmzSpApi::FulfillmentOutboundApiModel
 
     attr_accessor :locker_details
 
+    attr_accessor :delivery_information
+
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
@@ -34,7 +36,8 @@ module AmzSpApi::FulfillmentOutboundApiModel
         :'carrier_code' => :'carrierCode',
         :'tracking_number' => :'trackingNumber',
         :'estimated_arrival_date' => :'estimatedArrivalDate',
-        :'locker_details' => :'lockerDetails'
+        :'locker_details' => :'lockerDetails',
+        :'delivery_information' => :'deliveryInformation'
       }
     end
 
@@ -45,7 +48,8 @@ module AmzSpApi::FulfillmentOutboundApiModel
         :'carrier_code' => :'Object',
         :'tracking_number' => :'Object',
         :'estimated_arrival_date' => :'Object',
-        :'locker_details' => :'Object'
+        :'locker_details' => :'Object',
+        :'delivery_information' => :'Object'
       }
     end
 
@@ -89,6 +93,10 @@ module AmzSpApi::FulfillmentOutboundApiModel
       if attributes.key?(:'locker_details')
         self.locker_details = attributes[:'locker_details']
       end
+
+      if attributes.key?(:'delivery_information')
+        self.delivery_information = attributes[:'delivery_information']
+      end
     end
 
     # Show invalid properties with the reasons. Usually used together with valid?
@@ -123,7 +131,8 @@ module AmzSpApi::FulfillmentOutboundApiModel
           carrier_code == o.carrier_code &&
           tracking_number == o.tracking_number &&
           estimated_arrival_date == o.estimated_arrival_date &&
-          locker_details == o.locker_details
+          locker_details == o.locker_details &&
+          delivery_information == o.delivery_information
     end
 
     # @see the `==` method
@@ -135,7 +144,7 @@ module AmzSpApi::FulfillmentOutboundApiModel
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [package_number, carrier_code, tracking_number, estimated_arrival_date, locker_details].hash
+      [package_number, carrier_code, tracking_number, estimated_arrival_date, locker_details, delivery_information].hash
     end
 
     # Builds the object from hash

@@ -10,4 +10,5 @@ Name | Type | Description | Notes
 **fn_sku** | **String** | A unique identifier assigned to products stored in and fulfilled from a fulfillment center. | [optional] 
 **product_description** | **String** | A short description of the item. | [optional] 
 **asin** | **String** | The Amazon Standard Identification Number (ASIN) of the item. | [optional] 
+**transaction_number** | **String** | The transaction number that is related to the adjustment. | [optional] 
 

@@ -3,5 +3,5 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**next_token** | **String** | A generated token that retrieves the next set of results. This token is specified in the next request. | [optional] 
+**next_token** | **String** | A generated token to be passed in the next request to retrieve the next set of results. | [optional] 
 

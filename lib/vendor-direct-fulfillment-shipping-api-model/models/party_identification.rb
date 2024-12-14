@@ -12,7 +12,7 @@ Swagger Codegen version: 3.0.62
 require 'date'
 
 module AmzSpApi::VendorDirectFulfillmentShippingApiModel
-  # Name, address, and tax details for a party.
+  # Name, address and tax details of a party.
   class PartyIdentification
     # Assigned Identification for the party.
     attr_accessor :party_id

@@ -57,7 +57,7 @@ require 'finances-api-model'
 
 api_instance = AmzSpApi::FinancesApiModel::DefaultApi.new
 opts = { 
-  max_results_per_page: 100, # Integer | The maximum number of results to return per page. If the response exceeds the maximum number of transactions or 10 MB, the API responds with 'InvalidInput'.
+  max_results_per_page: 10, # Integer | The maximum number of results to return per page. If the response exceeds the maximum number of transactions or 10 MB, the API responds with 'InvalidInput'.
   financial_event_group_started_before: DateTime.parse('2013-10-20T19:20:30+01:00'), # DateTime | A date used for selecting financial event groups that opened before (but not at) a specified date and time, in [ISO 8601](https://developer-docs.amazon.com/sp-api/docs/iso-8601) format. The date-time  must be later than FinancialEventGroupStartedAfter and no later than two minutes before the request was submitted. If FinancialEventGroupStartedAfter and FinancialEventGroupStartedBefore are more than 180 days apart, no financial event groups are returned.
   financial_event_group_started_after: DateTime.parse('2013-10-20T19:20:30+01:00'), # DateTime | A date used for selecting financial event groups that opened after (or at) a specified date and time, in [ISO 8601](https://developer-docs.amazon.com/sp-api/docs/iso-8601) format. The date-time must be no later than two minutes before the request was submitted.
   next_token: 'next_token_example' # String | A string token returned in the response of your previous request.

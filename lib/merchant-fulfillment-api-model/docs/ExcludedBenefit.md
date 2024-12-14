@@ -3,6 +3,6 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**benefit** | **String** | Benefit that is being excluded from a shipment. | [optional] 
+**benefit** | **String** | A benefit that is being excluded from a shipment. | [optional] 
 **reason_codes** | [**ExcludedBenefitReasonCodes**](ExcludedBenefitReasonCodes.md) |  | [optional] 
 

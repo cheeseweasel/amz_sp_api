@@ -263,7 +263,7 @@ module AmzSpApi::VendorOrdersApiModel
       return data, status_code, headers
     end
     # Submits acknowledgements for one or more purchase orders.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 10 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
-    # @param body 
+    # @param body Submits acknowledgements for one or more purchase orders from a vendor.
     # @param [Hash] opts the optional parameters
     # @return [SubmitAcknowledgementResponse]
     def submit_acknowledgement(body, opts = {})
@@ -272,7 +272,7 @@ module AmzSpApi::VendorOrdersApiModel
     end
 
     # Submits acknowledgements for one or more purchase orders.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 10 | 10 |  The &#x60;x-amzn-RateLimit-Limit&#x60; response header returns the usage plan rate limits that were applied to the requested operation, when available. The preceding table indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may have higher rate and burst values than those shown here. For more information, refer to [Usage Plans and Rate Limits in the Selling Partner API](https://developer-docs.amazon.com/sp-api/docs/usage-plans-and-rate-limits-in-the-sp-api).
-    # @param body 
+    # @param body Submits acknowledgements for one or more purchase orders from a vendor.
     # @param [Hash] opts the optional parameters
     # @return [Array<(SubmitAcknowledgementResponse, Integer, Hash)>] SubmitAcknowledgementResponse data, response status code and response headers
     def submit_acknowledgement_with_http_info(body, opts = {})

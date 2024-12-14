@@ -1,6 +1,6 @@
 # reports-api-model
 
-AmzSpApi::ReportsApiModel - the Ruby gem for the Selling Partner API for Reports
+AmzSpApi::ReportsApiModel - the Ruby gem for the Report v2021-06-30
 
 The Selling Partner API for Reports lets you retrieve and manage a variety of reports that can help selling partners manage their businesses.
 
@@ -60,6 +60,7 @@ report_id = 'report_id_example' # String | The identifier for the report. This i
 
 
 begin
+  #cancelReport
   api_instance.cancel_report(report_id)
 rescue AmzSpApi::ReportsApiModel::ApiError => e
   puts "Exception when calling ReportsApi->cancel_report: #{e}"
@@ -70,6 +71,7 @@ report_schedule_id = 'report_schedule_id_example' # String | The identifier for 
 
 
 begin
+  #cancelReportSchedule
   api_instance.cancel_report_schedule(report_schedule_id)
 rescue AmzSpApi::ReportsApiModel::ApiError => e
   puts "Exception when calling ReportsApi->cancel_report_schedule: #{e}"
@@ -80,6 +82,7 @@ body = AmzSpApi::ReportsApiModel::CreateReportSpecification.new # CreateReportSp
 
 
 begin
+  #createReport
   result = api_instance.create_report(body)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -91,6 +94,7 @@ body = AmzSpApi::ReportsApiModel::CreateReportScheduleSpecification.new # Create
 
 
 begin
+  #createReportSchedule
   result = api_instance.create_report_schedule(body)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -102,6 +106,7 @@ report_id = 'report_id_example' # String | The identifier for the report. This i
 
 
 begin
+  #getReport
   result = api_instance.get_report(report_id)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -113,6 +118,7 @@ report_document_id = 'report_document_id_example' # String | The identifier for 
 
 
 begin
+  #getReportDocument
   result = api_instance.get_report_document(report_document_id)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -124,6 +130,7 @@ report_schedule_id = 'report_schedule_id_example' # String | The identifier for 
 
 
 begin
+  #getReportSchedule
   result = api_instance.get_report_schedule(report_schedule_id)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -135,6 +142,7 @@ report_types = ['report_types_example'] # Array<String> | A list of report types
 
 
 begin
+  #getReportSchedules
   result = api_instance.get_report_schedules(report_types)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -153,6 +161,7 @@ opts = {
 }
 
 begin
+  #getReports
   result = api_instance.get_reports(opts)
   p result
 rescue AmzSpApi::ReportsApiModel::ApiError => e
@@ -166,15 +175,15 @@ All URIs are relative to *https://sellingpartnerapi-na.amazon.com/*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AmzSpApi::ReportsApiModel::ReportsApi* | [**cancel_report**](docs/ReportsApi.md#cancel_report) | **DELETE** /reports/2021-06-30/reports/{reportId} | 
-*AmzSpApi::ReportsApiModel::ReportsApi* | [**cancel_report_schedule**](docs/ReportsApi.md#cancel_report_schedule) | **DELETE** /reports/2021-06-30/schedules/{reportScheduleId} | 
-*AmzSpApi::ReportsApiModel::ReportsApi* | [**create_report**](docs/ReportsApi.md#create_report) | **POST** /reports/2021-06-30/reports | 
-*AmzSpApi::ReportsApiModel::ReportsApi* | [**create_report_schedule**](docs/ReportsApi.md#create_report_schedule) | **POST** /reports/2021-06-30/schedules | 
-*AmzSpApi::ReportsApiModel::ReportsApi* | [**get_report**](docs/ReportsApi.md#get_report) | **GET** /reports/2021-06-30/reports/{reportId} | 
-*AmzSpApi::ReportsApiModel::ReportsApi* | [**get_report_document**](docs/ReportsApi.md#get_report_document) | **GET** /reports/2021-06-30/documents/{reportDocumentId} | 
-*AmzSpApi::ReportsApiModel::ReportsApi* | [**get_report_schedule**](docs/ReportsApi.md#get_report_schedule) | **GET** /reports/2021-06-30/schedules/{reportScheduleId} | 
-*AmzSpApi::ReportsApiModel::ReportsApi* | [**get_report_schedules**](docs/ReportsApi.md#get_report_schedules) | **GET** /reports/2021-06-30/schedules | 
-*AmzSpApi::ReportsApiModel::ReportsApi* | [**get_reports**](docs/ReportsApi.md#get_reports) | **GET** /reports/2021-06-30/reports | 
+*AmzSpApi::ReportsApiModel::ReportsApi* | [**cancel_report**](docs/ReportsApi.md#cancel_report) | **DELETE** /reports/2021-06-30/reports/{reportId} | cancelReport
+*AmzSpApi::ReportsApiModel::ReportsApi* | [**cancel_report_schedule**](docs/ReportsApi.md#cancel_report_schedule) | **DELETE** /reports/2021-06-30/schedules/{reportScheduleId} | cancelReportSchedule
+*AmzSpApi::ReportsApiModel::ReportsApi* | [**create_report**](docs/ReportsApi.md#create_report) | **POST** /reports/2021-06-30/reports | createReport
+*AmzSpApi::ReportsApiModel::ReportsApi* | [**create_report_schedule**](docs/ReportsApi.md#create_report_schedule) | **POST** /reports/2021-06-30/schedules | createReportSchedule
+*AmzSpApi::ReportsApiModel::ReportsApi* | [**get_report**](docs/ReportsApi.md#get_report) | **GET** /reports/2021-06-30/reports/{reportId} | getReport
+*AmzSpApi::ReportsApiModel::ReportsApi* | [**get_report_document**](docs/ReportsApi.md#get_report_document) | **GET** /reports/2021-06-30/documents/{reportDocumentId} | getReportDocument
+*AmzSpApi::ReportsApiModel::ReportsApi* | [**get_report_schedule**](docs/ReportsApi.md#get_report_schedule) | **GET** /reports/2021-06-30/schedules/{reportScheduleId} | getReportSchedule
+*AmzSpApi::ReportsApiModel::ReportsApi* | [**get_report_schedules**](docs/ReportsApi.md#get_report_schedules) | **GET** /reports/2021-06-30/schedules | getReportSchedules
+*AmzSpApi::ReportsApiModel::ReportsApi* | [**get_reports**](docs/ReportsApi.md#get_reports) | **GET** /reports/2021-06-30/reports | getReports
 
 ## Documentation for Models
 

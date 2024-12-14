@@ -7,4 +7,5 @@ Name | Type | Description | Notes
 **offer_type** | **String** | Type of offer for the listings item. | 
 **price** | [**Money**](Money.md) |  | 
 **points** | [**Points**](Points.md) |  | [optional] 
+**audience** | [**Audience**](Audience.md) |  | [optional] 
 
