@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-class AmzSpApi::CatalogItemsApiModel::V20220401::ArrayMapObject < Petstore::Category
+class ArrayMapObject < Petstore::Category
   attr_accessor :int_arr, :pet_arr, :int_map, :pet_map, :int_arr_map, :pet_arr_map, :boolean_true_arr, :boolean_false_arr
 
   def self.attribute_map

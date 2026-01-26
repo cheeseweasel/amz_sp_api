@@ -62,24 +62,54 @@ for FILE in $(find "$MODELS_ROOT" -name "*.json" | sort); do
     --additional-properties="gemName=amz_sp_api,modelPackage=AmzSpApi.${MODULE_NAME//::/.},apiPackage=AmzSpApi.${MODULE_NAME//::/.}" \
     > /dev/null
 
-  # Move generated files up (adapted from your original mv logic)
-  if [ -d "lib/${API_NAME}/lib/${API_NAME}" ]; then
-    mv "lib/${API_NAME}/lib/${API_NAME}"/* "lib/${API_NAME}/" 2>/dev/null || true
-    rm -rf "lib/${API_NAME}/lib" 2>/dev/null || true
+  # Move generated files up – flatten like old behavior
+  NESTED_LIB="lib/${API_NAME}/lib/amz_sp_api"
+
+  if [ -d "$NESTED_LIB" ]; then
+    echo "Flattening nested models/apis from $NESTED_LIB into lib/${API_NAME}/"
+    mv "$NESTED_LIB"/* "lib/${API_NAME}/" 2>/dev/null || true
+    mv "$NESTED_LIB/."* "lib/${API_NAME}/" 2>/dev/null || true
+    rm -rf "$NESTED_LIB"
+  else
+    echo "Warning: No nested amz_sp_api dir found in lib/${API_NAME}"
   fi
 
-  if [ -f "lib/${API_NAME}/lib/${API_NAME}.rb" ]; then
-    mv "lib/${API_NAME}/lib/${API_NAME}.rb" lib/ 2>/dev/null || true
+  # Explicitly handle the main entry file (often placed directly in lib/${API_NAME}/lib/)
+  ENTRY_SOURCE="lib/${API_NAME}/lib/amz_sp_api.rb"
+  ENTRY_TARGET="lib/${API_NAME}.rb"
+
+  if [ -f "$ENTRY_SOURCE" ]; then
+    echo "Found main entry file at $ENTRY_SOURCE → renaming & moving to $ENTRY_TARGET"
+    mkdir -p "lib/${API_NAME}"  # ensure target dir exists
+    mv "$ENTRY_SOURCE" "$ENTRY_TARGET"
+  else
+    echo "No main entry file found at $ENTRY_SOURCE – checking alternative location..."
+    # Fallback: sometimes it's already moved or named differently
+    if [ -f "lib/${API_NAME}/amz_sp_api.rb" ]; then
+      mv "lib/${API_NAME}/amz_sp_api.rb" "$ENTRY_TARGET"
+      echo "Renamed from root-level amz_sp_api.rb"
+    fi
   fi
 
+  # ONLY NOW clean up the empty lib/ subdir (safe because entry file is already rescued)
+  rm -rf "lib/${API_NAME}/lib" 2>/dev/null || true
+
+  # Remove unwanted files
   rm "lib/${API_NAME}"/*.gemspec 2>/dev/null || true
+  rm -f "lib/${API_NAME}/"*.md   # optional: remove any leftover docs
 
   # Post-process to fix/ensure module nesting in generated .rb files
-  find "lib/${API_NAME}" -type f -name "*.rb" -exec sed -i \
-    -e "s/module ${MODULE_BASE}/module AmzSpApi::${MODULE_NAME}/g" \
-    -e "s/class /class AmzSpApi::${MODULE_NAME}::/g" \
-    -e "s/require 'amz_sp_api\//require 'amz_sp_api\/${API_NAME}\//g" \
-    {} \;
+  # find "lib/${API_NAME}" -type f -name "*.rb" -exec sed -i \
+    # -e "s/module ${MODULE_BASE}/module AmzSpApi::${MODULE_BASE}::${VERSION_MODULE}/g" \
+    # -e "s/require 'amz_sp_api\//require '${API_NAME}\//g" \
+    # {} \;
+    #-e "s/class /class AmzSpApi::${MODULE_NAME}::/g" \
+
+  if [ -f "$ENTRY_TARGET" ]; then
+    sed -i "s/module AmzSpApi::${MODULE_BASE}/module AmzSpApi::${MODULE_NAME}/" "$ENTRY_TARGET"
+    sed -i "s/require 'amz_sp_api\//require '${API_NAME}\//g" "$ENTRY_TARGET"
+    echo "Patched module/require in $ENTRY_TARGET"
+  fi
 
   echo "Generated: lib/${API_NAME}"
 done
