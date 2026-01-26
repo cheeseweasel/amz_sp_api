@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # Product types that are associated with the Amazon catalog item.
   class ItemProductTypes
     # Attribute mapping from ruby-style variable name to JSON key.

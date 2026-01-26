@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # The item review trend metrics.
   class ReviewTrendMetrics
     # The percentage of reviews that mention the topic.

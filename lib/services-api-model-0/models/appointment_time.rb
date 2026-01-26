@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # The time of the appointment window.
   class AppointmentTime
     # The date and time of the start of the appointment window in ISO 8601 format.

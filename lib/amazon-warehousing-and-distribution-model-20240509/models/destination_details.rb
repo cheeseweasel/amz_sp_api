@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Destination details of an inbound order based on the assigned region and DC for the order.
   class DestinationDetails
     attr_accessor :destination_address

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Input for to be uploaded document.
   class ServiceUploadDocument
     # The content type of the to-be-uploaded file

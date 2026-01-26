@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # An amount of money, including units in the form of currency.
   class Money
     # Three digit currency code in ISO 4217 format.

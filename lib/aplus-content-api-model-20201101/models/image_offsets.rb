@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # The top left corner of the cropped image, specified in the original image's coordinate space.
   class ImageOffsets
     attr_accessor :x

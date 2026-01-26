@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # Shipment Information details for Label request.
   class ShipmentInformation
     attr_accessor :vendor_details

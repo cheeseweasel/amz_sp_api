@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # List of resources that performs or performed job appointment fulfillment.
   class AppointmentResources
     # Attribute mapping from ruby-style variable name to JSON key.

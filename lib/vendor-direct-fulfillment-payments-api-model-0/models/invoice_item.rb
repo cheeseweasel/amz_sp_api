@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel
+module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel::V0
   # Provides the details of the items in this invoice.
   class InvoiceItem
     # Numbering of the item on the purchase order. The first item will be 1, the second 2, and so on.

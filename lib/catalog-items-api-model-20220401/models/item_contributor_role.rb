@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # Role of an individual contributor in the creation of an item, such as author or actor.
   class ItemContributorRole
     # Display name of the role in the requested locale, such as `Author` or `Actor`.

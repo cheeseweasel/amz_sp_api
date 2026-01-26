@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # Data for creating a shipping label and dimensions for printing the label.
   class Label
     attr_accessor :custom_text_for_label

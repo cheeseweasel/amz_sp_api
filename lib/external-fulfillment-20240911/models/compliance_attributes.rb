@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # All necessary compliance attributes specific to the line item.
   class ComplianceAttributes
     attr_accessor :hazmat_labels_requirement

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentShippingApiModel
+module AmzSpApi::VendorDirectFulfillmentShippingApiModel::V20211228
   # An array of package objects in a container.
   class Packages
     # Attribute mapping from ruby-style variable name to JSON key.

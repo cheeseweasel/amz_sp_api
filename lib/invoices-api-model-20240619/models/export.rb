@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::InvoicesApiModel
+module AmzSpApi::InvoicesApiModel::V20240619
   # Detailed information about the export.
   class Export
     # When the export generation fails, this attribute contains a description of the error.

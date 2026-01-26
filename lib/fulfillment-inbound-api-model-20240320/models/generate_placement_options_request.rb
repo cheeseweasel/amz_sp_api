@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # The `generatePlacementOptions` request.
   class GeneratePlacementOptionsRequest
     # Custom placement options you want to add to the plan. This is only used for the India (IN - A21TJRUUN4KGV) marketplace.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentOrdersApiModel
+module AmzSpApi::VendorDirectFulfillmentOrdersApiModel::V20211228
   # Shipment details required for the shipment.
   class ShipmentDetails
     # When true, this is a priority shipment.

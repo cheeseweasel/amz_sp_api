@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # Custom text to print on the label. Note: Custom text is only included on labels that are in ZPL format (ZPL203). FedEx does not support `CustomTextForLabel`.
   class CustomTextForLabel
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   class PaymentType
     THROUGH_AMAZON = 'PAY_THROUGH_AMAZON'.freeze
     DIRECT_TO_CARRIER = 'PAY_DIRECT_TO_CARRIER'.freeze

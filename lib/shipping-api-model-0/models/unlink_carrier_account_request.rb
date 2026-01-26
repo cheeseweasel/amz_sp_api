@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The request schema for remove the Carrier Account associated with the provided merchant.
   class UnlinkCarrierAccountRequest
     attr_accessor :client_reference_details

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentShippingApiModel
+module AmzSpApi::VendorDirectFulfillmentShippingApiModel::V20211228
   # Represents an update to the status of a shipment.
   class ShipmentStatusUpdate
     # Purchase order number of the shipment for which to update the shipment status.

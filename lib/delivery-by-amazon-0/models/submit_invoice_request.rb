@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::DeliveryByAmazon
+module AmzSpApi::DeliveryByAmazon::V0
   # The request schema for the `submitInvoice` operation.
   class SubmitInvoiceRequest
     attr_accessor :invoice_content

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   # Information about the destination created when you call the `createDestination` operation.
   class Destination
     # The developer-defined name for this destination.

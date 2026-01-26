@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MessagingApiModel
+module AmzSpApi::MessagingApiModel::V0
   # Describes a messaging action that can be taken for an order. Provides a JSON Hypertext Application Language (HAL) link to the JSON schema document that describes the expected input.
   class GetMessagingActionResponse
     attr_accessor :_links

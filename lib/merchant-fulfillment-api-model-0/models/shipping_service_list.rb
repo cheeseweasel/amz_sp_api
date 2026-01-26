@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # A list of shipping services offers.
   class ShippingServiceList
     # Attribute mapping from ruby-style variable name to JSON key.

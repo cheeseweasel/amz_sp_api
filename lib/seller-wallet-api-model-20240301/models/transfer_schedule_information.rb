@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # Parameters containing information required for initiating a schedule transfer 
   class TransferScheduleInformation
     # Field to specify start date of the scheduled transfer 

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # The regulated information collected during purchase and used to verify the order.
   class RegulatedInformation
     # A list of regulated information fields as collected from the regulatory form.

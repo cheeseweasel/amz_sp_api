@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # The request body for the POST /easyShip/2022-03-23/packages/bulk API.
   class CreateScheduledPackagesRequest
     attr_accessor :marketplace_id

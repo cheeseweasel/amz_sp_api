@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # The dimensions of a package contained in a shipment.
   class PackageDimensions
     attr_accessor :length

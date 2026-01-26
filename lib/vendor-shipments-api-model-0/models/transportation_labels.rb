@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # The request schema for the GetShipmentLabels operation.
   class TransportationLabels
     attr_accessor :pagination

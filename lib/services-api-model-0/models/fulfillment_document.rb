@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Document that captured during service appointment fulfillment that portrays proof of completion
   class FulfillmentDocument
     # The identifier of the upload destination. Get this value by calling the `createServiceDocumentUploadDestination` operation of the Services API.

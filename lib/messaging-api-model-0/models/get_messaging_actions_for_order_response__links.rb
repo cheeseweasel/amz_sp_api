@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MessagingApiModel
+module AmzSpApi::MessagingApiModel::V0
   # The links response that is associated with the specified `amazonOrderId`.
   class GetMessagingActionsForOrderResponseLinks
     attr_accessor :_self

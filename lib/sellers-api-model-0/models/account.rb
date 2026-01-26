@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellersApiModel
+module AmzSpApi::SellersApiModel::V0
   # The response schema for the `getAccount` operation.
   class Account
     attr_accessor :marketplace_participation_list

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # A package to be shipped through a shipping service offering.
   class Package
     attr_accessor :dimensions

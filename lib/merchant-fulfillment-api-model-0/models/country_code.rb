@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # The two-letter country code in [ISO 3166-1 alpha-2](https://www.iban.com/country-codes) format.
   class CountryCode
     # Attribute mapping from ruby-style variable name to JSON key.

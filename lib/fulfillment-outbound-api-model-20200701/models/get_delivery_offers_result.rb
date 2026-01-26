@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # A list of delivery offers, including offer expiration, earliest and latest date and time range, and the delivery offer policy.
   class GetDeliveryOffersResult
     attr_accessor :delivery_offers

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # Time duration used to specify the interval of an event, such as pick up and delivery.
   class TimeWindow
     # The start time of the window.

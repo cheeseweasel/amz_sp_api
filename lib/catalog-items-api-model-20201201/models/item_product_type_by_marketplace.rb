@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20201201
   # Product type associated with the Amazon catalog item for the indicated Amazon marketplace.
   class ItemProductTypeByMarketplace
     # Amazon marketplace identifier.

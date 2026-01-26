@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The response schema for the `getPackageTrackingDetails` operation.
   class GetPackageTrackingDetailsResponse
     attr_accessor :payload

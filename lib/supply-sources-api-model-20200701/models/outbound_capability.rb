@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SupplySourcesApiModel
+module AmzSpApi::SupplySourcesApiModel::V20200701
   # The outbound capability of a supply source.
   class OutboundCapability
     attr_accessor :is_supported

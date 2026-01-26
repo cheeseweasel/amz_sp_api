@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Represents a product with the SKU details and the corresponding quantity.
   class ProductQuantity
     # Contains attributes for this instance of the product. For example, item color, or other attributes that distinguish the product beyond the SKU. This is metadata for the product and Amazon does not process this data.

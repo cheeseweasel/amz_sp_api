@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # Identifiers associated with the item in the Amazon catalog, such as UPC and EAN identifiers.
   class ItemIdentifiers
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ApplicationIntegrationsApiModel
+module AmzSpApi::ApplicationIntegrationsApiModel::V0
   # The request for the `deleteNotifications` operation.
   class DeleteNotificationsRequest
     # The unique identifier of the notification template you used to onboard your application.

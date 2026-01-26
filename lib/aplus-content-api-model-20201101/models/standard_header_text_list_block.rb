@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # The A+ standard fixed-length list of text and a related headline.
   class StandardHeaderTextListBlock
     attr_accessor :headline

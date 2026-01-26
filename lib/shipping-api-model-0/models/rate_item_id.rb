@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   class RateItemID
     BASE_RATE = 'BASE_RATE'.freeze
     TRANSACTION_FEE = 'TRANSACTION_FEE'.freeze

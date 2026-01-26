@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # Vendor Details as part of Label response.
   class VendorDetails
     attr_accessor :selling_party

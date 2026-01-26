@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::TokensApiModel
+module AmzSpApi::TokensApiModel::V20210301
   # A list of error responses returned when a request is unsuccessful.
   class ErrorList
     attr_accessor :errors

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # The response schema for the `getServiceJobByServiceJobId` operation.
   class GetServiceJobByServiceJobIdResponse
     attr_accessor :payload

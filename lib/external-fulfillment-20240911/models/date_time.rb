@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # A date and time in [ISO 8601](https://developer-docs.amazon.com/sp-api/docs/iso-8601) format.
   class DateTime
     # Attribute mapping from ruby-style variable name to JSON key.

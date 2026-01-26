@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   # The request schema for the `createSubscription` operation.
   class CreateSubscriptionRequest
     # The version of the payload object to be used in the notification.

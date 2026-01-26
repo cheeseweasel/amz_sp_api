@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Summary of inventory per SKU.
   class InventorySummary
     # The expiration details of the inventory. This object will only appear if the `details` parameter in the request is set to `SHOW`.

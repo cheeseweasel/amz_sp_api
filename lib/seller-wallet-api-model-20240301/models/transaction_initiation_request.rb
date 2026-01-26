@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # Request body to initiate a transaction from a SW bank account to another customer defined bank account 
   class TransactionInitiationRequest
     # The unique identifier of the source Amazon SW bank account from where the money needs to be debited 

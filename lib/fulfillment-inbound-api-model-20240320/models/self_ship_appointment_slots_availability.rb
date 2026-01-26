@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # The self ship appointment time slots availability and an expiration date for which the slots can be scheduled.
   class SelfShipAppointmentSlotsAvailability
     # The time at which the self ship appointment slot expires. In [ISO 8601](https://developer-docs.amazon.com/sp-api/docs/iso-8601) datetime format.

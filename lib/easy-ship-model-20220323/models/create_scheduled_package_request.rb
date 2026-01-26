@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # The request schema for the `createScheduledPackage` operation.
   class CreateScheduledPackageRequest
     attr_accessor :amazon_order_id

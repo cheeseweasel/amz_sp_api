@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Contains information pertaining to a delivery window option.
   class DeliveryWindowOption
     # The type of delivery window availability. Values: `AVAILABLE`, `BLOCKED`, `CONGESTED`, `DISCOUNTED`

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The result for the `createFulfillmentReturn` operation.
   class CreateFulfillmentReturnResult
     attr_accessor :return_items

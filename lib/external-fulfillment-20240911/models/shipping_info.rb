@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # Shipping information for the packages in a shipment.
   class ShippingInfo
     # The ship method recommended by the Amazon Fulfillment Network for the packages in this shipment.

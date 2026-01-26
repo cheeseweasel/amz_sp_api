@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   class AccountType
     SHIPPER_ACCOUNT = 'SHIPPER_ACCOUNT'.freeze
     SHIPPER_ACCOUNT_WITH_INVOICE = 'SHIPPER_ACCOUNT_WITH_INVOICE'.freeze

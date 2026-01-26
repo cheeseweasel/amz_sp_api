@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # The list of line items in a package.
   class PackageLineItems
     # Attribute mapping from ruby-style variable name to JSON key.

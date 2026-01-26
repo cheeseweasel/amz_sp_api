@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductTypeDefinitionsApiModel
+module AmzSpApi::ProductTypeDefinitionsApiModel::V20200901
   # Link to retrieve the schema.
   class SchemaLinkLink
     # URI resource for the link.

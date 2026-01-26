@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # Conveying the status of the listed enforcement actions and, if applicable, provides information about the exemption's expiry date.
   class IssueExemption
     # This field indicates the current exemption status for the listed enforcement actions. It can take values such as `EXEMPT`, signifying permanent exemption, `EXEMPT_UNTIL_EXPIRY_DATE` indicating temporary exemption until a specified date, or `NOT_EXEMPT` signifying no exemptions, and enforcement actions were already applied.

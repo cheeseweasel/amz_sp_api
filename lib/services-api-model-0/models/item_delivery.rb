@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Delivery information for the item.
   class ItemDelivery
     # The date and time of the latest Estimated Delivery Date (EDD) of all the items with an EDD. In ISO 8601 format.

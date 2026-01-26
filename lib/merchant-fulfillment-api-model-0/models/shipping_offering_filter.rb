@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # Filter for use when requesting eligible shipping services.
   class ShippingOfferingFilter
     # When true, include a packing slip with the label.

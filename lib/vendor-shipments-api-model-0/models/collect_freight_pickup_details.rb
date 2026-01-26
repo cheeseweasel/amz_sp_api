@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # Transport Request pickup date from Vendor Warehouse by Buyer
   class CollectFreightPickupDetails
     # Date on which the items can be picked up from vendor warehouse by Buyer used for WePay/Collect vendors.

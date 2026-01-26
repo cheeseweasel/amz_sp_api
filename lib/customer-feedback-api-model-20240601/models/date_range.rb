@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # A date range.
   class DateRange
     # The start date of the date range in ISO-8601 date/time format.

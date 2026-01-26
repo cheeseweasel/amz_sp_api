@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Name, address and tax details of a party.
   class PartyIdentification
     # Assigned identification for the party. For example, warehouse code or vendor code. Please refer to specific party for more details.

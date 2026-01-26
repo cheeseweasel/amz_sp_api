@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # The response schema for the `listOffers` operation.
   class ListOffersResponse
     # A list of offers.

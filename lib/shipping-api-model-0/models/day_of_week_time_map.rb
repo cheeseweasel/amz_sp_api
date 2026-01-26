@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Map of day of the week to operating hours of that day
   class DayOfWeekTimeMap
     # Attribute mapping from ruby-style variable name to JSON key.

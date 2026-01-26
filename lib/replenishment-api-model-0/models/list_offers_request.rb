@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # The request body for the `listOffers` operation.
   class ListOffersRequest
     attr_accessor :pagination

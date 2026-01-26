@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # Struct that holds list of balances on the seller account.
   class BalanceListing
     # Collection that holds list of balances on the account 

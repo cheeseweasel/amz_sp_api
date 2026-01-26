@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # Download URL for the bill of lading.
   class BillOfLadingDownloadURL
     # URL to download the bill of lading for the package. Note: The URL will only be valid for 15 seconds

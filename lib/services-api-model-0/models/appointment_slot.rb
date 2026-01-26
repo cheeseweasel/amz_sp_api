@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # A time window along with associated capacity in which the service can be performed.
   class AppointmentSlot
     # Time window start time in ISO 8601 format.

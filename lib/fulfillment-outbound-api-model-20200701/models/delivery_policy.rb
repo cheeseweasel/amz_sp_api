@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The policy for a delivery offering.
   class DeliveryPolicy
     attr_accessor :message

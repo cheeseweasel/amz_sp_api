@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   class OptionalFulfillmentProgram
     CORE = 'FBA_CORE'.freeze
     SNL = 'FBA_SNL'.freeze

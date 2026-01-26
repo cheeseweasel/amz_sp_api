@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # All the information that is related to a financial event.
   class FinancialEvents
     attr_accessor :shipment_event_list

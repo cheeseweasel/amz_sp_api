@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentShippingApiModel
+module AmzSpApi::VendorDirectFulfillmentShippingApiModel::V20211228
   # Packing slip information.
   class PackingSlip
     # Purchase order number of the shipment that the packing slip is for.

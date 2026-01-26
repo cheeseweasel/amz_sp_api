@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # An amount of money. Includes the currency code and an optional unit of measure for items priced by weight.
   class Money
     # Three digit currency code in ISO 4217 format. String of length 3.

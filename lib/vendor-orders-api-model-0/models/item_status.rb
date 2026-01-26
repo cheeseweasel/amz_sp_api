@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Detailed description of items order status.
   class ItemStatus
     # Attribute mapping from ruby-style variable name to JSON key.

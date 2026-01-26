@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # The response for the `getItemBrowseNode` operation.
   class BrowseNodeResponse
     # A browse node id is the unique identifier of a given browse node. A browse node is a location in a browse tree that is used for navigation, product classification, and website content.

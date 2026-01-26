@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VehiclesApiModel
+module AmzSpApi::VehiclesApiModel::V20241101
   # Combination of vehicle standard and id that can uniquely identify a vehicle from Amazon's catalog.
   class VehicleIdentifiers
     attr_accessor :standard

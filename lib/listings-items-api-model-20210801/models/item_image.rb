@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # The image for the listings item.
   class ItemImage
     # The link, or URL, to the image.

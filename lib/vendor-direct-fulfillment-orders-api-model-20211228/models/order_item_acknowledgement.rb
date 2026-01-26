@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentOrdersApiModel
+module AmzSpApi::VendorDirectFulfillmentOrdersApiModel::V20211228
   # Details of an individual item within the order being acknowledged.
   class OrderItemAcknowledgement
     # Line item sequence number for the item.

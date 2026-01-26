@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # Estimated fees for a list of products.
   class GetMyFeesEstimatesResponse
     # Attribute mapping from ruby-style variable name to JSON key.

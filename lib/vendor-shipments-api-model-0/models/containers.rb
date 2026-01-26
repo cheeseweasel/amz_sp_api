@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # A list of the items in this transportation and their associated inner container details. If any of the item detail fields are common at a carton or a pallet level, provide them at the corresponding carton or pallet level.
   class Containers
     # The type of container.

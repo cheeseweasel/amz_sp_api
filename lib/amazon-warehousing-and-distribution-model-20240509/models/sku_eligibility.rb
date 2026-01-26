@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Represents eligibility of one SKU.
   class SkuEligibility
     # If not eligible, these are list of error codes and descriptions.

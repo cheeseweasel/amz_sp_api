@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentOrdersApiModel
+module AmzSpApi::VendorDirectFulfillmentOrdersApiModel::V20211228
   # An item within an order
   class OrderItem
     # Numbering of the item on the purchase order. The first item will be 1, the second 2, and so on.

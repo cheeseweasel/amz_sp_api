@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # The FOEP result data for the requested offer.
   class FeaturedOfferExpectedPriceResult
     attr_accessor :featured_offer_expected_price

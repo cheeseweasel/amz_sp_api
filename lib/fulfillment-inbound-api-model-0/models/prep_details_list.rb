@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # A list of preparation instructions and who is responsible for that preparation.
   class PrepDetailsList
     # Attribute mapping from ruby-style variable name to JSON key.

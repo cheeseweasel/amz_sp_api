@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # Schema for competitive pricing information
   class CompetitivePriceType
     # The pricing model for each price that is returned.  Possible values:  * 1 - New Buy Box Price. * 2 - Used Buy Box Price.

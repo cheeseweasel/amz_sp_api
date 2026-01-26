@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20201201
   # Search refinements.
   class Refinements
     # Brand search refinements.

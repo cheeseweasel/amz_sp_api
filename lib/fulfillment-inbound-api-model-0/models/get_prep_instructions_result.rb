@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # Result for the get prep instructions operation
   class GetPrepInstructionsResult
     attr_accessor :sku_prep_instructions_list

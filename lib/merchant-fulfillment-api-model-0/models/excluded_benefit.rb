@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # An object representing an excluded benefit that is excluded for a shipping offer or rate.
   class ExcludedBenefit
     # A benefit that is being excluded from a shipment.

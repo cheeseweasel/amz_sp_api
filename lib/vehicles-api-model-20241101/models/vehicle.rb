@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VehiclesApiModel
+module AmzSpApi::VehiclesApiModel::V20241101
   # Combinations of attributes and unique identifier that represents a vehicle in vehicle list.
   class Vehicle
     # Vehicle Brand.

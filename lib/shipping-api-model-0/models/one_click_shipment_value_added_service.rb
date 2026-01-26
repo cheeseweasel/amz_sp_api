@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # A value-added service to be applied to a shipping service purchase.
   class OneClickShipmentValueAddedService
     # The identifier of the selected value-added service.

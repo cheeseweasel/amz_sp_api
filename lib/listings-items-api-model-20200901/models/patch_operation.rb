@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20200901
   # Individual JSON Patch operation for an HTTP PATCH request.
   class PatchOperation
     # Type of JSON Patch operation. Supported JSON Patch operations include add, replace, and delete. See <https://tools.ietf.org/html/rfc6902>.

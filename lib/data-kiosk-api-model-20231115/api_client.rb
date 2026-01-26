@@ -16,7 +16,7 @@ require 'tempfile'
 require 'typhoeus'
 require 'uri'
 
-module AmzSpApi::DataKioskApiModel
+module AmzSpApi::DataKioskApiModel::V20231115
   class ApiClient
     # The Configuration object holding settings to be used in the API client.
     attr_accessor :config

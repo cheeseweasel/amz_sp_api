@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentOrdersApiModel
+module AmzSpApi::VendorDirectFulfillmentOrdersApiModel::V20211228
   # A list of purchase orders.
   class OrderList
     attr_accessor :pagination

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Represents the eligibility status of the inbound packages.
   class InboundEligibility
     # If there are order level eligibility issues, then this list will contain those error codes and descriptions.

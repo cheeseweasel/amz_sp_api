@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VehiclesApiModel
+module AmzSpApi::VehiclesApiModel::V20241101
   # Year in YYYY format
   class Year
     # Attribute mapping from ruby-style variable name to JSON key.

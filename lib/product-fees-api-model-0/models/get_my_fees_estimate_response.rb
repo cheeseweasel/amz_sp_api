@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # The response object for the GetMyFeesEstimate operation.
   class GetMyFeesEstimateResponse
     attr_accessor :payload

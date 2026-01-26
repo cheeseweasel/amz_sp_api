@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReportsApiModel
+module AmzSpApi::ReportsApiModel::V20210630
   # Information required to create the report.
   class CreateReportSpecification
     attr_accessor :report_options

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInventoryApiModel
+module AmzSpApi::FbaInventoryApiModel::V0
   # Describes a granularity at which inventory data can be aggregated. For example, if you use Marketplace granularity, the fulfillable quantity will reflect inventory that could be fulfilled in the given marketplace.
   class Granularity
     # The granularity type for the inventory aggregation level.

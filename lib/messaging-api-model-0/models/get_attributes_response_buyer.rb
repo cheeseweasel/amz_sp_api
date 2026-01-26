@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MessagingApiModel
+module AmzSpApi::MessagingApiModel::V0
   # The list of attributes related to the buyer.
   class GetAttributesResponseBuyer
     # The buyer's language of preference, indicated with a locale-specific language tag. Examples: \"en-US\", \"zh-CN\", and \"en-GB\".

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
+module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
   # The set of test case data returned in response to the test data request.
   class TestCaseData
     # Set of use cases that describes the possible test scenarios.

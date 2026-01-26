@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # The request body for the `updateShipmentStatus` operation.
   class UpdateShipmentStatusRequest
     attr_accessor :marketplace_id

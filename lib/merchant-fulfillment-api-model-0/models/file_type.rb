@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   class FileType
     APPLICATIONPDF = 'application/pdf'.freeze
     APPLICATIONZPL = 'application/zpl'.freeze

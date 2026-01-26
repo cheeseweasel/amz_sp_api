@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MessagingApiModel
+module AmzSpApi::MessagingApiModel::V0
   # The messaging actions response that is associated with the specified `amazonOrderId`.
   class GetMessagingActionsForOrderResponseEmbedded
     attr_accessor :actions

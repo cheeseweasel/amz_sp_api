@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # Container sequence numbers that are involved in this shipment.
   class ContainerSequenceNumbers
     # A list of containers shipped

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   class BoxContentsSource
     NONE = 'NONE'.freeze
     FEED = 'FEED'.freeze

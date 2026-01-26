@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # An array of fulfillment order item information for updating a fulfillment order.
   class UpdateFulfillmentOrderItemList
     # Attribute mapping from ruby-style variable name to JSON key.

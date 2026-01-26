@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Contains detail codes that provide additional details related to the forward and return leg of the shipment.
   class TrackingDetailCodes
     # Contains detail codes that provide additional details related to the forward leg of the shipment.

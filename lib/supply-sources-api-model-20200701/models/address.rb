@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SupplySourcesApiModel
+module AmzSpApi::SupplySourcesApiModel::V20200701
   # A physical address.
   class Address
     # The name of the person, business or institution at that address.

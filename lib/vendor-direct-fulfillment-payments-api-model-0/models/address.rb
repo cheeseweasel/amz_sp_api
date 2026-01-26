@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel
+module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel::V0
   # Address of the party.
   class Address
     # The name of the person, business or institution at that address.

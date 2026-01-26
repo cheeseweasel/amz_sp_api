@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Input for set appointment fulfillment data operation.
   class SetAppointmentFulfillmentDataRequest
     attr_accessor :estimated_arrival_time

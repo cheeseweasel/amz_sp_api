@@ -16,7 +16,7 @@ require 'tempfile'
 require 'typhoeus'
 require 'uri'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   class ApiClient
     # The Configuration object holding settings to be used in the API client.
     attr_accessor :config

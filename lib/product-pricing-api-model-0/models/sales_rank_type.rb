@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # Sales rank information for the item, by category
   class SalesRankType
     #  Identifies the item category from which the sales rank is taken.

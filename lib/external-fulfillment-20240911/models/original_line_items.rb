@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # The line items from the original shipment that corresponds to this shipment.
   class OriginalLineItems
     # Attribute mapping from ruby-style variable name to JSON key.

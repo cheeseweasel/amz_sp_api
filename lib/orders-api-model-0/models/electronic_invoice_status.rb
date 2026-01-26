@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   class ElectronicInvoiceStatus
     NOT_REQUIRED = 'NotRequired'.freeze
     NOT_FOUND = 'NotFound'.freeze

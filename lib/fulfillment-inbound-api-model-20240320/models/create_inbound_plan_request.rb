@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # The `createInboundPlan` request.
   class CreateInboundPlanRequest
     # Marketplaces where the items need to be shipped to. Currently only one marketplace can be selected in this request.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Represents an individual item in an order, including item details, quantities, pricing, and backorder information.
   class OrderItem
     # Numbering of the item on the purchase order. The first item will be 1, the second 2, and so on.

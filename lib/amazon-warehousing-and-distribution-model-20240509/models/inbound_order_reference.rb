@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # A response that contains the reference identifiers for the newly created or updated inbound order. Consists of an order ID and version.
   class InboundOrderReference
     # Order ID of the inbound order.

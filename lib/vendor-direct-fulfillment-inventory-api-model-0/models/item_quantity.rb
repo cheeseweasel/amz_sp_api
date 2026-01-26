@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentInventoryApiModel
+module AmzSpApi::VendorDirectFulfillmentInventoryApiModel::V0
   # Details of item quantity.
   class ItemQuantity
     # Quantity of units available for a specific item.

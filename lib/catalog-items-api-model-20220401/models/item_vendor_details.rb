@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # The vendor details that are associated with an Amazon catalog item. Vendor details are only available to vendors.
   class ItemVendorDetails
     # Attribute mapping from ruby-style variable name to JSON key.

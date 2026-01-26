@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # The item review topic metrics.
   class ItemReviewTopicMetrics
     # The number of times that reviews mention the topic. This value is `null` if reviews do not mention the topic frequently enough.

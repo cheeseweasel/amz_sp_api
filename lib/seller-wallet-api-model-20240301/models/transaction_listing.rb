@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # Struct that holds collection of transactions.
   class TransactionListing
     # If present, use this pagination token to retrieve the next page of supply sources, if not provided the API will return same response. The field will only be provided when the list is greater than 100.

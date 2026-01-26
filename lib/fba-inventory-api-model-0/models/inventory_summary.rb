@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInventoryApiModel
+module AmzSpApi::FbaInventoryApiModel::V0
   # Inventory summary for a specific item.
   class InventorySummary
     # The Amazon Standard Identification Number (ASIN) of an item.

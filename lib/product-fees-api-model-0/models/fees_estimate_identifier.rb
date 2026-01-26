@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # An item identifier, marketplace, time of request, and other details that identify an estimate.
   class FeesEstimateIdentifier
     # A marketplace identifier.

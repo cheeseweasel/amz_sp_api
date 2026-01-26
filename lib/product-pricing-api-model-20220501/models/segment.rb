@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # Input segment for featured offer expected price. The segment contains the location information for which featured offer expected price is requested.
   class Segment
     attr_accessor :segment_details

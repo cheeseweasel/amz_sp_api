@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Representation of a location used within the inbounding experience.
   class Region
     # ISO 3166 standard alpha-2 country code.

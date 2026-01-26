@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # A JSON object containing structured listings item attribute data keyed by attribute name.
   class ItemAttributes
     # Attribute mapping from ruby-style variable name to JSON key.

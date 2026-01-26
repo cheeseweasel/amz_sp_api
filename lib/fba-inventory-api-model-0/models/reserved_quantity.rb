@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInventoryApiModel
+module AmzSpApi::FbaInventoryApiModel::V0
   # The quantity of reserved inventory.
   class ReservedQuantity
     # The total number of units in Amazon's fulfillment network that are currently being picked, packed, and shipped; or are sidelined for measurement, sampling, or other internal processes.

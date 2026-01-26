@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Defines a date time interval according to ISO8601. Interval is separated by double hyphen (--).
   class DateTimeInterval
     # Attribute mapping from ruby-style variable name to JSON key.

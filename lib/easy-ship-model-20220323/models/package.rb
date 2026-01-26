@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # This object contains all the details of the scheduled Easy Ship package.
   class Package
     attr_accessor :scheduled_package_id

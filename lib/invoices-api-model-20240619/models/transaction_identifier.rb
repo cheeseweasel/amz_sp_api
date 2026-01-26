@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::InvoicesApiModel
+module AmzSpApi::InvoicesApiModel::V20240619
   # The identifier for a transaction.
   class TransactionIdentifier
     # The transaction identifier name. Use the `getInvoicesAttributes` operation to check `transactionIdentifierName` options.

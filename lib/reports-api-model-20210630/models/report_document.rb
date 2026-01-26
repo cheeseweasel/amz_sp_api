@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReportsApiModel
+module AmzSpApi::ReportsApiModel::V20210630
   # Information required for the report document.
   class ReportDocument
     # The identifier for the report document. This identifier is unique only in combination with a seller ID.

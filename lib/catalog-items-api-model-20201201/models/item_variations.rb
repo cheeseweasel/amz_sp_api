@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20201201
   # Variation details by marketplace for an Amazon catalog item (variation relationships).
   class ItemVariations
     # Attribute mapping from ruby-style variable name to JSON key.

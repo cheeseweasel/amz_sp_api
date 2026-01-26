@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # A unique reference key for the A+ Content document. A content reference key cannot form a permalink and might change in the future. A content reference key is not guaranteed to match any A+ content identifier.
   class ContentReferenceKey
     # Attribute mapping from ruby-style variable name to JSON key.

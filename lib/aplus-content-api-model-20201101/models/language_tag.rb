@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # The IETF language tag, which supports the primary language subtag and one secondary language subtag. The secondary language subtag is usually a regional designation. This doesn't support subtags other than the primary and secondary subtags. **Pattern:** ^[a-z]{2,}-[A-Z0-9]{2,}$
   class LanguageTag
     # Attribute mapping from ruby-style variable name to JSON key.

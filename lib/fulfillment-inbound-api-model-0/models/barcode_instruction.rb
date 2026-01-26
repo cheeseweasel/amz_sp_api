@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   class BarcodeInstruction
     REQUIRES_FNSKU_LABEL = 'RequiresFNSKULabel'.freeze
     CAN_USE_ORIGINAL_BARCODE = 'CanUseOriginalBarcode'.freeze

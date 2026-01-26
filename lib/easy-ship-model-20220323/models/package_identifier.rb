@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # Optional seller-created identifier that is printed on the shipping label to help the seller identify the package.
   class PackageIdentifier
     # Attribute mapping from ruby-style variable name to JSON key.

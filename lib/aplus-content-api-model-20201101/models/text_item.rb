@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # Rich positional text that is usually presented as a collection of bullet points.
   class TextItem
     # The rank or index of this text item within the collection. Different items cannot occupy the same position within a single collection.

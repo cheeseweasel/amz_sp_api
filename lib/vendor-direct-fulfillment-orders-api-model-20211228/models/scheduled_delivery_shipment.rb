@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentOrdersApiModel
+module AmzSpApi::VendorDirectFulfillmentOrdersApiModel::V20211228
   # Dates for the scheduled delivery shipments.
   class ScheduledDeliveryShipment
     # Scheduled delivery service type.

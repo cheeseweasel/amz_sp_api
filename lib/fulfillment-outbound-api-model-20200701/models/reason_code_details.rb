@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # A return reason code, a description, and an optional description translation.
   class ReasonCodeDetails
     # A code that indicates a valid return reason.

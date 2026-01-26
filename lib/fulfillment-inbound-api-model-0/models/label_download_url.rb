@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # Download URL for a label
   class LabelDownloadURL
     # URL to download the label for the package. Note: The URL will only be valid for 15 seconds

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # Classification (browse node) for an Amazon catalog item.
   class ItemBrowseClassification
     # Display name for the classification.

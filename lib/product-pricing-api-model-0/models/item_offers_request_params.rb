@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # List of request parameters that can be accepted by `ItemOffersRequest`
   class ItemOffersRequestParams
     # The Amazon Standard Identification Number (ASIN) of the item. This is the same Asin passed as a request parameter.

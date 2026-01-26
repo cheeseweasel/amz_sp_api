@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # The fees for Amazon to prep goods for shipment.
   class AmazonPrepFeesDetails
     attr_accessor :prep_instruction

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20201201
   # Description of a brand that can be used to get more fine-grained search results.
   class BrandRefinement
     # The estimated number of results that would still be returned if refinement key applied.

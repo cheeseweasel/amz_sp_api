@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReportsApiModel
+module AmzSpApi::ReportsApiModel::V20210630
   # Detailed information about the report.
   class Report
     # A list of marketplace identifiers for the report.

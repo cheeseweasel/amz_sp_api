@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SupplySourcesApiModel
+module AmzSpApi::SupplySourcesApiModel::V20200701
   # A request to update the status of a supply source.
   class UpdateSupplySourceStatusRequest
     attr_accessor :status

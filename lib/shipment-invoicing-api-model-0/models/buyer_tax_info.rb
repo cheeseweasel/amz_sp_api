@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShipmentInvoicingApiModel
+module AmzSpApi::ShipmentInvoicingApiModel::V0
   # Tax information about the buyer.
   class BuyerTaxInfo
     # The legal name of the company.

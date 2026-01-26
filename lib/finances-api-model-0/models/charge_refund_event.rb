@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # An event related to charge refund.
   class ChargeRefundEvent
     attr_accessor :posted_date

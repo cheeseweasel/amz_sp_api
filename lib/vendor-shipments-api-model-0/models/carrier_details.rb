@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # Indicates the carrier details and their contact informations
   class CarrierDetails
     # The field is used to represent the carrier used for performing the shipment.

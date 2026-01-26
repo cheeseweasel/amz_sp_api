@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   class ShipmentStatus
     READY_FOR_PICKUP = 'ReadyForPickup'.freeze
     PICKED_UP = 'PickedUp'.freeze

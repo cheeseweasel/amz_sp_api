@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # The transparency code associated with the item.
   class TransparencyCode
     # Attribute mapping from ruby-style variable name to JSON key.

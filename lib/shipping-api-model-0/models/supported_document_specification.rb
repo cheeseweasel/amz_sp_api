@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Document specification that is supported for a service offering.
   class SupportedDocumentSpecification
     attr_accessor :format

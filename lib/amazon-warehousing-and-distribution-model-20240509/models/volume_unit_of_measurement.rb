@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   class VolumeUnitOfMeasurement
     CU_IN = 'CU_IN'.freeze
     CBM = 'CBM'.freeze

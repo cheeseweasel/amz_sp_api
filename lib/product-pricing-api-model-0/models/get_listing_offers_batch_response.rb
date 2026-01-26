@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # The response associated with the `getListingOffersBatch` API call.
   class GetListingOffersBatchResponse
     attr_accessor :responses

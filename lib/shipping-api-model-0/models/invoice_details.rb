@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The invoice details for charges associated with the goods in the package. Only applies to certain regions.
   class InvoiceDetails
     # The invoice number of the item.

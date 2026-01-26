@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # The resource that performs or performed appointment fulfillment.
   class AppointmentResource
     # The resource identifier.

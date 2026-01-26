@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentShippingApiModel
+module AmzSpApi::VendorDirectFulfillmentShippingApiModel::V20211228
   # Details of the item being shipped.
   class Item
     # The sequence number of the item. The number must be the same as the order number of the item.

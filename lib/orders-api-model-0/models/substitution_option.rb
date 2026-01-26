@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # Substitution options for an order item.
   class SubstitutionOption
     # The item's Amazon Standard Identification Number (ASIN).

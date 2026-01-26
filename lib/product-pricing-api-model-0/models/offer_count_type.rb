@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # The total number of offers for the specified condition and fulfillment channel.
   class OfferCountType
     # Indicates the condition of the item. For example: New, Used, Collectible, Refurbished, or Club.

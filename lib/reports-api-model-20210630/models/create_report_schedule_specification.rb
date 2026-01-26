@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReportsApiModel
+module AmzSpApi::ReportsApiModel::V20210630
   # Information required to create the report schedule.
   class CreateReportScheduleSpecification
     # The report type. Refer to [Report Type Values](https://developer-docs.amazon.com/sp-api/docs/report-type-values) for more information.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # Labeling requirements and item preparation instructions to help you prepare items for shipment to Amazon's fulfillment network.
   class SKUPrepInstructions
     # The seller SKU of the item.

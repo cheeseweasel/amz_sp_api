@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   # A container that holds all of the necessary properties to configure the aggregation of notifications.
   class AggregationSettings
     attr_accessor :aggregation_time_period

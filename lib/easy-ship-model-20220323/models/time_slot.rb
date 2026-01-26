@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # A time window to hand over an Easy Ship package to Amazon Logistics.
   class TimeSlot
     attr_accessor :slot_id

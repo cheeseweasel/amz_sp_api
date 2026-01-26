@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInventoryApiModel
+module AmzSpApi::FbaInventoryApiModel::V0
   # A list of inventory summaries.
   class InventorySummaries
     # Attribute mapping from ruby-style variable name to JSON key.

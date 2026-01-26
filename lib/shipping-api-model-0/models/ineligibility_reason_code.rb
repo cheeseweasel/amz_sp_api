@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   class IneligibilityReasonCode
     NO_COVERAGE = 'NO_COVERAGE'.freeze
     PICKUP_SLOT_RESTRICTION = 'PICKUP_SLOT_RESTRICTION'.freeze

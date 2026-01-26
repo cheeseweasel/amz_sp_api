@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShipmentInvoicingApiModel
+module AmzSpApi::ShipmentInvoicingApiModel::V0
   # The shipping address details of the shipment.
   class Address
     # The name.

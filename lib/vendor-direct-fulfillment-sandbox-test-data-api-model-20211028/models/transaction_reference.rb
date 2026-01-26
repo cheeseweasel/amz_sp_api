@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
+module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
   # A GUID assigned by Amazon to identify this transaction.
   class TransactionReference
     # A GUID (Globally Unique Identifier) assigned by Amazon to uniquely identify the transaction.

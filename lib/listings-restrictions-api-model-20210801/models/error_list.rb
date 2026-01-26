@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsRestrictionsApiModel
+module AmzSpApi::ListingsRestrictionsApiModel::V20210801
   # A list of error responses returned when a request is unsuccessful.
   class ErrorList
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # Provide these fields only if this shipment is a direct import.
   class ImportDetails
     # This is used for import purchase orders only. If the recipient requests, this field will contain the shipment method of payment.

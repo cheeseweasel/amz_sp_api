@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsRestrictionsApiModel
+module AmzSpApi::ListingsRestrictionsApiModel::V20210801
   # A list of restrictions for the specified Amazon catalog item.
   class RestrictionList
     attr_accessor :restrictions

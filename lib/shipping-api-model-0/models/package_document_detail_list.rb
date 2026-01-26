@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # A list of post-purchase details about a package that will be shipped using a shipping service.
   class PackageDocumentDetailList
     # Attribute mapping from ruby-style variable name to JSON key.

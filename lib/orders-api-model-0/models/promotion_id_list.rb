@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # A list of promotion identifiers provided by the seller when the promotions were created.
   class PromotionIdList
     # Attribute mapping from ruby-style variable name to JSON key.

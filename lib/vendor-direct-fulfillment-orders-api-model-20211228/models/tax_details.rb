@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentOrdersApiModel
+module AmzSpApi::VendorDirectFulfillmentOrdersApiModel::V20211228
   # The tax details for the order. _Note:_ Amazon calculates tax on the list price (Amazon retail price).
   class TaxDetails
     attr_accessor :tax_rate

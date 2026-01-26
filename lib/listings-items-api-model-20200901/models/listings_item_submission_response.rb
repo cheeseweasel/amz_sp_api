@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20200901
   # Response containing the results of a submission to the Selling Partner API for Listings Items.
   class ListingsItemSubmissionResponse
     # A selling partner provided identifier for an Amazon listing.

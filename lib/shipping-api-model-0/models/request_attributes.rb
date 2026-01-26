@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Specify the type of attributes to be added on a label.
   class RequestAttributes
     # Attribute mapping from ruby-style variable name to JSON key.

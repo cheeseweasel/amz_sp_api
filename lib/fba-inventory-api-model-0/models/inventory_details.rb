@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInventoryApiModel
+module AmzSpApi::FbaInventoryApiModel::V0
   # Summarized inventory details. This object will not appear if the details parameter in the request is false.
   class InventoryDetails
     # The item quantity that can be picked, packed, and shipped.

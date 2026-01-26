@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240619
   # Details about the movement of money in the financial transaction. Breakdowns are further categorized into breakdown types, breakdown amounts, and further breakdowns.
   class Breakdown
     # The type of charge.

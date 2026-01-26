@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240619
   # Related business identifier of the transaction.
   class RelatedIdentifier
     # An enumerated set of related business identifier names.

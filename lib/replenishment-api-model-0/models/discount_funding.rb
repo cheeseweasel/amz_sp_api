@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # The discount funding on the offer.
   class DiscountFunding
     # Filters the results to only include offers with the percentage specified.

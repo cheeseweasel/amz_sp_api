@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # A list of excluded benefit. Refer to the ExcludeBenefit object for further documentation
   class ExcludedBenefits
     # Attribute mapping from ruby-style variable name to JSON key.

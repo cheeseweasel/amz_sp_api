@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # A list of events related to the seller's Pay with Amazon account.
   class PayWithAmazonEventList
     # Attribute mapping from ruby-style variable name to JSON key.

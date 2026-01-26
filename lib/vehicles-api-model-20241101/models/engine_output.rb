@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VehiclesApiModel
+module AmzSpApi::VehiclesApiModel::V20241101
   # Engine power output of vehicle.
   class EngineOutput
     # Engine power value in specified unit.

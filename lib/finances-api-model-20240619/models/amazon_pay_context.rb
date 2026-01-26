@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240619
   # Additional information related to Amazon Pay.
   class AmazonPayContext
     # The name of the store that is related to the transaction.

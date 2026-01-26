@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   # A list of order change types to subscribe to (for example: `BuyerRequestedChange`). To receive notifications of all change types, do not provide this list.
   class OrderChangeTypes
     # Attribute mapping from ruby-style variable name to JSON key.

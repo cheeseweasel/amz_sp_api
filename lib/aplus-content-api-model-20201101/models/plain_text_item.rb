@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # Plain positional text that is used in collections of brief labels and descriptors.
   class PlainTextItem
     # The rank or index of this text item within the collection. Different items cannot occupy the same position within a single collection.

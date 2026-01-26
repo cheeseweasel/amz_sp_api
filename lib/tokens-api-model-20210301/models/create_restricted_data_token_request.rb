@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::TokensApiModel
+module AmzSpApi::TokensApiModel::V20210301
   # The request schema for the createRestrictedDataToken operation.
   class CreateRestrictedDataTokenRequest
     # The application ID for the target application to which access is being delegated.

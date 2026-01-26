@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # Specifies the identifiers used to uniquely identify an item.
   class IdentifierType
     attr_accessor :marketplace_asin

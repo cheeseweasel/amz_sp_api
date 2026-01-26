@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # A list of value-added services available for a shipping service offering.
   class AvailableValueAddedServiceGroupList
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240619
   # Related business identifiers of the item in the transaction.
   class ItemRelatedIdentifiers
     # Attribute mapping from ruby-style variable name to JSON key.

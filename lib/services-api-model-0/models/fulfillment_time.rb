@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Input for fulfillment time details
   class FulfillmentTime
     # The date, time in UTC of the fulfillment start time in ISO 8601 format.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # A product offer with segment information indicating where it's featured.
   class SegmentedFeaturedOffer
     # The list of segment information in which the offer is featured.

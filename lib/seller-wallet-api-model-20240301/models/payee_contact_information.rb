@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # The contact information of the payee. This field is required when the request `bankAccountOwnershipType` is `THIRD_PARTY`. The contact information is used for payee verification and registration purposes.
   class PayeeContactInformation
     # First name of the payee. There is a 50 character limit.

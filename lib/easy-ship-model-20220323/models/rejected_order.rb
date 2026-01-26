@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # A order which we couldn't schedule on your behalf. It contains its id, and information on the error.
   class RejectedOrder
     attr_accessor :amazon_order_id

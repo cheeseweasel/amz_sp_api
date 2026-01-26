@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ApplicationIntegrationsApiModel
+module AmzSpApi::ApplicationIntegrationsApiModel::V0
   # The dynamic parameters required by the notification templated specified by `templateId`.
   class NotificationParameters
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorInvoicesApiModel
+module AmzSpApi::VendorInvoicesApiModel::V0
   # Additional information provided by the selling party for tax-related or any other purpose.
   class AdditionalDetails
     # The type of the additional information provided by the selling party.

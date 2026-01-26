@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # A decimal number with no loss of precision. Useful when precision loss is unacceptable, as with currencies.
   class Decimal
     # Attribute mapping from ruby-style variable name to JSON key.

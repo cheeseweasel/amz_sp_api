@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # List of shipping speed categories.
   class ShippingSpeedCategoryList
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # The reason for rejecting the order's regulated information. This is only present if the order is rejected.
   class RejectionReason
     # The unique identifier for the rejection reason.

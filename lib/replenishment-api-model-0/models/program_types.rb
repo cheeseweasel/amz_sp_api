@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # A list of replenishment program types.
   class ProgramTypes
     # Attribute mapping from ruby-style variable name to JSON key.

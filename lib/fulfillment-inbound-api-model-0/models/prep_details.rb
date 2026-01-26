@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # Preparation instructions and who is responsible for the preparation.
   class PrepDetails
     attr_accessor :prep_instruction

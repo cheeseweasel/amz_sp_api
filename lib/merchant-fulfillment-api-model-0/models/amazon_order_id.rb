@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # An Amazon-defined order identifier, in 3-7-7 format.
   class AmazonOrderId
     # Attribute mapping from ruby-style variable name to JSON key.

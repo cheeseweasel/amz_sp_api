@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # Sales ranks of an Amazon catalog item.
   class ItemSalesRanks
     # Attribute mapping from ruby-style variable name to JSON key.

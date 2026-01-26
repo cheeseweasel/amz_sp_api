@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # Common request parameters that can be accepted by `ItemOffersRequest` and `ListingOffersRequest`
   class BatchOffersRequestParams
     attr_accessor :marketplace_id

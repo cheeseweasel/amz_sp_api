@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   class CurrentStatus
     IN_TRANSIT = 'IN_TRANSIT'.freeze
     DELIVERED = 'DELIVERED'.freeze

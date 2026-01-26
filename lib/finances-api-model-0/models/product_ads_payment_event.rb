@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # A Sponsored Products payment event.
   class ProductAdsPaymentEvent
     attr_accessor :posted_date

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240619
   # A list of additional information about the item.
   class Contexts
     # Attribute mapping from ruby-style variable name to JSON key.

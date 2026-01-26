@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel
+module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel::V0
   # The response schema for the submitInvoice operation.
   class SubmitInvoiceResponse
     attr_accessor :payload

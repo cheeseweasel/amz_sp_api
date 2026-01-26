@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # List of request parameters that can be accepted by `ListingOffersRequest`
   class ListingOffersRequestParams
     # The seller stock keeping unit (SKU) of the item. This is the same SKU passed as a path parameter.

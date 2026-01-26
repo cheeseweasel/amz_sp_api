@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsRestrictionsApiModel
+module AmzSpApi::ListingsRestrictionsApiModel::V20210801
   # A listing restriction, optionally qualified by a condition, with a list of reasons for the restriction.
   class Restriction
     # A marketplace identifier. Identifies the Amazon marketplace where the restriction is enforced.

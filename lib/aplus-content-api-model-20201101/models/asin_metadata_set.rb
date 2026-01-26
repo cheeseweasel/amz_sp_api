@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # The set of ASIN metadata.
   class AsinMetadataSet
     # Attribute mapping from ruby-style variable name to JSON key.

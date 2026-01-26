@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FeedsApiModel
+module AmzSpApi::FeedsApiModel::V20210630
   # Additional options to control the feed. These vary by feed type.
   class FeedOptions
     # Attribute mapping from ruby-style variable name to JSON key.

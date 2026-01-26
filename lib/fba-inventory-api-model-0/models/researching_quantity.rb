@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInventoryApiModel
+module AmzSpApi::FbaInventoryApiModel::V0
   # The number of misplaced or warehouse damaged units that are actively being confirmed at our fulfillment centers.
   class ResearchingQuantity
     # The total number of units currently being researched in Amazon's fulfillment network.

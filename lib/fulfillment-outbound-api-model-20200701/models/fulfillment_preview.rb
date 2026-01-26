@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # Information about a fulfillment order preview, including delivery and fee information based on shipping method.
   class FulfillmentPreview
     attr_accessor :shipping_speed_category

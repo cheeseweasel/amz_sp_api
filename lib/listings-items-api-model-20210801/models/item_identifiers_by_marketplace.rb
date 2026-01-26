@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # Identity attributes associated with the item in the Amazon catalog for the indicated Amazon marketplace.
   class ItemIdentifiersByMarketplace
     # A marketplace identifier. Identifies the Amazon marketplace for the listings item.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # The request schema for the SubmitShipmentConfirmations operation.
   class SubmitShipmentConfirmationsRequest
     # A list of one or more shipment confirmations.

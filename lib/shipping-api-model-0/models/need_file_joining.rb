@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # When true, files should be stitched together. Otherwise, files should be returned separately. Defaults to false.
   class NeedFileJoining
     # Attribute mapping from ruby-style variable name to JSON key.

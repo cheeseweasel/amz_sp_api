@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Details of item quantity ordered
   class AcknowledgementStatusDetails
     # The date when the line item was confirmed by vendor. Must be in ISO-8601 date/time format.

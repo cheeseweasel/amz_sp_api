@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   class PrepGuidance
     CONSULT_HELP_DOCUMENTS = 'ConsultHelpDocuments'.freeze
     NO_ADDITIONAL_PREP_REQUIRED = 'NoAdditionalPrepRequired'.freeze

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # Information about the seller's inbound shipments. Returned by the listInboundShipments operation.
   class InboundShipmentInfo
     # The shipment identifier submitted in the request.

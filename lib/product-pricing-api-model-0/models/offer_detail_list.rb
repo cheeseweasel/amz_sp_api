@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # A list of offer details. The list is the same length as the TotalOfferCount in the Summary or 20, whichever is less.
   class OfferDetailList
     # Attribute mapping from ruby-style variable name to JSON key.

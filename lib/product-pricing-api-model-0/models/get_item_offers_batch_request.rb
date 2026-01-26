@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # The request associated with the `getItemOffersBatch` API call.
   class GetItemOffersBatchRequest
     attr_accessor :requests

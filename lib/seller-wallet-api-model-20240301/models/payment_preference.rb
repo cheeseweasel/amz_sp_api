@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # Payment preference type in which transfer is being scheduled 
   class PaymentPreference
     attr_accessor :payment_preference_payment_type

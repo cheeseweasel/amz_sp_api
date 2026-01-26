@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # An item that is associated with an order item. For example, a tire installation service that is purchased with tires.
   class AssociatedItem
     # The order item's order identifier, in 3-7-7 format.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The two digit country code. Follows ISO 3166-1 alpha-2 format.
   class CountryCode
     # Attribute mapping from ruby-style variable name to JSON key.

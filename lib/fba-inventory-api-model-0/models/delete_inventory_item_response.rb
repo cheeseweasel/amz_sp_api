@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInventoryApiModel
+module AmzSpApi::FbaInventoryApiModel::V0
   # The response schema for the DeleteInventoryItem operation.
   class DeleteInventoryItemResponse
     attr_accessor :errors

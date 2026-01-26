@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # A collection of supported value-added services.
   class ValueAddedServiceDetails
     attr_accessor :collect_on_delivery

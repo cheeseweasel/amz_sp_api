@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # Specifies the balance amount in the Amazon SW bank account
   class Balance
     # The unique identifier provided by Amazon to identify the account 

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # The `confirmTransportationOptions` request.
   class ConfirmTransportationOptionsRequest
     # Information needed to confirm one of the available transportation options.

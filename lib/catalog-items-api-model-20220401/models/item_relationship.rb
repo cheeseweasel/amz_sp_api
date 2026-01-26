@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # Relationship details for an Amazon catalog item.
   class ItemRelationship
     # ASINs of the related items that are children of this item.

@@ -16,7 +16,7 @@ require 'tempfile'
 require 'typhoeus'
 require 'uri'
 
-module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
+module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
   class ApiClient
     # The Configuration object holding settings to be used in the API client.
     attr_accessor :config

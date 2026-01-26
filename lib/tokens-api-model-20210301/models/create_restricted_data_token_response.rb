@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::TokensApiModel
+module AmzSpApi::TokensApiModel::V20210301
   # The response schema for the createRestrictedDataToken operation.
   class CreateRestrictedDataTokenResponse
     # A Restricted Data Token (RDT). This is a short-lived access token that authorizes calls to restricted operations. Pass this value with the x-amz-access-token header when making subsequent calls to these restricted resources.

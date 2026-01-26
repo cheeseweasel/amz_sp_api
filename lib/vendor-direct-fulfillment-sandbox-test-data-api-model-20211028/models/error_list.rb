@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
+module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
   # A list of error responses returned when a request is unsuccessful.
   class ErrorList
     # An array of individual error objects containing error details.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # The total weight of units that are sold by weight in a shipment.
   class TotalWeight
     # The unit of measure for the weight of items that are ordered by cases and support pricing by weight.

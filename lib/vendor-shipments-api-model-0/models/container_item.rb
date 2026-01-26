@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # Carton/Pallet level details for the item.
   class ContainerItem
     # The reference number for the item. Please provide the itemSequenceNumber from the 'items' segment to refer to that item's details here.

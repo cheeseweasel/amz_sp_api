@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SupplySourcesApiModel
+module AmzSpApi::SupplySourcesApiModel::V20200701
   # The operating hour schema
   class OperatingHour
     # The opening time, ISO 8601 formatted timestamp without date, HH:mm.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # The response for the `getItemReviewTopics` operation.
   class ItemReviewTopicsResponse
     # The requested ASIN. The Amazon Standard Identification Number (ASIN) is the unique identifier of a product within a marketplace.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # The available label formats.
   class AvailableFormatOptionsForLabel
     # Attribute mapping from ruby-style variable name to JSON key.

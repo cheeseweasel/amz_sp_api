@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The JSON schema to use to provide additional inputs when required to purchase a shipping offering.
   class GetAdditionalInputsResult
     # Attribute mapping from ruby-style variable name to JSON key.

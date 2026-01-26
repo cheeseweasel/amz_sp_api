@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   # The information required to create an Amazon Simple Queue Service (Amazon SQS) queue destination.
   class SqsResource
     # The Amazon Resource Name (ARN) associated with the SQS queue.

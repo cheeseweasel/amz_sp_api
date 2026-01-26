@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   class OfferCustomerType
     B2_C = 'B2C'.freeze
     B2_B = 'B2B'.freeze

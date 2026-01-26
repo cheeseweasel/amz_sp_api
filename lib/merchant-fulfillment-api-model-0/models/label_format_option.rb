@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # The label format details and whether to include a packing slip.
   class LabelFormatOption
     # When true, include a packing slip with the label.

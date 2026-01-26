@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductTypeDefinitionsApiModel
+module AmzSpApi::ProductTypeDefinitionsApiModel::V20200901
   # A list of Amazon product types with definitions available.
   class ProductTypeList
     attr_accessor :product_types

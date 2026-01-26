@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # A list of inbound shipment item information.
   class InboundShipmentItemList
     # Attribute mapping from ruby-style variable name to JSON key.

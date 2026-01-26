@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   # The Amazon EventBridge destination.
   class EventBridgeResource
     # The name of the partner event source associated with the destination.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # Contains the instructions about the fulfillment, such as the location from where you want the order filled.
   class FulfillmentInstruction
     # The `sourceId` of the location from where you want the order fulfilled.

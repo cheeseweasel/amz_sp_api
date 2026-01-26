@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FeedsApiModel
+module AmzSpApi::FeedsApiModel::V20210630
   # Specifies the content type for the createFeedDocument operation.
   class CreateFeedDocumentSpecification
     # The content type of the feed.

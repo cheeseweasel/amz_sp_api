@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The request schema to get query collections form history API .
   class GetCollectionFormHistoryRequest
     attr_accessor :client_reference_details

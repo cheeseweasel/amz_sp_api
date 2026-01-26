@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   # A list of destinations.
   class DestinationList
     # Attribute mapping from ruby-style variable name to JSON key.

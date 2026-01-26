@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The request for the `getFulfillmentOrder` operation.
   class GetFulfillmentOrderResult
     attr_accessor :fulfillment_order

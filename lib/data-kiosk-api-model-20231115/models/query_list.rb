@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::DataKioskApiModel
+module AmzSpApi::DataKioskApiModel::V20231115
   # A list of queries.
   class QueryList
     # Attribute mapping from ruby-style variable name to JSON key.

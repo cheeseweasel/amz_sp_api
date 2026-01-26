@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # A list of coupon payment event information.
   class CouponPaymentEventList
     # Attribute mapping from ruby-style variable name to JSON key.

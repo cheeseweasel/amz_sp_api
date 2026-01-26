@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # Buyer information for custom orders from the Amazon Custom program.
   class BuyerCustomizedInfoDetail
     # The location of a ZIP file containing Amazon Custom data.

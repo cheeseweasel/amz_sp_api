@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # A physical address with varying degrees of precision. A more precise address can provide more accurate results than country code and postal code alone.
   class VariablePrecisionAddress
     # The first line of the address.

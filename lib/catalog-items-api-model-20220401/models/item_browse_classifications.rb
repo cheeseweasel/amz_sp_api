@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # An array of classifications (browse nodes) that is associated with the item in the Amazon catalog, grouped by `marketplaceId`.
   class ItemBrowseClassifications
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # For partial shipment status updates, the list of order items and quantities to be updated.
   class OrderItems
     # Attribute mapping from ruby-style variable name to JSON key.

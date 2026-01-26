@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # Offer promotions to include in the result filter criteria.
   class Promotion
     attr_accessor :selling_partner_funded_base_discount

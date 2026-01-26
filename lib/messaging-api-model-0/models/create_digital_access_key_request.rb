@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MessagingApiModel
+module AmzSpApi::MessagingApiModel::V0
   # The request schema for the `createDigitalAccessKey` operation.
   class CreateDigitalAccessKeyRequest
     # The text that is sent to the buyer. Only links that are related to the digital access key are allowed. Do not include HTML or email addresses. The text must be written in the buyer's preferred language, which you can retrieve from the `GetAttributes` operation.

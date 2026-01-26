@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   class CapacityType
     SCHEDULED_CAPACITY = 'SCHEDULED_CAPACITY'.freeze
     AVAILABLE_CAPACITY = 'AVAILABLE_CAPACITY'.freeze

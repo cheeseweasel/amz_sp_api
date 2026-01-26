@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # The payload for the `getAdditionalSellerInputs` operation.
   class GetAdditionalSellerInputsResult
     attr_accessor :shipment_level_fields

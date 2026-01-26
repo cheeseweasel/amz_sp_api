@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The request schema for the getRates operation. When the channelType is Amazon, the shipTo address is not required and will be ignored.
   class GetRatesRequest
     attr_accessor :ship_to

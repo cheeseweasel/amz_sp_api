@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The time range within which a Scheduled Delivery fulfillment order should be delivered. This is only available in the JP marketplace.
   class DeliveryWindow
     attr_accessor :start_date

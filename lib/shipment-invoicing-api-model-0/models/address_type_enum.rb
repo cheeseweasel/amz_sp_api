@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShipmentInvoicingApiModel
+module AmzSpApi::ShipmentInvoicingApiModel::V0
   class AddressTypeEnum
     RESIDENTIAL = 'Residential'.freeze
     COMMERCIAL = 'Commercial'.freeze

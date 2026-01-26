@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # A promotional percentage discount applied to the offer.
   class OfferProgramConfigurationPromotionsDiscountFunding
     # The percentage discount on the offer.

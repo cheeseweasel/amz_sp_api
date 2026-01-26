@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # A list of proof URLs for a claim. Basic URL validation will happen for each URLs present in the list
   class ClaimProofURLs
     # Attribute mapping from ruby-style variable name to JSON key.

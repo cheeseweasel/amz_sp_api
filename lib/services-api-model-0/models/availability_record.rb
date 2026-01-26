@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # `AvailabilityRecord` to represent the capacity of a resource over a time range.
   class AvailabilityRecord
     # Denotes the time from when the resource is available in a day in ISO-8601 format.

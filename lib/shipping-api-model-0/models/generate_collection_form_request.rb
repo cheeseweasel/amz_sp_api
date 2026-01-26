@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The request schema Call to generate the collection form.
   class GenerateCollectionFormRequest
     attr_accessor :client_reference_details

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShipmentInvoicingApiModel
+module AmzSpApi::ShipmentInvoicingApiModel::V0
   # The currency type and amount.
   class Money
     # Three-digit currency code in ISO 4217 format.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # The error response schema for the `confirmShipment` operation.
   class ConfirmShipmentErrorResponse
     attr_accessor :errors

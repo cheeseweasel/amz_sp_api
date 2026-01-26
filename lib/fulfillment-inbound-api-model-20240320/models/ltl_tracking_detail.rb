@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Contains information related to Less-Than-Truckload (LTL) shipment tracking.
   class LtlTrackingDetail
     # The number of the carrier shipment acknowledgement document.

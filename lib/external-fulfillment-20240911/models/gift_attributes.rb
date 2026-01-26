@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # Information about any gift wrapping that is needed for this line item.
   class GiftAttributes
     attr_accessor :gift_wrap_requirement

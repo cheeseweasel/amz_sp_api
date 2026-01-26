@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # The time window when the delivery is preferred.
   class PreferredDeliveryTime
     # Business hours when the business is open for deliveries.

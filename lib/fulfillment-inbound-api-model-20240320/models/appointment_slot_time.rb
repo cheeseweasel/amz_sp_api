@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # An appointment slot time with start and end.
   class AppointmentSlotTime
     # The end timestamp of the appointment in UTC.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # A pre-signed URL for the zip document containing the shipping labels and the documents enabled for your marketplace.
   class URL
     # Attribute mapping from ruby-style variable name to JSON key.

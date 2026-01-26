@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # Image for an item in the Amazon catalog.
   class ItemImage
     # Variant of the image, such as `MAIN` or `PT01`.

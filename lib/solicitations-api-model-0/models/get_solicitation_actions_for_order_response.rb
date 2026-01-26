@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SolicitationsApiModel
+module AmzSpApi::SolicitationsApiModel::V0
   # The response schema for the getSolicitationActionsForOrder operation.
   class GetSolicitationActionsForOrderResponse
     attr_accessor :_links

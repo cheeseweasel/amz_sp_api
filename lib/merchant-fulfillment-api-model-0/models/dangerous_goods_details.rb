@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # Details related to any dangerous goods or items that are shipped.
   class DangerousGoodsDetails
     # The specific UNID of the item being shipped.

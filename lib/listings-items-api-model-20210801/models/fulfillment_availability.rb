@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # The fulfillment availability details for the listings item.
   class FulfillmentAvailability
     # Designates which fulfillment network is used.

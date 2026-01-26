@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # The response to the `listPrepDetails` operation.
   class ListPrepDetailsResponse
     # A list of MSKUs and related prep details.

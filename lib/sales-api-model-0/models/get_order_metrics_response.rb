@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SalesApiModel
+module AmzSpApi::SalesApiModel::V0
   # The response schema for the getOrderMetrics operation.
   class GetOrderMetricsResponse
     attr_accessor :payload

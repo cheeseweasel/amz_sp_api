@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Details of an order.
   class OrderDetails
     # The date the purchase order was placed. Must be in ISO-8601 date/time format.

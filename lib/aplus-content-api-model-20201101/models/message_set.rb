@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # A set of messages to the user, such as warnings or comments.
   class MessageSet
     # Attribute mapping from ruby-style variable name to JSON key.

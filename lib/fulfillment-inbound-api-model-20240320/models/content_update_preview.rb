@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Preview of the changes that will be applied to the shipment.
   class ContentUpdatePreview
     # Identifier of a content update preview.

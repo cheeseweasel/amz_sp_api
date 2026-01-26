@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240601
   # The list of payment method types that are present.
   class PaymentMethodTypeList
     # Attribute mapping from ruby-style variable name to JSON key.

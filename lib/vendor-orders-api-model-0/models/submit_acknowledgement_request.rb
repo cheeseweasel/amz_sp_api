@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # The request schema for the submitAcknowledgment operation.
   class SubmitAcknowledgementRequest
     # An array of order acknowledgements to be submitted.

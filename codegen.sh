@@ -99,11 +99,10 @@ for FILE in $(find "$MODELS_ROOT" -name "*.json" | sort); do
   rm -f "lib/${API_NAME}/"*.md   # optional: remove any leftover docs
 
   # Post-process to fix/ensure module nesting in generated .rb files
-  # find "lib/${API_NAME}" -type f -name "*.rb" -exec sed -i \
-    # -e "s/module ${MODULE_BASE}/module AmzSpApi::${MODULE_BASE}::${VERSION_MODULE}/g" \
-    # -e "s/require 'amz_sp_api\//require '${API_NAME}\//g" \
-    # {} \;
-    #-e "s/class /class AmzSpApi::${MODULE_NAME}::/g" \
+  find "lib/${API_NAME}" -type f -name "*.rb" -exec sed -i \
+    -e "s/module AmzSpApi::${MODULE_BASE}/module AmzSpApi::${MODULE_NAME}/g" \
+    -e "s/require 'amz_sp_api\//require '${API_NAME}\//g" \
+    {} \;
 
   if [ -f "$ENTRY_TARGET" ]; then
     sed -i "s/module AmzSpApi::${MODULE_BASE}/module AmzSpApi::${MODULE_NAME}/" "$ENTRY_TARGET"

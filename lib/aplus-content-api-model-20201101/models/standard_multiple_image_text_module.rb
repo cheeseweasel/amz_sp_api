@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # Standard images with text, presented one at a time. The user clicks on thumbnails to view each block.
   class StandardMultipleImageTextModule
     attr_accessor :blocks

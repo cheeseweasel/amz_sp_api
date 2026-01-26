@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # A delivery document for a package.
   class DeliveryDocument
     # The delivery document type. The only possible value is `DELIVERY_IMAGE`.

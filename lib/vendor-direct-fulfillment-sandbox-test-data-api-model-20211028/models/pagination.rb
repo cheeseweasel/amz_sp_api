@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
+module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
   # A generated string used to pass information to your next request. If NextToken is returned, pass the value of NextToken to the next request. If NextToken is not returned, there are no more order items to return.
   class Pagination
     # A generated token to be passed in the next request to retrieve the next set of results.

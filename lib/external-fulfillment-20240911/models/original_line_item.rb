@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # A line item from the original shipment that corresponds to this shipment.
   class OriginalLineItem
     # The SKU ID for this shipment

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # A list of information about trial shipment financial events.
   class TrialShipmentEventList
     # Attribute mapping from ruby-style variable name to JSON key.

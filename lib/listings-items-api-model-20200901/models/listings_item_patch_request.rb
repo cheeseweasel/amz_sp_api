@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20200901
   # The request body schema for the patchListingsItem operation.
   class ListingsItemPatchRequest
     # The Amazon product type of the listings item.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # A list of charges based on the shipping service charges applied on a package.
   class ChargeList
     # Attribute mapping from ruby-style variable name to JSON key.

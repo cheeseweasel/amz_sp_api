@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # The state or province code. This is a required field in Canada, US, and UK marketplaces, and for shipments that originate in China.
   class StateOrProvinceCode
     # Attribute mapping from ruby-style variable name to JSON key.

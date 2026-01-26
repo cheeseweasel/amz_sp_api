@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # The response schema for the `listHandoverSlots` operation.
   class ListHandoverSlotsResponse
     attr_accessor :amazon_order_id

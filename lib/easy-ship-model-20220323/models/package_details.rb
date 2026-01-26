@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # Package details. Includes `packageItems`, `packageTimeSlot`, and `packageIdentifier`.
   class PackageDetails
     attr_accessor :package_items

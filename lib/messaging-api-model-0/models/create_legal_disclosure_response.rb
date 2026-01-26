@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MessagingApiModel
+module AmzSpApi::MessagingApiModel::V0
   # The response schema for the createLegalDisclosure operation.
   class CreateLegalDisclosureResponse
     attr_accessor :errors

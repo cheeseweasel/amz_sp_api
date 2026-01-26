@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorInvoicesApiModel
+module AmzSpApi::VendorInvoicesApiModel::V0
   # Tax registration details of the entity.
   class TaxRegistrationDetails
     # The tax registration type for the entity.

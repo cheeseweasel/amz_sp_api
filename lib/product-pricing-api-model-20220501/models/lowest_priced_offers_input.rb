@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # The input required for building `LowestPricedOffers` data in the response.
   class LowestPricedOffersInput
     attr_accessor :item_condition

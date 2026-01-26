@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # The preparation details for a product. This contains the prep category, prep owner, and label owner. Prep instructions are generated based on the specified category.
   class PrepDetails
     attr_accessor :label_owner

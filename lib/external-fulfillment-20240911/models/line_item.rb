@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # Information about the line item being confirmed or rejected.
   class LineItem
     # The identifier of the line item from the shipment that is being confirmed or rejected by the seller.

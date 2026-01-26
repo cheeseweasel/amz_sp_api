@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The Response  for the GenerateCollectionFormResponse operation.
   class GenerateCollectionFormResponse
     attr_accessor :collections_form_document

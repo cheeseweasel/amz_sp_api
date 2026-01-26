@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # The request schema for the `listHandoverSlots` operation.
   class ListHandoverSlotsRequest
     attr_accessor :marketplace_id

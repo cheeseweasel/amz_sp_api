@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # The product category or subcategory that is associated with an Amazon catalog item.
   class ItemVendorDetailsCategory
     # The display name of the product category or subcategory.

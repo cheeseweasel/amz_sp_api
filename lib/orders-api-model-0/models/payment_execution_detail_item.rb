@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # Information about a sub-payment method used to pay for a COD order.
   class PaymentExecutionDetailItem
     attr_accessor :payment

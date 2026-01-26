@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Contains item identifiers and related tax information.
   class ComplianceDetail
     # The Amazon Standard Identification Number, which identifies the detail page identifier.

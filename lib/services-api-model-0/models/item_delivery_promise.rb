@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Promised delivery information for the item.
   class ItemDeliveryPromise
     # The date and time of the start of the promised delivery window in ISO 8601 format.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # An item of a debt payment or debt adjustment.
   class DebtRecoveryItem
     attr_accessor :recovery_amount

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Denotes time of the day, used for defining opening or closing time of access points
   class TimeOfDay
     # Denotes hour of the day, used for defining opening or closing time of access points

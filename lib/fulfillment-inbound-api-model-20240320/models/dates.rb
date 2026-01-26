@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Specifies the date that the seller expects their shipment will be shipped.
   class Dates
     attr_accessor :ready_to_ship_window

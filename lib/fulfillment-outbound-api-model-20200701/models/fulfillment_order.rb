@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # General information about a fulfillment order, including its status.
   class FulfillmentOrder
     # The fulfillment order identifier submitted with the `createFulfillmentOrder` operation.

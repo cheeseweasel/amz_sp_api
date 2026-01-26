@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # Additional information related to the verification of a regulated order.
   class VerificationDetails
     attr_accessor :prescription_detail

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Rate Item for shipping (base cost, transaction fee, confirmation, insurance, etc.) Data source definition: 
   class RateItem
     attr_accessor :rate_item_id

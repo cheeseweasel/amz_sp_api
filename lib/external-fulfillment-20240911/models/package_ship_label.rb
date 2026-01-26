@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # A shipping label with a label document for a single package. If label generation fails, you can use the `status` and `errorDetails` attributes to determine the cause of failure.
   class PackageShipLabel
     # The package ID of the package.

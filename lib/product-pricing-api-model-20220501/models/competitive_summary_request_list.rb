@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # A batched list of `competitiveSummary` requests.
   class CompetitiveSummaryRequestList
     # Attribute mapping from ruby-style variable name to JSON key.

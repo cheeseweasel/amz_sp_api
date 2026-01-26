@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # The response schema for the `listFinancialEvents` operation.
   class ListFinancialEventsResponse
     attr_accessor :payload

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # Product types for a listing item, by marketplace.
   class ItemProductTypes
     # Attribute mapping from ruby-style variable name to JSON key.

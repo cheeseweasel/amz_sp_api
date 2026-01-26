@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # The number of Amazon Points that are offered with the purchase of an item and the monetary value of these points.
   class Points
     # The number of Amazon Points.

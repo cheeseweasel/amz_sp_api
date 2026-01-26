@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # An object which represents all promotions applied to an offer.
   class OfferProgramConfigurationPromotions
     attr_accessor :selling_partner_funded_base_discount

@@ -16,7 +16,7 @@ require 'tempfile'
 require 'typhoeus'
 require 'uri'
 
-module AmzSpApi::VendorTransactionStatusApiModel
+module AmzSpApi::VendorTransactionStatusApiModel::V0
   class ApiClient
     # The Configuration object holding settings to be used in the API client.
     attr_accessor :config

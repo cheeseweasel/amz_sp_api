@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # A list of other fees that contribute to a given fee.
   class IncludedFeeDetailList
     # Attribute mapping from ruby-style variable name to JSON key.

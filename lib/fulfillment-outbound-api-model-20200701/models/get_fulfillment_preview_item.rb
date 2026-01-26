@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # Item information for a fulfillment order preview.
   class GetFulfillmentPreviewItem
     # The seller SKU of the item.

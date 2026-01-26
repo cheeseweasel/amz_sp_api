@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # Schema to identify an item by MarketPlaceId, SellerId, and SellerSKU.
   class SellerSKUIdentifier
     # A marketplace identifier.

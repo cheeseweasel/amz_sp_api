@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The dots per inch (DPI) value used in printing. This value represents a measure of the resolution of the document.
   class Dpi
     # Attribute mapping from ruby-style variable name to JSON key.

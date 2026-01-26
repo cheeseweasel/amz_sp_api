@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # An array of fulfillment shipment package information.
   class FulfillmentShipmentPackageList
     # Attribute mapping from ruby-style variable name to JSON key.

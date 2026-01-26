@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # The A+ Content standard fixed-length list of text, usually presented as bullet points.
   class StandardTextListBlock
     attr_accessor :text_list

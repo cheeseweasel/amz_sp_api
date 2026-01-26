@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # A marketplace identifier. Specifies the marketplace for which prices are returned.
   class MarketplaceId
     # Attribute mapping from ruby-style variable name to JSON key.

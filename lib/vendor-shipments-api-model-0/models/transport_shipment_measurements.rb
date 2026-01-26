@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # Shipment measurement details.
   class TransportShipmentMeasurements
     # Total number of cartons present in the shipment. Provide the cartonCount only for non-palletized shipments.

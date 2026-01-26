@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V0
   class Categories
     # The identifier for the product category (or browse node).
     attr_accessor :product_category_id

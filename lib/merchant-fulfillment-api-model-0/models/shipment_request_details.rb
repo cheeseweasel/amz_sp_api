@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # Shipment information required for requesting shipping service offers or for creating a shipment.
   class ShipmentRequestDetails
     attr_accessor :amazon_order_id

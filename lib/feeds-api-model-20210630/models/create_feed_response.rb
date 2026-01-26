@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FeedsApiModel
+module AmzSpApi::FeedsApiModel::V20210630
   # Response schema.
   class CreateFeedResponse
     # The identifier for the feed. This identifier is unique only in combination with a seller ID.

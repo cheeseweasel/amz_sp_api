@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorTransactionStatusApiModel
+module AmzSpApi::VendorTransactionStatusApiModel::V0
   # The transaction status.
   class Transaction
     # The unique identifier returned in the 'transactionId' field in response to the post request of a specific transaction.

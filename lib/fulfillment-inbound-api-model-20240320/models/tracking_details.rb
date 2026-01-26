@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Tracking information for Less-Than-Truckload (LTL) and Small Parcel Delivery (SPD) shipments.
   class TrackingDetails
     attr_accessor :ltl_tracking_detail

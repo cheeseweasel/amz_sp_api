@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # The schema for item's price information, including listing price, shipping price, and Amazon Points.
   class Price
     attr_accessor :listing_price

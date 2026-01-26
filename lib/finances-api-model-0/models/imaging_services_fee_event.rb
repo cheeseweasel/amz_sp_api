@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # A fee event related to Amazon Imaging services.
   class ImagingServicesFeeEvent
     # The identifier for the imaging services request.

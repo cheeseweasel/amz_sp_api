@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # The variation theme is a list of Amazon catalog item attributes that define the variation family.
   class ItemVariationTheme
     # Names of the Amazon catalog item attributes that are associated with the variation theme.

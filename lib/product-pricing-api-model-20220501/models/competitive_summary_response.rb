@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # The response for the individual `competitiveSummary` request in the batch operation.
   class CompetitiveSummaryResponse
     attr_accessor :status

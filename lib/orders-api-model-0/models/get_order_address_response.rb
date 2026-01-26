@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # The response schema for the `getOrderAddress` operation.
   class GetOrderAddressResponse
     attr_accessor :payload

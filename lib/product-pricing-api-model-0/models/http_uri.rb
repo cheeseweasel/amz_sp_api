@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # The URI associated with the individual APIs being called as part of the batch request.
   class HttpUri
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # Four standard images with text, presented on a grid of four quadrants.
   class StandardFourImageTextQuadrantModule
     attr_accessor :block1

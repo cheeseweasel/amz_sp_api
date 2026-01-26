@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SupplySourcesApiModel
+module AmzSpApi::SupplySourcesApiModel::V20200701
   # A list of Operating Hours.
   class OperatingHours
     # Attribute mapping from ruby-style variable name to JSON key.

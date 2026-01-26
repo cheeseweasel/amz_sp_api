@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # A classification that you can use to refine your search.
   class ClassificationRefinement
     # The estimated number of results that would be returned if you refine your search by the specified `classificationId`.

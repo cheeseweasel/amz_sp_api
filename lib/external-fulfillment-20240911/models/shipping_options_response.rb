@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # The response to the `retrieveShippingOptions` operation. The response contains shipping options on a per-package basis from which the seller has to select one shipping option while they retrieve the shipping label. If the particular marketplace channel does not support scheduled shipping options, then this response will be empty.
   class ShippingOptionsResponse
     # A list of shipping options.

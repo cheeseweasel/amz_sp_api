@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # An object which contains offer metrics.
   class ListOfferMetricsResponseOffer
     # The Amazon Standard Identification Number (ASIN).

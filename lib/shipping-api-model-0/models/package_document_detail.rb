@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The post-purchase details of a package that will be shipped using a shipping service.
   class PackageDocumentDetail
     attr_accessor :package_client_reference_id

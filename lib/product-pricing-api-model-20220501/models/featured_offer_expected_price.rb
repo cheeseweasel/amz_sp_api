@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # The item price at or below which the target offer may be featured.
   class FeaturedOfferExpectedPrice
     attr_accessor :listing_price

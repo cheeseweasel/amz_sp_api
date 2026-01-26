@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # The number of Amazon Points offered with the purchase of an item.The Amazon Points program is only available in Japan.
   class Points
     # The number of Amazon Points

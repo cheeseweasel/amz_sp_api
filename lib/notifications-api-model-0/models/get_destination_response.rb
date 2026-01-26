@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   # The response schema for the `getDestination` operation.
   class GetDestinationResponse
     attr_accessor :payload

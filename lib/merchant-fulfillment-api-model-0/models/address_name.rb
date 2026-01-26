@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # The name of the addressee, or business name.
   class AddressName
     # Attribute mapping from ruby-style variable name to JSON key.

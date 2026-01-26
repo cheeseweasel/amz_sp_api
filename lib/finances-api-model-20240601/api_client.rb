@@ -16,7 +16,7 @@ require 'tempfile'
 require 'typhoeus'
 require 'uri'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240601
   class ApiClient
     # The Configuration object holding settings to be used in the API client.
     attr_accessor :config

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # Topics from returns for all items in a browse node.
   class BrowseNodeReturnTopics
     # The name of the return feedback topic .

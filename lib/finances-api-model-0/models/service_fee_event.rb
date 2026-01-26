@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # A service fee on the seller's account.
   class ServiceFeeEvent
     # An Amazon-defined identifier for an order.

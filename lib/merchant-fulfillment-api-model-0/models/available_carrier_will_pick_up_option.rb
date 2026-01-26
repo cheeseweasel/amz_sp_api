@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # Indicates whether the carrier will pick up the package, and what fee is charged, if any.
   class AvailableCarrierWillPickUpOption
     attr_accessor :carrier_will_pick_up_option

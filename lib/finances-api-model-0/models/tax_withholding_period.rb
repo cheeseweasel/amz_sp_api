@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # The period during which tax withholding on a seller's account is calculated.
   class TaxWithholdingPeriod
     attr_accessor :start_date

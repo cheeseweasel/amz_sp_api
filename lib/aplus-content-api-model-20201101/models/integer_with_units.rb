@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # A whole number dimension and its unit of measurement. For example, this can represent 100 pixels.
   class IntegerWithUnits
     # The dimension value.

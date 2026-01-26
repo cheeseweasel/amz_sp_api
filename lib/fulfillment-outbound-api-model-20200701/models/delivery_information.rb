@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The delivery information for the package. This information is available after the package is delivered.
   class DeliveryInformation
     attr_accessor :delivery_document_list

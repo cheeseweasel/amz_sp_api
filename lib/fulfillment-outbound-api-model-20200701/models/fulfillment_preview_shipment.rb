@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # Delivery and item information for a shipment in a fulfillment order preview.
   class FulfillmentPreviewShipment
     attr_accessor :earliest_ship_date

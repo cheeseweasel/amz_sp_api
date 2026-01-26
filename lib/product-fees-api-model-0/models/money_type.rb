@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # An object representing a monetary value with its currency information.
   class MoneyType
     # The currency code in ISO 4217 format.

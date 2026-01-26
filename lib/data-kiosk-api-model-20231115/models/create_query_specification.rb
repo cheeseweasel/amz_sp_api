@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::DataKioskApiModel
+module AmzSpApi::DataKioskApiModel::V20231115
   # Information required to create the query.
   class CreateQuerySpecification
     # The GraphQL query to submit. A query must be at most 8000 characters after unnecessary whitespace is removed.

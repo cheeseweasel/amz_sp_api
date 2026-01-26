@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SolicitationsApiModel
+module AmzSpApi::SolicitationsApiModel::V0
   # A simple object containing the name of the template.
   class SolicitationsAction
     attr_accessor :name

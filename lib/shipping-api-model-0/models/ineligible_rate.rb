@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Detailed information for an ineligible shipping service offering.
   class IneligibleRate
     attr_accessor :service_id

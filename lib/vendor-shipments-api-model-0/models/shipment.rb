@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # A list of one or more shipments with respective details.
   class Shipment
     # Unique Transportation ID created by Vendor (Should not be used over the last 365 days).

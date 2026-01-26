@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # A problem with additional properties persisted to an operation.
   class OperationProblem
     # An error code that identifies the type of error that occurred.

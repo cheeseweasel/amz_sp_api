@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240601
   class PaymentMethodType
     BANK_ACCOUNT = 'BANK_ACCOUNT'.freeze
     CARD = 'CARD'.freeze

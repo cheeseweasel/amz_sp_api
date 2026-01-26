@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   class EventCode
     N101 = 'EVENT_101'.freeze
     N102 = 'EVENT_102'.freeze

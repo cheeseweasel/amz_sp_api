@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # Carton reference details.
   class CartonReferenceDetails
     # Pallet level carton count is mandatory for single item pallet and optional for mixed item pallet.

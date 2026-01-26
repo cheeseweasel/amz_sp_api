@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Response schema for the `cancelReservation` operation.
   class CancelReservationResponse
     attr_accessor :errors

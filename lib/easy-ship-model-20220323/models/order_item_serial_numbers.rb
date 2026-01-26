@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # A list of serial numbers for the items associated with the `OrderItemId` value.
   class OrderItemSerialNumbers
     # Attribute mapping from ruby-style variable name to JSON key.

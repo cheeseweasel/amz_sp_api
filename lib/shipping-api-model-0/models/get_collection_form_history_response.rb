@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The Response  for the GetCollectionFormHistoryResponse operation.
   class GetCollectionFormHistoryResponse
     attr_accessor :collection_forms_history_record_list

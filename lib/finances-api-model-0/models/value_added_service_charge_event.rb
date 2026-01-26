@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # An event related to a value added service charge.
   class ValueAddedServiceChargeEvent
     # The transaction type. For example, 'Other Support Service fees'

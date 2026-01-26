@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # A SAFE-T claim reimbursement on the seller's account.
   class SAFETReimbursementEvent
     attr_accessor :posted_date

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # UnmanifestedCarrierInformation like carrierId CarrierName and Location
   class UnmanifestedCarrierInformation
     attr_accessor :carrier_id

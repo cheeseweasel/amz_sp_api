@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Encryption details for required client-side encryption and decryption of document contents.
   class EncryptionDetails
     # The encryption standard required to encrypt or decrypt the document contents.

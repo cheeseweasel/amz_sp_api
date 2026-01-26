@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # An event related to an Adhoc Disbursement.
   class AdhocDisbursementEvent
     # The type of transaction. For example, \"Disbursed to Amazon Gift Card balance\".

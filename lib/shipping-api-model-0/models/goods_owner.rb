@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The seller owning the goods before handing them over to the carrier
   class GoodsOwner
     attr_accessor :merchant_id

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # The appointment reschedule reason code.
   class RescheduleReasonCode
     # Attribute mapping from ruby-style variable name to JSON key.

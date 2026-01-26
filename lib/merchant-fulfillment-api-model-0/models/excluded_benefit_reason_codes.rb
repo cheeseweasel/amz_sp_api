@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # List of reasons why a benefit is excluded for a shipping offer (for example, `LATE_DELIVERY_RISK`).
   class ExcludedBenefitReasonCodes
     # Attribute mapping from ruby-style variable name to JSON key.

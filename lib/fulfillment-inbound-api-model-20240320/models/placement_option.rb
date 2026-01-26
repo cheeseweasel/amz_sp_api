@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Contains information pertaining to the placement of the contents of an inbound plan and the related costs.
   class PlacementOption
     # Discount for the offered option.

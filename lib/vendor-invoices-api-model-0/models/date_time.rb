@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorInvoicesApiModel
+module AmzSpApi::VendorInvoicesApiModel::V0
   # Defines a date and time according to ISO8601.
   class DateTime
     # Attribute mapping from ruby-style variable name to JSON key.

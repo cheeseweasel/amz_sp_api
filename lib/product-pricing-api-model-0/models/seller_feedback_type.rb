@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # Information about the seller's feedback, including the percentage of positive feedback, and the total number of ratings received.
   class SellerFeedbackType
     # The percentage of positive feedback for the seller in the past 365 days.

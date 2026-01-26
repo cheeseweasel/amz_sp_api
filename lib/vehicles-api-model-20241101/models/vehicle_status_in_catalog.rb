@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VehiclesApiModel
+module AmzSpApi::VehiclesApiModel::V20241101
   class VehicleStatusInCatalog
     ACTIVE = 'ACTIVE'.freeze
     DELETED = 'DELETED'.freeze

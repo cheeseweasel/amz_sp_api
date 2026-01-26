@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   class LabelPrepType
     NO_LABEL = 'NO_LABEL'.freeze
     SELLER_LABEL = 'SELLER_LABEL'.freeze

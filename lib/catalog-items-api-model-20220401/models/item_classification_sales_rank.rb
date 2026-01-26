@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # Sales rank of an Amazon catalog item.
   class ItemClassificationSalesRank
     # Identifier of the classification that is associated with the sales rank.

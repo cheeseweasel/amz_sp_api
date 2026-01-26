@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::InvoicesApiModel
+module AmzSpApi::InvoicesApiModel::V20240619
   # The error response that is returned when the request is unsuccessful.
   class Error
     # An error code that identifies the type of error that occurred.

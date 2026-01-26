@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Range capacity entity where each entry has a capacity type and corresponding slots.
   class RangeCapacity
     attr_accessor :capacity_type

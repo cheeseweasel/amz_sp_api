@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::DataKioskApiModel
+module AmzSpApi::DataKioskApiModel::V20231115
   # Detailed information about the query.
   class Query
     # The query identifier. This identifier is unique only in combination with a selling partner account ID.

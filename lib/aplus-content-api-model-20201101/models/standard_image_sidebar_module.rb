@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # Two images, two paragraphs, and two bulleted lists. One image is smaller and displayed in the sidebar.
   class StandardImageSidebarModule
     attr_accessor :headline

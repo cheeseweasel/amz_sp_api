@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   class InventoryUnitOfMeasurement
     PRODUCT_UNITS = 'PRODUCT_UNITS'.freeze
     CASES = 'CASES'.freeze

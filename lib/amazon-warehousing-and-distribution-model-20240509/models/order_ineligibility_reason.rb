@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Represents one ineligibility reason for the order (there can be multiple reasons).
   class OrderIneligibilityReason
     # Code for the order ineligibility.

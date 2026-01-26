@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The origin for the delivery offer.
   class Origin
     # The two digit country code the items should ship from. In ISO 3166-1 alpha-2 format.

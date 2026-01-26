@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsRestrictionsApiModel
+module AmzSpApi::ListingsRestrictionsApiModel::V20210801
   # A link to resources related to a listing restriction.
   class Link
     # The URI of the related resource.

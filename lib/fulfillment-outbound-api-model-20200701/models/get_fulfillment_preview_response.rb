@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The response schema for the `getFulfillmentPreview` operation.
   class GetFulfillmentPreviewResponse
     attr_accessor :payload

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # A custom attribute that is loosely typed, modeled through a key-value pair and its data type.
   class CustomAttribute
     # The key of the custom attribute. Must be unique.

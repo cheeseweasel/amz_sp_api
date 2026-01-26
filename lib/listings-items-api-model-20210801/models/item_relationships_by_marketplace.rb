@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # Relationship details for the listing item in the specified marketplace.
   class ItemRelationshipsByMarketplace
     # Amazon marketplace identifier.

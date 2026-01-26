@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # The response payload for the SubmitShipmentConfirmations operation.
   class TransactionReference
     # GUID assigned by Buyer to identify this transaction. This value can be used with the Transaction Status API to return the status of this transaction.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240601
   # The details of a payment method.
   class PaymentMethodDetails
     # The name of the account holder who is registered for the payment method.

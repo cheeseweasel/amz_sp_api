@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The value-added services available for purchase with a shipping service offering.
   class AvailableValueAddedServiceGroup
     # The type of the value-added service group.

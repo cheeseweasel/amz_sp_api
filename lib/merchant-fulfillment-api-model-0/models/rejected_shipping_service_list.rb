@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # List of services that are for some reason unavailable for this request
   class RejectedShippingServiceList
     # Attribute mapping from ruby-style variable name to JSON key.

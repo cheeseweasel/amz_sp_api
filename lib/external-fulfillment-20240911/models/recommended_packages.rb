@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # Recommendations for the packages in an order.
   class RecommendedPackages
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # The container for address extended fields (such as `street name` and `street number`). Currently only available with Brazil shipping addresses.
   class AddressExtendedFields
     # The street name.

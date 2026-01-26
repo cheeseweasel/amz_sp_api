@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SupplySourcesApiModel
+module AmzSpApi::SupplySourcesApiModel::V20200701
   # A date and time in the rfc3339 format.
   class DateTime
     # Attribute mapping from ruby-style variable name to JSON key.

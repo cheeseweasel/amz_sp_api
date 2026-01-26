@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # The seller SKU of a product (catalog item). A unique number assigned by the seller when listing an item.
   class SKU
     # Attribute mapping from ruby-style variable name to JSON key.

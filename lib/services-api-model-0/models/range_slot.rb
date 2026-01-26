@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Capacity slots represented in a format similar to availability rules.
   class RangeSlot
     # Start date time of slot in ISO 8601 format with precision of seconds.

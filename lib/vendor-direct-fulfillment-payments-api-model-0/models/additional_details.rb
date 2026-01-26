@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel
+module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel::V0
   # A field where the selling party can provide additional information for tax-related or any other purposes.
   class AdditionalDetails
     # The type of the additional information provided by the selling party.

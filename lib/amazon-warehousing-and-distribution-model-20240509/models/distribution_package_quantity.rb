@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Represents a distribution package with its respective quantity.
   class DistributionPackageQuantity
     # Number of cases or pallets with the same package configuration.

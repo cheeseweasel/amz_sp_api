@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # The child ASIN review topic mention metrics.
   class ChildAsinMentionMetrics
     # The child ASIN of the requested item.

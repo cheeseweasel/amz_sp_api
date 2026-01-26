@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   class OrderChangeTypeEnum
     ORDER_STATUS_CHANGE = 'OrderStatusChange'.freeze
     BUYER_REQUESTED_CHANGE = 'BuyerRequestedChange'.freeze

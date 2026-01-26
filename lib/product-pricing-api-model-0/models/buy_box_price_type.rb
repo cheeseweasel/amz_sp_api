@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # Schema for an individual buybox price.
   class BuyBoxPriceType
     # Indicates the condition of the item. For example: New, Used, Collectible, Refurbished, or Club.

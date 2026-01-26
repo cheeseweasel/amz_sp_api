@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductTypeDefinitionsApiModel
+module AmzSpApi::ProductTypeDefinitionsApiModel::V20200901
   # A property group represents a logical grouping of schema properties that can be used for display or informational purposes.
   class PropertyGroup
     # The display label of the property group.

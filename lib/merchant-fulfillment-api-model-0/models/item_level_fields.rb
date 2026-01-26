@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # A list of item level fields.
   class ItemLevelFields
     # The Amazon Standard Identification Number (ASIN) of the item.

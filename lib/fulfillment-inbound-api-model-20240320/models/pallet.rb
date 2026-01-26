@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Contains information about a pallet that is used in the inbound plan. The pallet is a container that holds multiple items or boxes.
   class Pallet
     attr_accessor :dimensions

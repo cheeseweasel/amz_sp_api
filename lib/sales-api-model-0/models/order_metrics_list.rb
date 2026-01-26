@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SalesApiModel
+module AmzSpApi::SalesApiModel::V0
   # A set of order metrics, each scoped to a particular time interval.
   class OrderMetricsList
     # Attribute mapping from ruby-style variable name to JSON key.

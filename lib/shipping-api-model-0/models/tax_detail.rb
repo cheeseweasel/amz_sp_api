@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Indicates the tax specifications associated with the shipment for customs compliance purposes in certain regions.
   class TaxDetail
     attr_accessor :tax_type

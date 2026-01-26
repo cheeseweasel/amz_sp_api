@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # A token that you use to fetch a specific page when there are multiple pages of results.
   class PageToken
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # An item identifier and the estimated fees for the item.
   class FeesEstimateResult
     # The status of the fee request. Possible values: Success, ClientError, ServiceError.

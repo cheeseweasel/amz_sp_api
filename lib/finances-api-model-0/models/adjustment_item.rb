@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # An item in an adjustment to the seller's account.
   class AdjustmentItem
     # Represents the number of units in the seller's inventory when the `AdjustmentType` is `FBAInventoryReimbursement`.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Summary for an AWD inbound shipment containing the shipment ID, which can be used to retrieve the actual shipment.
   class InboundShipmentSummary
     # Timestamp when the shipment was created.

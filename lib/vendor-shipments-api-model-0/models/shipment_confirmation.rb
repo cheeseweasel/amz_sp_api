@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # A list of one or more shipment confirmations.
   class ShipmentConfirmation
     # Unique shipment ID (not used over the last 365 days).

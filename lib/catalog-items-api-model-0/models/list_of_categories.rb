@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V0
   class ListOfCategories
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # A removal shipment event for a removal order.
   class RemovalShipmentEvent
     attr_accessor :posted_date

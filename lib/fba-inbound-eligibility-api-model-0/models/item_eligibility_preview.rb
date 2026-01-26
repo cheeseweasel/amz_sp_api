@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInboundEligibilityApiModel
+module AmzSpApi::FbaInboundEligibilityApiModel::V0
   # The response object which contains the ASIN, marketplaceId if required, eligibility program, the eligibility status (boolean), and a list of ineligibility reason codes.
   class ItemEligibilityPreview
     # The ASIN for which eligibility was determined.

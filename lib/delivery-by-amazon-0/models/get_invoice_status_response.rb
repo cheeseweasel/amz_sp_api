@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::DeliveryByAmazon
+module AmzSpApi::DeliveryByAmazon::V0
   # The response schema for the getInvoiceStatus operation.
   class GetInvoiceStatusResponse
     # The Amazon-defined order identifier.

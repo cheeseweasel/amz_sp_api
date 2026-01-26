@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # A standard headline and body text with an image on the side.
   class StandardSingleSideImageModule
     attr_accessor :image_position_type

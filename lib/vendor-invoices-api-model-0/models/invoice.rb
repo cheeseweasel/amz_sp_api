@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorInvoicesApiModel
+module AmzSpApi::VendorInvoicesApiModel::V0
   # Represents an invoice or credit note document with details about the transaction, parties involved, and line items.
   class Invoice
     # Identifies the type of invoice.

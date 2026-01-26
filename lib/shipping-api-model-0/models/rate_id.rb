@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # An identifier for the rate (shipment offering) provided by a shipping service provider.
   class RateId
     # Attribute mapping from ruby-style variable name to JSON key.

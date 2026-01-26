@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentShippingApiModel
+module AmzSpApi::VendorDirectFulfillmentShippingApiModel::V0
   # Represents an item that has been packed into a container for shipping.
   class PackedItem
     # Item Sequence Number for the item. This must be the same value as sent in the order for a given item.

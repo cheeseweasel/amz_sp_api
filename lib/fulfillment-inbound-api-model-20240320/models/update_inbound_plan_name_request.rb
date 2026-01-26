@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # The `updateInboundPlanName` request.
   class UpdateInboundPlanNameRequest
     # A human-readable name to update the inbound plan name to.

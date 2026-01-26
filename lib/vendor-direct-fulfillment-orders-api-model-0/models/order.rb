@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentOrdersApiModel
+module AmzSpApi::VendorDirectFulfillmentOrdersApiModel::V0
   # Represents a purchase order.
   class Order
     # The purchase order number for this order. Formatting Notes: alpha-numeric code.

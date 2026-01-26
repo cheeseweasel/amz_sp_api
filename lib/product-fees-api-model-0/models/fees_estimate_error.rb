@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # An unexpected error occurred during this operation.
   class FeesEstimateError
     # An error type, identifying either the receiver or the sender as the originator of the error.

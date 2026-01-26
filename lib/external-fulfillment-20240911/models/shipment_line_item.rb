@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # Information about a line item in a shipment.
   class ShipmentLineItem
     # An identifier for a shipment's line item. This identifier is guaranteed to be unique within the scope of its containing shipment.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # The relationship details for a listing item.
   class ItemRelationship
     # Identifiers (SKUs) of the related items that are children of this listing item.

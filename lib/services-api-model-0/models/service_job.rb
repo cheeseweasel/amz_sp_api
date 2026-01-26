@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # The job details of a service.
   class ServiceJob
     # The date and time of the creation of the job in ISO 8601 format.

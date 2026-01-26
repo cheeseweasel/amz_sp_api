@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Additional inventory details. This object is only displayed if the details parameter in the request is set to `SHOW`.
   class InventoryDetails
     # Quantity that is available for downstream channel replenishment.

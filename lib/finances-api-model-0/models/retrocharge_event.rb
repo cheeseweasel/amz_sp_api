@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # A retrocharge or retrocharge reversal.
   class RetrochargeEvent
     # The type of event.  Possible values:  * `Retrocharge`  * `RetrochargeReversal`

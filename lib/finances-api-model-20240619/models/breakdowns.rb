@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240619
   # A list of breakdowns that detail how the total amount is calculated for the transaction.
   class Breakdowns
     # Attribute mapping from ruby-style variable name to JSON key.

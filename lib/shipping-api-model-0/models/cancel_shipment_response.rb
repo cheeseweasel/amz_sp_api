@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Response schema for the cancelShipment operation.
   class CancelShipmentResponse
     attr_accessor :payload

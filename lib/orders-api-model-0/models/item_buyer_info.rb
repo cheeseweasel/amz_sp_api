@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # A single item's buyer information.
   class ItemBuyerInfo
     attr_accessor :buyer_customized_info

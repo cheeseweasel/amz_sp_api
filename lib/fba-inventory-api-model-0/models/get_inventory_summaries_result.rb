@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInventoryApiModel
+module AmzSpApi::FbaInventoryApiModel::V0
   # The payload schema for the getInventorySummaries operation.
   class GetInventorySummariesResult
     attr_accessor :granularity

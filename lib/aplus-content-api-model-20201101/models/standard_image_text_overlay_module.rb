@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # A standard background image with a floating text box.
   class StandardImageTextOverlayModule
     attr_accessor :overlay_color_type

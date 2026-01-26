@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # A datetime value in ISO 8601 format.
   class DateTime
     # Attribute mapping from ruby-style variable name to JSON key.

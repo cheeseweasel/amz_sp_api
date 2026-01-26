@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # The effects of a topic on the star ratings in a browse node.
   class BrowseNodeAllStarRatingImpact
     # The effect of the topic on the star rating of the top 25 percent of products in the browse node. This value can be positive or negative.

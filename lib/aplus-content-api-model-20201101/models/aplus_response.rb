@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # The base response data for all A+ Content operations when a request is successful or partially successful. Individual operations can extend this with additional data.
   class AplusResponse
     attr_accessor :warnings

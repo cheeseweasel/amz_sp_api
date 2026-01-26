@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SupplySourcesApiModel
+module AmzSpApi::SupplySourcesApiModel::V20200701
   # The result of creating a new supply source.
   class CreateSupplySourceResponse
     attr_accessor :supply_source_id

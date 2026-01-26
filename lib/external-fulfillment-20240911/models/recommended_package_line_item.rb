@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # A line item to be contained in a recommended package. This attribute is provided only for orders that come with a specific recommendation of line-item distribution within the package recommendations.
   class RecommendedPackageLineItem
     # An ID for a line item in an order. The line item should be present in the recommended package. This identifier has the same value as the ID of the line item present in the order.

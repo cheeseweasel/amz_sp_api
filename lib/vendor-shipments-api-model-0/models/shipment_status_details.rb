@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # Shipment Status details.
   class ShipmentStatusDetails
     # Current status of the shipment on whether it is picked up or scheduled.

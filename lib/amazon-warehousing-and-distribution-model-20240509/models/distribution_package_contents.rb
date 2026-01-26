@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Represents the contents inside a package, which can be products or a nested package.
   class DistributionPackageContents
     # This is required only when `DistributionPackageType=PALLET`.

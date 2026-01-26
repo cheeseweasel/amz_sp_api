@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentShippingApiModel
+module AmzSpApi::VendorDirectFulfillmentShippingApiModel::V20211228
   # The request schema for the `submitShippingLabelRequest` operation.
   class SubmitShippingLabelsRequest
     # An array of shipping label requests to be processed.

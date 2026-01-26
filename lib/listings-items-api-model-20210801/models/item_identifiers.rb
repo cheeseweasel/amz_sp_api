@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # Identity attributes associated with the item in the Amazon catalog, such as the ASIN.
   class ItemIdentifiers
     # Attribute mapping from ruby-style variable name to JSON key.

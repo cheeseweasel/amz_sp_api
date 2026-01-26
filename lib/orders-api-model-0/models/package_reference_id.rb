@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # A seller-supplied identifier that uniquely identifies a package within the scope of an order. Only positive numeric values are supported.
   class PackageReferenceId
     # Attribute mapping from ruby-style variable name to JSON key.

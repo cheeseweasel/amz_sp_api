@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # Product information on the number of items.
   class ProductInfoDetail
     # The total number of items that are included in the ASIN.

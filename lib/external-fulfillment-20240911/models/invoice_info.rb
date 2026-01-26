@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # Information about the shipment's invoice.
   class InvoiceInfo
     # The unique ID of the invoice that corresponds to the shipment.

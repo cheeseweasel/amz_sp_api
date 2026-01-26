@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Request schema for the `getRangeSlotCapacity` operation. This schema is used to define the time range and capacity types that are being queried.
   class RangeSlotCapacityQuery
     # An array of capacity types which are being requested. Default value is `[SCHEDULED_CAPACITY]`.

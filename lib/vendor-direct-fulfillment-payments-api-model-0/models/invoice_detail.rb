@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel
+module AmzSpApi::VendorDirectFulfillmentPaymentsApiModel::V0
   # Represents the details of an invoice, including invoice number, date, parties involved, payment terms, totals, taxes, charges, and line items.
   class InvoiceDetail
     # The unique invoice number.

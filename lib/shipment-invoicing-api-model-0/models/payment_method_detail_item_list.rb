@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShipmentInvoicingApiModel
+module AmzSpApi::ShipmentInvoicingApiModel::V0
   # The list of payment method details.
   class PaymentMethodDetailItemList
     # Attribute mapping from ruby-style variable name to JSON key.

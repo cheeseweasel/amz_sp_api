@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::UploadsApiModel
+module AmzSpApi::UploadsApiModel::V20201101
   # The response schema for the createUploadDestination operation.
   class CreateUploadDestinationResponse
     attr_accessor :payload

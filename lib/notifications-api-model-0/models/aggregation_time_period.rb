@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   class AggregationTimePeriod
     FIVE_MINUTES = 'FiveMinutes'.freeze
     TEN_MINUTES = 'TenMinutes'.freeze

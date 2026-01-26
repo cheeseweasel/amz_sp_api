@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # A list of invalid ASIN values and the reasons they are invalid.
   class InvalidASINList
     # Attribute mapping from ruby-style variable name to JSON key.

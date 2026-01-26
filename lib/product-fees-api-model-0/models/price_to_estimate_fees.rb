@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # Price information for an item, used to estimate fees.
   class PriceToEstimateFees
     attr_accessor :listing_price

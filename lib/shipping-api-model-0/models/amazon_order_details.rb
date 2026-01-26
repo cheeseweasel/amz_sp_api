@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Amazon order information. This is required if the shipment source channel is Amazon.
   class AmazonOrderDetails
     # The Amazon order ID associated with the Amazon order fulfilled by this shipment.

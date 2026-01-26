@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240601
   class AssignmentType
     DEFAULT_DEPOSIT_METHOD = 'DEFAULT_DEPOSIT_METHOD'.freeze
 

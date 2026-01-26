@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VehiclesApiModel
+module AmzSpApi::VehiclesApiModel::V20241101
   class VehicleStandard
     KTYPE = 'KTYPE'.freeze
     AMAZON_ID = 'AMAZON_ID'.freeze

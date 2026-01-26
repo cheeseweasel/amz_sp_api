@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # A two-letter country code, as defined by the ISO-3166 alpha-2 standard.
   class CountryCode
     # Attribute mapping from ruby-style variable name to JSON key.

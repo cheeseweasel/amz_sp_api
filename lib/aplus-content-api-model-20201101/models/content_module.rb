@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # An A+ Content module. An A+ Content document is composed of content modules. The `contentModuleType` property selects which content module types to use.
   class ContentModule
     attr_accessor :content_module_type

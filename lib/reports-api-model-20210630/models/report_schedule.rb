@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReportsApiModel
+module AmzSpApi::ReportsApiModel::V20210630
   # Detailed information about a report schedule.
   class ReportSchedule
     # The identifier for the report schedule. This identifier is unique only in combination with a seller ID.

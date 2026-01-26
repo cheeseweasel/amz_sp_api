@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Amazon shipment information.
   class AmazonShipmentDetails
     # This attribute is required only for a Direct Fulfillment shipment. This is the encrypted shipment ID.

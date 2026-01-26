@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInventoryApiModel
+module AmzSpApi::FbaInventoryApiModel::V0
   # The quantity of unfulfillable inventory.
   class UnfulfillableQuantity
     # The total number of units in Amazon's fulfillment network in unsellable condition.

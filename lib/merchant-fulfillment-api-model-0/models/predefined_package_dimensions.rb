@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   class PredefinedPackageDimensions
     FED_EX_BOX_10KG = 'FedEx_Box_10kg'.freeze
     FED_EX_BOX_25KG = 'FedEx_Box_25kg'.freeze

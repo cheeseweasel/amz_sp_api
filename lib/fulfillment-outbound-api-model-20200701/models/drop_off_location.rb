@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The preferred location to leave packages at the destination address.
   class DropOffLocation
     # Specifies the preferred location to leave the package at the destination address.

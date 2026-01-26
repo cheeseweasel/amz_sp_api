@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # A string of up to 255 characters.
   class String
     # Attribute mapping from ruby-style variable name to JSON key.

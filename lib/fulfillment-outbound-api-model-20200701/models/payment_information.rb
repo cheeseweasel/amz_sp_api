@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The attributes related to the payment made from customer to seller for this order.
   class PaymentInformation
     # The transaction identifier of this payment.

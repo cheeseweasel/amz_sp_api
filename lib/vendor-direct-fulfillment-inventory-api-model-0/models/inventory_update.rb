@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentInventoryApiModel
+module AmzSpApi::VendorDirectFulfillmentInventoryApiModel::V0
   # Inventory details required to update some or all items for the requested warehouse.
   class InventoryUpdate
     attr_accessor :selling_party

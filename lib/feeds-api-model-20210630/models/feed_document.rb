@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FeedsApiModel
+module AmzSpApi::FeedsApiModel::V20210630
   # Information required for the feed document.
   class FeedDocument
     # The identifier for the feed document. This identifier is unique only in combination with a seller ID.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # A carrier whose terms and conditions have not been accepted by the seller.
   class TermsAndConditionsNotAcceptedCarrier
     # The name of the carrier.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VehiclesApiModel
+module AmzSpApi::VehiclesApiModel::V20241101
   # Get paginated list of vehicle from Amazon's catalog
   class VehiclesResponse
     attr_accessor :pagination

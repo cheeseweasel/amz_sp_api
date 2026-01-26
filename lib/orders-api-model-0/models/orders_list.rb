@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # A list of orders along with additional information to make subsequent API calls.
   class OrdersList
     attr_accessor :orders

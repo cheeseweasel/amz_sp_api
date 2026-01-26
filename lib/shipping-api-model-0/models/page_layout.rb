@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Indicates the position of the label on the paper. Should be the same value as returned in getRates response.
   class PageLayout
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # Information about a location. It uses a postal code to identify the location.
   class SampleLocation
     attr_accessor :postal_code

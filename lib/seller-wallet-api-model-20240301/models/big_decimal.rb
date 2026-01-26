@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # A decimal number such as amount or FX rate.
   class BigDecimal
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # The Amazon-defined identifier for an order placed by the buyer, in 3-7-7 format.
   class OrderId
     # Attribute mapping from ruby-style variable name to JSON key.

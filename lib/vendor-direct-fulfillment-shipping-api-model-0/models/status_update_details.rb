@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentShippingApiModel
+module AmzSpApi::VendorDirectFulfillmentShippingApiModel::V0
   # Details for the shipment status update given by the vendor for the specific package.
   class StatusUpdateDetails
     # This is required to be provided for every package and should match with the trackingNumber sent for the shipment confirmation.

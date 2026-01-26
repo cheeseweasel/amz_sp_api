@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorInvoicesApiModel
+module AmzSpApi::VendorInvoicesApiModel::V0
   # The request schema for the submitInvoices operation.
   class SubmitInvoicesRequest
     # An array of Invoice objects representing the invoices or credit notes to be submitted.

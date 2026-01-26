@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # The payload for the `getPricing` and `getCompetitivePricing` operations.
   class PriceList
     # Attribute mapping from ruby-style variable name to JSON key.

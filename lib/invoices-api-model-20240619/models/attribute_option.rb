@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::InvoicesApiModel
+module AmzSpApi::InvoicesApiModel::V20240619
   # The definition of the attribute option.
   class AttributeOption
     # The description of the attribute value.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # The time range in which an item will likely be shipped once an order has been placed.
   class DetailedShippingTimeType
     # The minimum time, in hours, that the item will likely be shipped after the order has been placed.

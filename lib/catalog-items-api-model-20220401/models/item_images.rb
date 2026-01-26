@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # The images for an item in the Amazon catalog.
   class ItemImages
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # The response to the `generateShipLabels` operation.
   class ShipLabelsResponse
     attr_accessor :package_ship_label_list

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240619
   # Additional information related to the product.
   class ProductContext
     # The Amazon Standard Identification Number (ASIN) of the item.

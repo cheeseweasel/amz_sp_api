@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # The payload for the `listFinancialEventGroups` operation.
   class ListFinancialEventGroupsPayload
     # When present and not empty, pass this string token in the next request to return the next response page.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Item receive status at the buyer's warehouse.
   class OrderItemStatusReceivingStatus
     # Receive status of the line item.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::InvoicesApiModel
+module AmzSpApi::InvoicesApiModel::V20240619
   class ExportStatus
     REQUESTED = 'REQUESTED'.freeze
     PROCESSING = 'PROCESSING'.freeze

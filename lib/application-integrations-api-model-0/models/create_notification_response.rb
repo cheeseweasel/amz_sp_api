@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ApplicationIntegrationsApiModel
+module AmzSpApi::ApplicationIntegrationsApiModel::V0
   # The response for the `createNotification` operation.
   class CreateNotificationResponse
     # The unique identifier assigned to each notification.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # Failed ad hoc disbursement event list.
   class FailedAdhocDisbursementEvent
     # The type of fund transfer. For example, `Refund`.

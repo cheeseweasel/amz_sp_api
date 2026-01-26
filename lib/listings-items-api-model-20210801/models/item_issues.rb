@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # The issues associated with the listings item.
   class ItemIssues
     # Attribute mapping from ruby-style variable name to JSON key.

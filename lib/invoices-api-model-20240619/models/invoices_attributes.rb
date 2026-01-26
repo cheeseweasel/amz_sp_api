@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::InvoicesApiModel
+module AmzSpApi::InvoicesApiModel::V20240619
   # An object that contains the invoice attributes definition.
   class InvoicesAttributes
     # A list of all the options that are available for the invoice status attribute.

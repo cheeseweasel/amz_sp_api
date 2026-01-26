@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AmazonWarehousingAndDistributionModel
+module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
   # Payload for creating an inbound order.
   class InboundOrderCreationData
     # Reference ID that can be used to correlate the order with partner resources.

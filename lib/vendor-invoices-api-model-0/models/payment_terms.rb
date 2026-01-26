@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorInvoicesApiModel
+module AmzSpApi::VendorInvoicesApiModel::V0
   # Terms of the payment for the invoice. The basis of the payment terms is the invoice date.
   class PaymentTerms
     # The payment term type for the invoice.

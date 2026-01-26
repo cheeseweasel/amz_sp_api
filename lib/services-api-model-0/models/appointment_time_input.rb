@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # The input appointment time details.
   class AppointmentTimeInput
     # The date, time in UTC for the start time of an appointment in ISO 8601 format.

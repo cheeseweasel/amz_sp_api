@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # Schema for an individual offer. Object in `OfferDetailList`.
   class OfferDetail
     # When true, this is the seller's offer.

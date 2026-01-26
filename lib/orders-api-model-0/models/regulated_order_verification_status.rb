@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # The verification status of the order, along with associated approval or rejection metadata.
   class RegulatedOrderVerificationStatus
     attr_accessor :status

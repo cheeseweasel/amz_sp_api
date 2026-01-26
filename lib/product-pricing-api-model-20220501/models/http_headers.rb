@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # A mapping of additional HTTP headers to send or receive for an individual request within a batch.
   class HttpHeaders
     # Attribute mapping from ruby-style variable name to JSON key.

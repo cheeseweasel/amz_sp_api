@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellersApiModel
+module AmzSpApi::SellersApiModel::V0
   # Information about the seller's business. Certain fields may be omitted depending on the seller's `businessType`.
   class Business
     # The registered business name.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Details of quantity ordered.
   class ItemQuantity
     # Acknowledged quantity. This value should not be zero.

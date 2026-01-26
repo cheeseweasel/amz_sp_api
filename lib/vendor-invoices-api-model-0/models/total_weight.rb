@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorInvoicesApiModel
+module AmzSpApi::VendorInvoicesApiModel::V0
   # The aggregate weight of this item being invoiced. This information will be available for items sold by weight.
   class TotalWeight
     # The unit of measure for items sold by weight.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # The tracking details of the package if it is shipped by a third party courier. This attribute should only be provided when the value of `shipBy` is `THIRD_PARTY_CARRIER`.
   class CourierSupportedAttributes
     # The name of the courier service used to ship the package

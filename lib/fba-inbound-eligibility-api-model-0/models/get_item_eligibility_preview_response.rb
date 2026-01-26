@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInboundEligibilityApiModel
+module AmzSpApi::FbaInboundEligibilityApiModel::V0
   # The response schema for the getItemEligibilityPreview operation.
   class GetItemEligibilityPreviewResponse
     attr_accessor :payload

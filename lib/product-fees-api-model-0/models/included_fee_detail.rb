@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # The type of fee, fee amount, and other details.
   class IncludedFeeDetail
     # The type of fee charged to a seller.

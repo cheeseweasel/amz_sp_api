@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240619
   # Related business identifiers of the item.
   class ItemRelatedIdentifier
     # Enumerated set of related item identifier names for the item.

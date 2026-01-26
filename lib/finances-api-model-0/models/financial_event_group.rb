@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # Information related to a financial event group.
   class FinancialEventGroup
     # A unique identifier for the financial event group.

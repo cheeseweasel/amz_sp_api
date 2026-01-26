@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # All involved party identification and metadata for the vendor, buyer, and seller. Applicable for direct-fulfillment sellers.
   class PartyIdentificationInfoList
     # Attribute mapping from ruby-style variable name to JSON key.

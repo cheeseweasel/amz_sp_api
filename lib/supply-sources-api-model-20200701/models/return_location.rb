@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SupplySourcesApiModel
+module AmzSpApi::SupplySourcesApiModel::V20200701
   # The address or reference to another `supplySourceId` to act as a return location.
   class ReturnLocation
     # The Amazon provided `supplySourceId` where orders can be returned to.

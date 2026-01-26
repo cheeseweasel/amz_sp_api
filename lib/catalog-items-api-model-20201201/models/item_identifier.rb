@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20201201
   # Identifier associated with the item in the Amazon catalog, such as a UPC or EAN identifier.
   class ItemIdentifier
     # Type of identifier, such as UPC, EAN, or ISBN.

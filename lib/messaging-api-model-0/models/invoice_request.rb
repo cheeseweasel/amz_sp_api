@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MessagingApiModel
+module AmzSpApi::MessagingApiModel::V0
   # The request schema for the `sendInvoice` operation.
   class InvoiceRequest
     # Attachments to include in the message to the buyer.

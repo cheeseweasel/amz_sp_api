@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellersApiModel
+module AmzSpApi::SellersApiModel::V0
   # List of marketplace participations.
   class MarketplaceParticipationList
     # Attribute mapping from ruby-style variable name to JSON key.

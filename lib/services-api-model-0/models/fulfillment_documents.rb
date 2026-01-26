@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # List of documents captured during service appointment fulfillment.
   class FulfillmentDocuments
     # Attribute mapping from ruby-style variable name to JSON key.

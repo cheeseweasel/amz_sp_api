@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # The shipping address for the order.
   class OrderAddress
     # An Amazon-defined order identifier, in 3-7-7 format.

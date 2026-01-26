@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # The current transaction status and related historical details.
   class Transaction
     # The unique identifier of the Amazon Seller Wallet bank account from which the money is debited.

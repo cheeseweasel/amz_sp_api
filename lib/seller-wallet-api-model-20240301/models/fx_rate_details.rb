@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # Foreign exchange rate details displayed when transfer preview is requested. 
   class FxRateDetails
     # Unique identifier assigned to the fees/foreign exchange Rate of a transaction. 

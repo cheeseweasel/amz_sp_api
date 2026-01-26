@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # Contains all of the delivery instructions provided by the customer for the shipping address.
   class DeliveryPreferences
     # Drop-off location selected by the customer.

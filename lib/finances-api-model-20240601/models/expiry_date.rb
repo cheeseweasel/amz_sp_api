@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240601
   # The expiration date of the card used for payment. If the payment method is not `card`, the expiration date is `null`.
   class ExpiryDate
     # The month the card expires expressed as a number from `1` to `12`.

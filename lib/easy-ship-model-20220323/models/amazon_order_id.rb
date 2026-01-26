@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # An Amazon-defined order identifier. Identifies the order that the seller wants to deliver using Amazon Easy Ship.
   class AmazonOrderId
     # Attribute mapping from ruby-style variable name to JSON key.

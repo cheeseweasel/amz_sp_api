@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20220401
   # Relationships grouped by `marketplaceId` for an Amazon catalog item (for example, variations).
   class ItemRelationships
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorShipmentsApiModel
+module AmzSpApi::VendorShipmentsApiModel::V0
   # This is used only for direct import shipment confirmations.
   class Route
     # The port or location involved in transporting the cargo, as specified in transportation contracts or operational plans.

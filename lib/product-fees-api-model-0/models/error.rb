@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # An object representing an error that occurred during the API operation.
   class Error
     # An error code that identifies the type of error that occurred.

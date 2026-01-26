@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Warning returned when the request is successful, but there are important callouts based on which API clients should take defined actions.
   class Warning
     # An warning code that identifies the type of warning that occurred.

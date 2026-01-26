@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::EasyShipModel
+module AmzSpApi::EasyShipModel::V20220323
   # Request to update the time slot of a package.
   class UpdatePackageDetails
     attr_accessor :scheduled_package_id

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # A shipment item's cancellation details.
   class Cancellation
     # The number of items of this particular item which have been cancelled.

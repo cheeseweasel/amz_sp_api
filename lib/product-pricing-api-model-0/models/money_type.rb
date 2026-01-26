@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # Currency type and monetary value. Schema for demonstrating pricing info.
   class MoneyType
     # The currency code in ISO 4217 format.

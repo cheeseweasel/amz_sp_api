@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20201201
   # Summary details of an Amazon catalog item for the indicated Amazon marketplace.
   class ItemSummaryByMarketplace
     # Amazon marketplace identifier.

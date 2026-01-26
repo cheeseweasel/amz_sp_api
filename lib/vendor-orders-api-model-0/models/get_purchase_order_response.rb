@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # The response schema for the getPurchaseOrder operation.
   class GetPurchaseOrderResponse
     attr_accessor :payload

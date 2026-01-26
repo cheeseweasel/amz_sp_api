@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Freight information describes the SKUs that are in transit. Freight carrier options and quotes will only be returned if the freight information is provided.
   class FreightInformation
     attr_accessor :declared_value

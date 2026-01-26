@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # Use these parameters to paginate through the response.
   class ListOffersRequestPagination
     # The maximum number of results to return in the response.

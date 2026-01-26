@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Carrier Account details used to fetch rates.
   class CarrierAccount
     attr_accessor :carrier_account_id

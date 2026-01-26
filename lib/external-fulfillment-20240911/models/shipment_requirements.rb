@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # Whether specific capabilities are enabled or required for the shipment.
   class ShipmentRequirements
     attr_accessor :p_slip

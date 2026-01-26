@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The unique shipment identifier provided by a shipping service.
   class ShipmentId
     # Attribute mapping from ruby-style variable name to JSON key.

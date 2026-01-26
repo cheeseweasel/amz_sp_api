@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # Package information for a shipment in a fulfillment order.
   class FulfillmentShipmentPackage
     # Identifies a package in a shipment.

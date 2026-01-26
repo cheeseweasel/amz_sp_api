@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # The available shipping service options.
   class AvailableShippingServiceOptions
     attr_accessor :available_carrier_will_pick_up_options

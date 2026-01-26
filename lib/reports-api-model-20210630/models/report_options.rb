@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReportsApiModel
+module AmzSpApi::ReportsApiModel::V20210630
   # Additional information passed to reports. This varies by report type.
   class ReportOptions
     # Attribute mapping from ruby-style variable name to JSON key.

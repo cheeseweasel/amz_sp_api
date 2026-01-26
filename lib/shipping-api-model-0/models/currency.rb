@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The monetary value in the currency indicated, in ISO 4217 standard format.
   class Currency
     # The monetary value.

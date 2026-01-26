@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # The A+ Content document. This is the enhanced content that is published to product detail pages.
   class ContentDocument
     # The A+ Content document name.

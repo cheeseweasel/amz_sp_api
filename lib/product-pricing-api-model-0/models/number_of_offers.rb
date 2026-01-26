@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # A list that contains the total number of offers information for given conditions and fulfillment channels.
   class NumberOfOffers
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # Request schema.
   class GetMyFeesEstimateRequest
     attr_accessor :fees_estimate_request

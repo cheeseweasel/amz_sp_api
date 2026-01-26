@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Represents the current status of an order item, including acknowledgement and receiving details.
   class OrderItemStatus
     # Numbering of the item on the purchase order. The first item will be 1, the second 2, and so on.

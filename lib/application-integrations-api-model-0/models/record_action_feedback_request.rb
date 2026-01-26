@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ApplicationIntegrationsApiModel
+module AmzSpApi::ApplicationIntegrationsApiModel::V0
   # The request for the `recordActionFeedback` operation.
   class RecordActionFeedbackRequest
     # The unique identifier for each notification status.

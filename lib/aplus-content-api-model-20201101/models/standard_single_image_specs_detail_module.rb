@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # A standard image with paragraphs, a bulleted list, and extra space for technical details.
   class StandardSingleImageSpecsDetailModule
     attr_accessor :headline

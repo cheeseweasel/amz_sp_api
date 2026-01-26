@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # A package that is created to ship one or more of a shipment's line items.
   class Package
     # An ID that uniquely identifies a package within a shipment.

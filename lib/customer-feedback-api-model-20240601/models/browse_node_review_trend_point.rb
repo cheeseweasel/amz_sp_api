@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # The browse node's review metrics for a certain month.
   class BrowseNodeReviewTrendPoint
     attr_accessor :date_range

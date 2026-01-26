@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # List of carriers whose terms and conditions were not accepted by the seller.
   class TermsAndConditionsNotAcceptedCarrierList
     # Attribute mapping from ruby-style variable name to JSON key.

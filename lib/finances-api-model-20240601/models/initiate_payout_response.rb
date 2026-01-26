@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V20240601
   # The response schema for the `initiatePayout` operation.
   class InitiatePayoutResponse
     # The financial event group ID for a successfully initiated payout. You can use this ID to track payout information.

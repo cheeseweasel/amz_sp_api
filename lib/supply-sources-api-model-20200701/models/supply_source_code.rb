@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SupplySourcesApiModel
+module AmzSpApi::SupplySourcesApiModel::V20200701
   # The seller-provided unique supply source code.
   class SupplySourceCode
     # Attribute mapping from ruby-style variable name to JSON key.

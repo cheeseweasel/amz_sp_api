@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # The trend of review topic metrics for all items in the requested browse node.
   class BrowseNodeReviewTrend
     # The name of the topic.

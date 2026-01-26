@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::UploadsApiModel
+module AmzSpApi::UploadsApiModel::V20201101
   # Information about an upload destination.
   class UploadDestination
     # The unique identifier for the upload destination.

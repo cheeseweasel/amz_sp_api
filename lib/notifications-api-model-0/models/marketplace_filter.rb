@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::NotificationsApiModel
+module AmzSpApi::NotificationsApiModel::V0
   # An event filter to customize your subscription to send notifications for only the specified `marketplaceId`s.
   class MarketplaceFilter
     attr_accessor :marketplace_ids

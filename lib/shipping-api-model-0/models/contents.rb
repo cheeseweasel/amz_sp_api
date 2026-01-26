@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # A Base64 encoded string of the file contents.
   class Contents
     # Attribute mapping from ruby-style variable name to JSON key.

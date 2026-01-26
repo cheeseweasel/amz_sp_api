@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # The response schema for the `getListingOffers` and `getItemOffers` operations.
   class GetOffersResponse
     attr_accessor :payload

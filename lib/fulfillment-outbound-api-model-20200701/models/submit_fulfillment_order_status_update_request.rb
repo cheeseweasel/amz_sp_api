@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The request body schema for the `submitFulfillmentOrderStatusUpdate` operation.
   class SubmitFulfillmentOrderStatusUpdateRequest
     attr_accessor :fulfillment_order_status

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsRestrictionsApiModel
+module AmzSpApi::ListingsRestrictionsApiModel::V20210801
   # A reason for the restriction, including path forward links that may allow Selling Partners to remove the restriction, if available.
   class Reason
     # A message describing the reason for the restriction.

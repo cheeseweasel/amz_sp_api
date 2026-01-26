@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Current status of a purchase order.
   class OrderStatus
     # The buyer's purchase order number for this order. Formatting Notes: 8-character alpha-numeric code.

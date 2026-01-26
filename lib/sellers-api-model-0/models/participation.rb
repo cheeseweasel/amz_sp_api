@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellersApiModel
+module AmzSpApi::SellersApiModel::V0
   # Information that is specific to a seller in a marketplace.
   class Participation
     # If `true`, the seller participates in the marketplace. Otherwise `false`.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # Describes the segment in which the offer is featured.
   class FeaturedOfferSegment
     # The customer membership type that makes up this segment

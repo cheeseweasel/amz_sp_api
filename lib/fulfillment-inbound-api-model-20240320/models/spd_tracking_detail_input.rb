@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Contains input information to update Small Parcel Delivery (SPD) tracking information.
   class SpdTrackingDetailInput
     # List of Small Parcel Delivery (SPD) tracking items input.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # The browse node review occurrence metrics.
   class BrowseNodeAllOccurrence
     # The percentage of reviews of the top 25 percent of products in the browse node that mention the topic.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # Response returned when the schedule transfer's delete request is successful.
   class DeleteTransferSchedule
     # A success code that specifies the delete operation was successful. eg:HTTP 200.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The carrier generated identifier for a package in a purchased shipment.
   class TrackingId
     # Attribute mapping from ruby-style variable name to JSON key.

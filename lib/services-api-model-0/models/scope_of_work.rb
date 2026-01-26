@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # The scope of work for the order.
   class ScopeOfWork
     # The Amazon Standard Identification Number (ASIN) of the service job.

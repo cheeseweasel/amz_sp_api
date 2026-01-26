@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # A list of line items to be contained in a recommended package. This attribute is only for orders that come with specific recommendations for line-item distribution.
   class RecommendedPackageLineItems
     # Attribute mapping from ruby-style variable name to JSON key.

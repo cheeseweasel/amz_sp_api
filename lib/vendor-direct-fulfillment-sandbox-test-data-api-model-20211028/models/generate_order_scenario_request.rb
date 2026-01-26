@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
+module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
   # The request body for the generateOrderScenarios operation.
   class GenerateOrderScenarioRequest
     # The list of test orders requested as indicated by party identifiers.

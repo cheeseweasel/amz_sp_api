@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # Return authorization information for items accepted for return.
   class ReturnAuthorization
     # An identifier for the return authorization. This identifier associates return items with the return authorization used to return them.

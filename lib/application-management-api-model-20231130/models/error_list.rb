@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ApplicationManagementApiModel
+module AmzSpApi::ApplicationManagementApiModel::V20231130
   # A list of error responses returned when a request is unsuccessful.
   class ErrorList
     # array of errors

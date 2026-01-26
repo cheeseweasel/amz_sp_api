@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   class Status
     PRE_TRANSIT = 'PreTransit'.freeze
     IN_TRANSIT = 'InTransit'.freeze

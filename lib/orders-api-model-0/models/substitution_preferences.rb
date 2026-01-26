@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # Substitution preferences for an order item.
   class SubstitutionPreferences
     # The type of substitution that these preferences represent.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # A list of rich text content that is typically presented in a text box.
   class ParagraphComponent
     attr_accessor :text_list

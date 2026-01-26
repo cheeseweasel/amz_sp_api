@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # A payment event for Fulfillment by Amazon (FBA) inventory liquidation. This event is used only in the US marketplace.
   class FBALiquidationEvent
     attr_accessor :posted_date

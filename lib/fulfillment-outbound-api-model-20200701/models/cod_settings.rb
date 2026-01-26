@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   # The COD (Cash On Delivery) charges that you associate with a COD fulfillment order.
   class CODSettings
     # When true, this fulfillment order requires a COD (Cash On Delivery) payment.

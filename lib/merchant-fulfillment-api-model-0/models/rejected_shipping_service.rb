@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # Information about a rejected shipping service
   class RejectedShippingService
     # The rejected shipping carrier name. For example, USPS.

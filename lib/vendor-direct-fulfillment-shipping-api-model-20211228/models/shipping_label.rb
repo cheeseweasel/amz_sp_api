@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentShippingApiModel
+module AmzSpApi::VendorDirectFulfillmentShippingApiModel::V20211228
   # Shipping label information for an order, including the purchase order number, selling party, ship from party, label format, and package details.
   class ShippingLabel
     # This field will contain the Purchase Order Number for this order.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   class PackageStatus
     CREATED = 'CREATED'.freeze
     PICKUP_SLOT_RETRIEVED = 'PICKUP_SLOT_RETRIEVED'.freeze

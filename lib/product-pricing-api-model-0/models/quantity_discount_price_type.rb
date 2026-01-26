@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # Contains pricing information that includes special pricing when buying in bulk.
   class QuantityDiscountPriceType
     # Indicates at what quantity this price becomes active.

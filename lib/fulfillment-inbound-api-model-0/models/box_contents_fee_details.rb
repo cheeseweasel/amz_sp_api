@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V0
   # The manual processing fee per unit and total fee for a shipment.
   class BoxContentsFeeDetails
     attr_accessor :total_units

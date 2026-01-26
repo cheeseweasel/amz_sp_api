@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   class ChannelType
     AMAZON = 'AMAZON'.freeze
     EXTERNAL = 'EXTERNAL'.freeze

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # Offer preferences that you can include in the result filter criteria.
   class Preference
     # Filters the results to only include offers with the auto-enrollment preference specified.

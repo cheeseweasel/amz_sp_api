@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentOutboundApiModel
+module AmzSpApi::FulfillmentOutboundApiModel::V20200701
   class AdditionalLocationInfo
     AS_INSTRUCTED = 'AS_INSTRUCTED'.freeze
     CARPORT = 'CARPORT'.freeze

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Summary information about a placement option.
   class PlacementOptionSummary
     # The identifier of a placement option. A placement option represents the shipment splits and destinations of SKUs.

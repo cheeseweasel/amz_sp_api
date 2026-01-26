@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # Information associated with a single SKU in the seller's catalog.
   class Item
     # The Amazon Standard Identification Number (ASIN) of the item.

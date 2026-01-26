@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel
+module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
   # The identification object for the party information. For example, warehouse code or vendor code. Please refer to specific party for more details.
   class PartyIdentification
     # Assigned identification for the party. For example, warehouse code or vendor code. Please refer to specific party for more details.

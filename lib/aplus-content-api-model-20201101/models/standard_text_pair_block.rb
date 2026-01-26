@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # The A+ Content standard label and description block, which contains a pair of text components.
   class StandardTextPairBlock
     attr_accessor :label

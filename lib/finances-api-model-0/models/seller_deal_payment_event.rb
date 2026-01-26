@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FinancesApiModel
+module AmzSpApi::FinancesApiModel::V0
   # An event linked to the payment of a fee related to the specified deal.
   class SellerDealPaymentEvent
     attr_accessor :posted_date

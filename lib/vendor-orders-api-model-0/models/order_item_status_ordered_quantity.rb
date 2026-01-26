@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorOrdersApiModel
+module AmzSpApi::VendorOrdersApiModel::V0
   # Ordered quantity information.
   class OrderItemStatusOrderedQuantity
     attr_accessor :ordered_quantity

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FulfillmentInboundApiModel
+module AmzSpApi::FulfillmentInboundApiModel::V20240320
   # A packing option contains a set of pack groups plus additional information about the packing option, such as any discounts or fees if it's selected.
   class PackingOption
     # Discount for the offered option.

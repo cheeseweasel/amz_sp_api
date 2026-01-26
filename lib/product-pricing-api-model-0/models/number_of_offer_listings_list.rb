@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # The number of active offer listings for the item that was submitted. The listing count is returned by condition, one for each listing condition value that is returned.
   class NumberOfOfferListingsList
     # Attribute mapping from ruby-style variable name to JSON key.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   class ClaimReason
     LOST_IN_TRANSIT = 'LOST_IN_TRANSIT'.freeze
     DAMAGED_IN_TRANSIT = 'DAMAGED_IN_TRANSIT'.freeze

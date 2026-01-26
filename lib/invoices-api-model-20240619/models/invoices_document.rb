@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::InvoicesApiModel
+module AmzSpApi::InvoicesApiModel::V20240619
   # An object that contains the `documentId` and an S3 pre-signed URL that you can use to download the specified file.
   class InvoicesDocument
     # The identifier of the export document.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductFeesApiModel
+module AmzSpApi::ProductFeesApiModel::V0
   # The total estimated fees for an item and a list of details.
   class FeesEstimate
     # The time at which the fees were estimated. This defaults to the time the request is made.

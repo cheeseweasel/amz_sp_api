@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   class AutoEnrollmentPreference
     IN = 'OPTED_IN'.freeze
     OUT = 'OPTED_OUT'.freeze

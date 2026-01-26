@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   class SettlementType
     REFUND = 'REFUND'.freeze
     CERTIFICATE_OF_FACT = 'CERTIFICATE_OF_FACT'.freeze

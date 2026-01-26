@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellersApiModel
+module AmzSpApi::SellersApiModel::V0
   # Information about an Amazon marketplace where a seller can list items and customers can view and purchase items.
   class Marketplace
     # The encrypted marketplace value.

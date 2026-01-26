@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::VendorDirectFulfillmentInventoryApiModel
+module AmzSpApi::VendorDirectFulfillmentInventoryApiModel::V0
   # Updated inventory details for an item.
   class ItemDetails
     # The buyer selected product identification of the item. Either buyerProductIdentifier or vendorProductIdentifier should be submitted.

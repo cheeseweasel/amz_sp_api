@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ListingsItemsApiModel
+module AmzSpApi::ListingsItemsApiModel::V20210801
   # A variation theme that indicates the combination of listing item attributes that define the variation family.
   class ItemVariationTheme
     # The names of the listing item attributes that are associated with the variation theme.

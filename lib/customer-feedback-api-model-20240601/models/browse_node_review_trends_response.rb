@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CustomerFeedbackApiModel
+module AmzSpApi::CustomerFeedbackApiModel::V20240601
   # The response for the `getBrowseNodeReviewTrends` operation.
   class BrowseNodeReviewTrendsResponse
     # The requested browse node id. A browse node id is the unique identifier of a given browse node.

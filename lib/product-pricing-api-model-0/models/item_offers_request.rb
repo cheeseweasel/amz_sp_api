@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V0
   # List of request parameters can be accepted by `ItemOffersRequests` operation
   class ItemOffersRequest
     attr_accessor :marketplace_id

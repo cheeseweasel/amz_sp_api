@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The response schema for the the getShipmentDocuments operation.
   class GetShipmentDocumentsResponse
     attr_accessor :payload

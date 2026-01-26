@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::DeliveryByAmazon
+module AmzSpApi::DeliveryByAmazon::V0
   class ProgramType
     EASY_SHIP = 'EasyShip'.freeze
     FBA_ON_SITE = 'FbaOnSite'.freeze

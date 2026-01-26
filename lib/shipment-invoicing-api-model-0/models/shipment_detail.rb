@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShipmentInvoicingApiModel
+module AmzSpApi::ShipmentInvoicingApiModel::V0
   # The information required by a selling partner to issue a shipment invoice.
   class ShipmentDetail
     # The Amazon-defined identifier for the warehouse.

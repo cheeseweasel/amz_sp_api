@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   class BalanceType
     AVAILABLE = 'AVAILABLE'.freeze
     LOCKED_IN = 'LOCKED_IN'.freeze

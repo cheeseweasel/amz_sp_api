@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShipmentInvoicingApiModel
+module AmzSpApi::ShipmentInvoicingApiModel::V0
   # The shipment item information required by a seller to issue a shipment invoice.
   class ShipmentItem
     # The Amazon Standard Identification Number (ASIN) of the item.

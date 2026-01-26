@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The Response  for the GetUnmanifestedShipmentsResponse operation.
   class GetUnmanifestedShipmentsResponse
     attr_accessor :unmanifested_carrier_information_list

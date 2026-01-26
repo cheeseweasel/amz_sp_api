@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   # A single order item's buyer information.
   class OrderItemBuyerInfo
     # An Amazon-defined order item identifier.

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # Object contains customised data requested by a shipper to be printed on a shipping label.
   class RequestedLabelCustomization
     attr_accessor :request_attributes

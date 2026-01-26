@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::FbaInventoryApiModel
+module AmzSpApi::FbaInventoryApiModel::V0
   # The misplaced or warehouse damaged inventory that is actively being confirmed at our fulfillment centers.
   class ResearchingQuantityEntry
     # The duration of the research.

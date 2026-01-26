@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SellerWalletApiModel
+module AmzSpApi::SellerWalletApiModel::V20240301
   # Parameters containing information of the expression that defines when the schedule runs. The following formats are supported. 
   class ScheduleExpression
     attr_accessor :schedule_expression_type

@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ReplenishmentApiModel
+module AmzSpApi::ReplenishmentApiModel::V0
   # An object which contains details about an offer.
   class ListOffersResponseOffer
     # The SKU. This property is only supported for sellers and not for vendors.

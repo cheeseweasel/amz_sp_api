@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ShippingApiModel
+module AmzSpApi::ShippingApiModel::V0
   # The request schema for verify and add the merchant's account with a certain carrier.
   class LinkCarrierAccountRequest
     attr_accessor :client_reference_details

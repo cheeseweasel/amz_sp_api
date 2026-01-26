@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::OrdersApiModel
+module AmzSpApi::OrdersApiModel::V0
   class OtherDeliveryAttributes
     HAS_ACCESS_POINT = 'HAS_ACCESS_POINT'.freeze
     PALLET_ENABLED = 'PALLET_ENABLED'.freeze

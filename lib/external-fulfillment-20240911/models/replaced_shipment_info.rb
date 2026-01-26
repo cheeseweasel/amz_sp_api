@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # Details of the original shipment if `shipmentType` is either `REPLACEMENT` or `EXCHANGE`.
   class ReplacedShipmentInfo
     # The original shipment's ID.

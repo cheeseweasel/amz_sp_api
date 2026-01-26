@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::MerchantFulfillmentApiModel
+module AmzSpApi::MerchantFulfillmentApiModel::V0
   # A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.
   class TemporarilyUnavailableCarrier
     # The name of the carrier.

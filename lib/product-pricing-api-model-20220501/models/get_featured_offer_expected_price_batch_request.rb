@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ProductPricingApiModel
+module AmzSpApi::ProductPricingApiModel::V20220501
   # The request body for the `getFeaturedOfferExpectedPriceBatch` operation.
   class GetFeaturedOfferExpectedPriceBatchRequest
     attr_accessor :requests

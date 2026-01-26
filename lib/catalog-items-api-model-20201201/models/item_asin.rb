@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::CatalogItemsApiModel
+module AmzSpApi::CatalogItemsApiModel::V20201201
   # Amazon Standard Identification Number (ASIN) is the unique identifier for an item in the Amazon catalog.
   class ItemAsin
     # Attribute mapping from ruby-style variable name to JSON key.

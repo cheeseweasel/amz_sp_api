@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ServicesApiModel
+module AmzSpApi::ServicesApiModel::V0
   # Information about an item associated with the service job.
   class AssociatedItem
     # The Amazon Standard Identification Number (ASIN) of the item.

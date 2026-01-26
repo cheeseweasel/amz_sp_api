@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::ExternalFulfillment
+module AmzSpApi::ExternalFulfillment::V20240911
   # Party identification details for the shipment, applicable to direct fulfillment shipments.
   class PartyIdentificationInfo
     # Assigned identification for the party. For example, a warehouse code or vendor code.

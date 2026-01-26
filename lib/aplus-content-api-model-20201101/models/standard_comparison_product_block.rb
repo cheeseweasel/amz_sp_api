@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::AplusContentApiModel
+module AmzSpApi::AplusContentApiModel::V20201101
   # The A+ Content standard comparison product block.
   class StandardComparisonProductBlock
     # The rank or index of this comparison product block within the module. Different blocks cannot occupy the same position within a single module.

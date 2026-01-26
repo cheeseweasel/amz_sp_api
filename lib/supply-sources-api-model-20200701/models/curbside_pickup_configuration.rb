@@ -11,7 +11,7 @@ Swagger Codegen version: 3.0.71
 
 require 'date'
 
-module AmzSpApi::SupplySourcesApiModel
+module AmzSpApi::SupplySourcesApiModel::V20200701
   # The curbside pickup configuration of a supply source.
   class CurbsidePickupConfiguration
     # When true, curbside pickup is supported by the supply source.
