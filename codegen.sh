@@ -102,11 +102,13 @@ for FILE in $(find "$MODELS_ROOT" -name "*.json" | sort); do
   find "lib/${API_NAME}" -type f -name "*.rb" -exec sed -i \
     -e "s/module AmzSpApi::${MODULE_BASE}/module AmzSpApi::${MODULE_NAME}/g" \
     -e "s/require 'amz_sp_api\//require '${API_NAME}\//g" \
+    -e "s/AmzSpApi::${MODULE_BASE}\.const_get/AmzSpApi::${MODULE_NAME}.const_get/g" \
     {} \;
 
   if [ -f "$ENTRY_TARGET" ]; then
     sed -i "s/module AmzSpApi::${MODULE_BASE}/module AmzSpApi::${MODULE_NAME}/" "$ENTRY_TARGET"
     sed -i "s/require 'amz_sp_api\//require '${API_NAME}\//g" "$ENTRY_TARGET"
+    sed -i "s/AmzSpApi::${MODULE_BASE}\.const_get/AmzSpApi::${MODULE_NAME}.const_get/g" "$ENTRY_TARGET"
     echo "Patched module/require in $ENTRY_TARGET"
   fi
 

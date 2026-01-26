@@ -218,7 +218,7 @@ module AmzSpApi::DeliveryByAmazon::V0
           end
         end
       else # model
-        AmzSpApi::DeliveryByAmazon.const_get(type).build_from_hash(value)
+        AmzSpApi::DeliveryByAmazon::V0.const_get(type).build_from_hash(value)
       end
     end
 

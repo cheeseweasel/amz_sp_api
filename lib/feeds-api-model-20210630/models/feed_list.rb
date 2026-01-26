@@ -150,7 +150,7 @@ module AmzSpApi::FeedsApiModel::V20210630
           end
         end
       else # model
-        AmzSpApi::FeedsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::FeedsApiModel::V20210630.const_get(type).build_from_hash(value)
       end
     end
 

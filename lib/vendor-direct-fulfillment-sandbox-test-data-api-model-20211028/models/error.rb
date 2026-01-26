@@ -186,7 +186,7 @@ module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
           end
         end
       else # model
-        AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028.const_get(type).build_from_hash(value)
       end
     end
 

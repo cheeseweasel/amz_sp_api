@@ -236,7 +236,7 @@ module AmzSpApi::DataKioskApiModel::V20231115
         end
       else
         # models, e.g. Pet
-        AmzSpApi::DataKioskApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::DataKioskApiModel::V20231115.const_get(return_type).build_from_hash(data)
       end
     end
 

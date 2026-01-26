@@ -236,7 +236,7 @@ module AmzSpApi::ApplicationIntegrationsApiModel::V0
         end
       else
         # models, e.g. Pet
-        AmzSpApi::ApplicationIntegrationsApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::ApplicationIntegrationsApiModel::V0.const_get(return_type).build_from_hash(data)
       end
     end
 

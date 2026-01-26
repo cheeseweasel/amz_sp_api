@@ -224,7 +224,7 @@ module AmzSpApi::FinancesApiModel::V0
           end
         end
       else # model
-        AmzSpApi::FinancesApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::FinancesApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

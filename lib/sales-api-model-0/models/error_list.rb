@@ -150,7 +150,7 @@ module AmzSpApi::SalesApiModel::V0
           end
         end
       else # model
-        AmzSpApi::SalesApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::SalesApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

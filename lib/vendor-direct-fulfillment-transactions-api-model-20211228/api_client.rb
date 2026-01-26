@@ -236,7 +236,7 @@ module AmzSpApi::VendorDirectFulfillmentTransactionsApiModel::V20211228
         end
       else
         # models, e.g. Pet
-        AmzSpApi::VendorDirectFulfillmentTransactionsApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::VendorDirectFulfillmentTransactionsApiModel::V20211228.const_get(return_type).build_from_hash(data)
       end
     end
 

@@ -162,7 +162,7 @@ module AmzSpApi::ListingsRestrictionsApiModel::V20210801
           end
         end
       else # model
-        AmzSpApi::ListingsRestrictionsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ListingsRestrictionsApiModel::V20210801.const_get(type).build_from_hash(value)
       end
     end
 

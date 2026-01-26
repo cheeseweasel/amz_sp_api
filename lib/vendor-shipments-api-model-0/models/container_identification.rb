@@ -210,7 +210,7 @@ module AmzSpApi::VendorShipmentsApiModel::V0
           end
         end
       else # model
-        AmzSpApi::VendorShipmentsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::VendorShipmentsApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

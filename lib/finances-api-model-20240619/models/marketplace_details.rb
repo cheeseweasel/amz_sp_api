@@ -166,7 +166,7 @@ module AmzSpApi::FinancesApiModel::V20240619
           end
         end
       else # model
-        AmzSpApi::FinancesApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::FinancesApiModel::V20240619.const_get(type).build_from_hash(value)
       end
     end
 

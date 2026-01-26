@@ -175,7 +175,7 @@ module AmzSpApi::CatalogItemsApiModel::V0
           end
         end
       else # model
-        AmzSpApi::CatalogItemsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::CatalogItemsApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

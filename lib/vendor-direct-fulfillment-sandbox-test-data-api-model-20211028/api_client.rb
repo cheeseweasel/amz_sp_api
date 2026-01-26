@@ -236,7 +236,7 @@ module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
         end
       else
         # models, e.g. Pet
-        AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028.const_get(return_type).build_from_hash(data)
       end
     end
 

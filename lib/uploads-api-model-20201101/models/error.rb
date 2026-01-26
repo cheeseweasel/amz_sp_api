@@ -186,7 +186,7 @@ module AmzSpApi::UploadsApiModel::V20201101
           end
         end
       else # model
-        AmzSpApi::UploadsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::UploadsApiModel::V20201101.const_get(type).build_from_hash(value)
       end
     end
 

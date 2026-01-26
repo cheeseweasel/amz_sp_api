@@ -164,7 +164,7 @@ module AmzSpApi::ShipmentInvoicingApiModel::V0
           end
         end
       else # model
-        AmzSpApi::ShipmentInvoicingApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ShipmentInvoicingApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

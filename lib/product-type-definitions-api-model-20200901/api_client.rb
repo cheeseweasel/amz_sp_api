@@ -236,7 +236,7 @@ module AmzSpApi::ProductTypeDefinitionsApiModel::V20200901
         end
       else
         # models, e.g. Pet
-        AmzSpApi::ProductTypeDefinitionsApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::ProductTypeDefinitionsApiModel::V20200901.const_get(return_type).build_from_hash(data)
       end
     end
 

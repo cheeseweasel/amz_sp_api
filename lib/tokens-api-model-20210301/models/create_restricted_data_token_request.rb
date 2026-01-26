@@ -173,7 +173,7 @@ module AmzSpApi::TokensApiModel::V20210301
           end
         end
       else # model
-        AmzSpApi::TokensApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::TokensApiModel::V20210301.const_get(type).build_from_hash(value)
       end
     end
 

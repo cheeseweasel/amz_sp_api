@@ -177,7 +177,7 @@ module AmzSpApi::ProductTypeDefinitionsApiModel::V20200901
           end
         end
       else # model
-        AmzSpApi::ProductTypeDefinitionsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ProductTypeDefinitionsApiModel::V20200901.const_get(type).build_from_hash(value)
       end
     end
 

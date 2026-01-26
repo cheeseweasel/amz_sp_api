@@ -237,7 +237,7 @@ module AmzSpApi::MerchantFulfillmentApiModel::V0
           end
         end
       else # model
-        AmzSpApi::MerchantFulfillmentApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::MerchantFulfillmentApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

@@ -312,7 +312,7 @@ module AmzSpApi::ReportsApiModel::V20210630
           end
         end
       else # model
-        AmzSpApi::ReportsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ReportsApiModel::V20210630.const_get(type).build_from_hash(value)
       end
     end
 

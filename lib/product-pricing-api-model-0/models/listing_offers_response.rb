@@ -191,7 +191,7 @@ module AmzSpApi::ProductPricingApiModel::V0
           end
         end
       else # model
-        AmzSpApi::ProductPricingApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ProductPricingApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

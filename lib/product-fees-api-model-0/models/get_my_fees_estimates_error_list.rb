@@ -163,7 +163,7 @@ module AmzSpApi::ProductFeesApiModel::V0
           end
         end
       else # model
-        AmzSpApi::ProductFeesApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ProductFeesApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

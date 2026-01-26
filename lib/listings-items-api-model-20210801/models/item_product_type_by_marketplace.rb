@@ -176,7 +176,7 @@ module AmzSpApi::ListingsItemsApiModel::V20210801
           end
         end
       else # model
-        AmzSpApi::ListingsItemsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ListingsItemsApiModel::V20210801.const_get(type).build_from_hash(value)
       end
     end
 

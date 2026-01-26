@@ -186,7 +186,7 @@ module AmzSpApi::NotificationsApiModel::V0
           end
         end
       else # model
-        AmzSpApi::NotificationsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::NotificationsApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

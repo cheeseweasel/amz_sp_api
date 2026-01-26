@@ -230,7 +230,7 @@ module AmzSpApi::SellerWalletApiModel::V20240301
           end
         end
       else # model
-        AmzSpApi::SellerWalletApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::SellerWalletApiModel::V20240301.const_get(type).build_from_hash(value)
       end
     end
 

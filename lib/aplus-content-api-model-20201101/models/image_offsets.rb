@@ -174,7 +174,7 @@ module AmzSpApi::AplusContentApiModel::V20201101
           end
         end
       else # model
-        AmzSpApi::AplusContentApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::AplusContentApiModel::V20201101.const_get(type).build_from_hash(value)
       end
     end
 

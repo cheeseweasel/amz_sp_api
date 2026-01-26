@@ -186,7 +186,7 @@ module AmzSpApi::ApplicationManagementApiModel::V20231130
           end
         end
       else # model
-        AmzSpApi::ApplicationManagementApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ApplicationManagementApiModel::V20231130.const_get(type).build_from_hash(value)
       end
     end
 

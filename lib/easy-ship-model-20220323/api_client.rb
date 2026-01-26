@@ -236,7 +236,7 @@ module AmzSpApi::EasyShipModel::V20220323
         end
       else
         # models, e.g. Pet
-        AmzSpApi::EasyShipModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::EasyShipModel::V20220323.const_get(return_type).build_from_hash(data)
       end
     end
 

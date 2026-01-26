@@ -163,7 +163,7 @@ module AmzSpApi::ApplicationIntegrationsApiModel::V0
           end
         end
       else # model
-        AmzSpApi::ApplicationIntegrationsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ApplicationIntegrationsApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

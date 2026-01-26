@@ -289,7 +289,7 @@ module AmzSpApi::DataKioskApiModel::V20231115
           end
         end
       else # model
-        AmzSpApi::DataKioskApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::DataKioskApiModel::V20231115.const_get(type).build_from_hash(value)
       end
     end
 

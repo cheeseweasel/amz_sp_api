@@ -165,7 +165,7 @@ module AmzSpApi::FulfillmentInboundApiModel::V0
           end
         end
       else # model
-        AmzSpApi::FulfillmentInboundApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::FulfillmentInboundApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

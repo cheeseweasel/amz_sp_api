@@ -212,7 +212,7 @@ module AmzSpApi::FulfillmentOutboundApiModel::V20200701
           end
         end
       else # model
-        AmzSpApi::FulfillmentOutboundApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::FulfillmentOutboundApiModel::V20200701.const_get(type).build_from_hash(value)
       end
     end
 

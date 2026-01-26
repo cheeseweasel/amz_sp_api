@@ -276,7 +276,7 @@ module AmzSpApi::SupplySourcesApiModel::V20200701
           end
         end
       else # model
-        AmzSpApi::SupplySourcesApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::SupplySourcesApiModel::V20200701.const_get(type).build_from_hash(value)
       end
     end
 

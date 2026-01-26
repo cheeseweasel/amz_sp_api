@@ -236,7 +236,7 @@ module AmzSpApi::CustomerFeedbackApiModel::V20240601
         end
       else
         # models, e.g. Pet
-        AmzSpApi::CustomerFeedbackApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::CustomerFeedbackApiModel::V20240601.const_get(return_type).build_from_hash(data)
       end
     end
 

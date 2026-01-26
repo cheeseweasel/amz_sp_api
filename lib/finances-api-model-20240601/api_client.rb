@@ -236,7 +236,7 @@ module AmzSpApi::FinancesApiModel::V20240601
         end
       else
         # models, e.g. Pet
-        AmzSpApi::FinancesApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::FinancesApiModel::V20240601.const_get(return_type).build_from_hash(data)
       end
     end
 

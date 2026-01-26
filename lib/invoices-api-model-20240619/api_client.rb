@@ -236,7 +236,7 @@ module AmzSpApi::InvoicesApiModel::V20240619
         end
       else
         # models, e.g. Pet
-        AmzSpApi::InvoicesApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::InvoicesApiModel::V20240619.const_get(return_type).build_from_hash(data)
       end
     end
 

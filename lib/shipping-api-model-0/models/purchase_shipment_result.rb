@@ -197,7 +197,7 @@ module AmzSpApi::ShippingApiModel::V0
           end
         end
       else # model
-        AmzSpApi::ShippingApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ShippingApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

@@ -150,7 +150,7 @@ module AmzSpApi::FbaInboundEligibilityApiModel::V0
           end
         end
       else # model
-        AmzSpApi::FbaInboundEligibilityApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::FbaInboundEligibilityApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

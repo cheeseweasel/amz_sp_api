@@ -259,7 +259,7 @@ module AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509
           end
         end
       else # model
-        AmzSpApi::AmazonWarehousingAndDistributionModel.const_get(type).build_from_hash(value)
+        AmzSpApi::AmazonWarehousingAndDistributionModel::V20240509.const_get(type).build_from_hash(value)
       end
     end
 

@@ -186,7 +186,7 @@ module AmzSpApi::VendorTransactionStatusApiModel::V0
           end
         end
       else # model
-        AmzSpApi::VendorTransactionStatusApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::VendorTransactionStatusApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

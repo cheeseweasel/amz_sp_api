@@ -226,7 +226,7 @@ module AmzSpApi::CustomerFeedbackApiModel::V20240601
           end
         end
       else # model
-        AmzSpApi::CustomerFeedbackApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::CustomerFeedbackApiModel::V20240601.const_get(type).build_from_hash(value)
       end
     end
 

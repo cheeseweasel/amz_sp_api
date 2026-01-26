@@ -155,7 +155,7 @@ module AmzSpApi::MessagingApiModel::V0
           end
         end
       else # model
-        AmzSpApi::MessagingApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::MessagingApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

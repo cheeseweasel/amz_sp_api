@@ -172,7 +172,7 @@ module AmzSpApi::VehiclesApiModel::V20241101
           end
         end
       else # model
-        AmzSpApi::VehiclesApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::VehiclesApiModel::V20241101.const_get(type).build_from_hash(value)
       end
     end
 

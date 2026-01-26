@@ -236,7 +236,7 @@ module AmzSpApi::FulfillmentOutboundApiModel::V20200701
         end
       else
         # models, e.g. Pet
-        AmzSpApi::FulfillmentOutboundApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::FulfillmentOutboundApiModel::V20200701.const_get(return_type).build_from_hash(data)
       end
     end
 

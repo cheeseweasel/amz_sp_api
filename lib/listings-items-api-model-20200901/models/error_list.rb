@@ -162,7 +162,7 @@ module AmzSpApi::ListingsItemsApiModel::V20200901
           end
         end
       else # model
-        AmzSpApi::ListingsItemsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::ListingsItemsApiModel::V20200901.const_get(type).build_from_hash(value)
       end
     end
 

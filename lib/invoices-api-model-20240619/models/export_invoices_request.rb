@@ -251,7 +251,7 @@ module AmzSpApi::InvoicesApiModel::V20240619
           end
         end
       else # model
-        AmzSpApi::InvoicesApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::InvoicesApiModel::V20240619.const_get(type).build_from_hash(value)
       end
     end
 

@@ -236,7 +236,7 @@ module AmzSpApi::ApplicationManagementApiModel::V20231130
         end
       else
         # models, e.g. Pet
-        AmzSpApi::ApplicationManagementApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::ApplicationManagementApiModel::V20231130.const_get(return_type).build_from_hash(data)
       end
     end
 

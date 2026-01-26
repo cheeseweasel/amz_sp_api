@@ -158,7 +158,7 @@ module AmzSpApi::VendorDirectFulfillmentOrdersApiModel::V0
           end
         end
       else # model
-        AmzSpApi::VendorDirectFulfillmentOrdersApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::VendorDirectFulfillmentOrdersApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

@@ -236,7 +236,7 @@ module AmzSpApi::ProductPricingApiModel::V20220501
         end
       else
         # models, e.g. Pet
-        AmzSpApi::ProductPricingApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::ProductPricingApiModel::V20220501.const_get(return_type).build_from_hash(data)
       end
     end
 

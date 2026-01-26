@@ -236,7 +236,7 @@ module AmzSpApi::ListingsRestrictionsApiModel::V20210801
         end
       else
         # models, e.g. Pet
-        AmzSpApi::ListingsRestrictionsApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::ListingsRestrictionsApiModel::V20210801.const_get(return_type).build_from_hash(data)
       end
     end
 

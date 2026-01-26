@@ -155,7 +155,7 @@ module AmzSpApi::EasyShipModel::V20220323
           end
         end
       else # model
-        AmzSpApi::EasyShipModel.const_get(type).build_from_hash(value)
+        AmzSpApi::EasyShipModel::V20220323.const_get(type).build_from_hash(value)
       end
     end
 

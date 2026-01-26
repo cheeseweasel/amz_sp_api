@@ -236,7 +236,7 @@ module AmzSpApi::SellerWalletApiModel::V20240301
         end
       else
         # models, e.g. Pet
-        AmzSpApi::SellerWalletApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::SellerWalletApiModel::V20240301.const_get(return_type).build_from_hash(data)
       end
     end
 

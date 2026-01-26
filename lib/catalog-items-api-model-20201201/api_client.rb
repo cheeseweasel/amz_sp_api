@@ -236,7 +236,7 @@ module AmzSpApi::CatalogItemsApiModel::V20201201
         end
       else
         # models, e.g. Pet
-        AmzSpApi::CatalogItemsApiModel.const_get(return_type).build_from_hash(data)
+        AmzSpApi::CatalogItemsApiModel::V20201201.const_get(return_type).build_from_hash(data)
       end
     end
 

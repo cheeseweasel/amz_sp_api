@@ -182,7 +182,7 @@ module AmzSpApi::SolicitationsApiModel::V0
           end
         end
       else # model
-        AmzSpApi::SolicitationsApiModel.const_get(type).build_from_hash(value)
+        AmzSpApi::SolicitationsApiModel::V0.const_get(type).build_from_hash(value)
       end
     end
 

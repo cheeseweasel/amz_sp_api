@@ -232,7 +232,7 @@ module AmzSpApi::ExternalFulfillment::V20240911
           end
         end
       else # model
-        AmzSpApi::ExternalFulfillment.const_get(type).build_from_hash(value)
+        AmzSpApi::ExternalFulfillment::V20240911.const_get(type).build_from_hash(value)
       end
     end
 
