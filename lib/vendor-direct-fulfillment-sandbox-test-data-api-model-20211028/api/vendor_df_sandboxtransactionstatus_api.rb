@@ -13,8 +13,9 @@ module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
   class VendorDFSandboxtransactionstatusApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Returns the status of the transaction indicated by the specified transactionId. If the transaction was successful, also returns the requested test order data.
     # @param transaction_id The transaction identifier returned in the response to the generateOrderScenarios operation.

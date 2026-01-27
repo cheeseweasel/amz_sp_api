@@ -22,7 +22,7 @@ describe AmzSpApi::ExternalFulfillment::ApiClient do
 
         it 'removes https from host' do
           AmzSpApi::ExternalFulfillment.configure { |c| c.host = 'https://wookiee.com' }
-          expect(AmzSpApi::ExternalFulfillment::ApiClient.default.config.host).to eq('wookiee.com')
+          expect(AmzSpApi::ExternalFulfillment::AmzSpApi::ExternalFulfillment::V20240911::ApiClient.default.config.host).to eq('wookiee.com')
         end
 
         it 'removes trailing path from host' do

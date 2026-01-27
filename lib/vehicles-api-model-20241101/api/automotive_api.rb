@@ -13,8 +13,9 @@ module AmzSpApi::VehiclesApiModel::V20241101
   class AutomotiveApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::VehiclesApiModel::V20241101::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Get the latest collection of vehicles
     # @param marketplace_id An identifier for the marketplace in which the resource operates.

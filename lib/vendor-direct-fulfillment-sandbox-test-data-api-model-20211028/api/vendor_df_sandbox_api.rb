@@ -13,8 +13,9 @@ module AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028
   class VendorDFSandboxApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::VendorDirectFulfillmentSandboxTestDataApiModel::V20211028::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Submits a request to generate test order data for Vendor Direct Fulfillment API entities.
     # @param body The request payload containing parameters for generating test order data scenarios.

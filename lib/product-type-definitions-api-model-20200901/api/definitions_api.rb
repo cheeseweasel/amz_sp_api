@@ -13,8 +13,9 @@ module AmzSpApi::ProductTypeDefinitionsApiModel::V20200901
   class DefinitionsApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::ProductTypeDefinitionsApiModel::V20200901::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Retrieve an Amazon product type definition.  **Usage Plans:**  | Plan type | Rate (requests per second) | Burst | | ---- | ---- | ---- | |Default| 5 | 10 | |Selling partner specific| Variable | Variable |  The x-amzn-RateLimit-Limit response header returns the usage plan rate limits that were applied to the requested operation. Rate limits for some selling partners will vary from the default rate and burst shown in the table above. For more information, see [Usage Plans and Rate Limits in the Selling Partner API](doc:usage-plans-and-rate-limits-in-the-sp-api).
     # @param product_type The Amazon product type name.

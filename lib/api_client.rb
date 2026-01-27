@@ -26,6 +26,11 @@ module AmzSpApi
     # @return [Hash]
     attr_accessor :default_headers
 
+    # The namespace/module to use for model resolution during deserialization.
+    #
+    # @return [Module]
+    attr_accessor :model_namespace
+
     # Initializes the ApiClient
     # @option config [Configuration] Configuration for initializing the object, default to Configuration.default
     def initialize(config = Configuration.default)
@@ -236,7 +241,12 @@ module AmzSpApi
         end
       else
         # models, e.g. Pet
-        AmzSpApi.constants.map{|c| AmzSpApi.const_get(c)}.select{|sub| sub.kind_of?(Module)}.detect{|sub| sub.const_defined?(return_type)}.const_get(return_type).build_from_hash(data)
+        if @model_namespace && @model_namespace.const_defined?(return_type)
+          @model_namespace.const_get(return_type).build_from_hash(data)
+        else
+          # Fallback to global scan across all AmzSpApi modules
+          AmzSpApi.constants.map{|c| AmzSpApi.const_get(c)}.select{|sub| sub.kind_of?(Module)}.detect{|sub| sub.const_defined?(return_type)}.const_get(return_type).build_from_hash(data)
+        end
       end
     end
 

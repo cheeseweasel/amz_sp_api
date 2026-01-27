@@ -13,8 +13,9 @@ module AmzSpApi::CustomerFeedbackApiModel::V20240601
   class CustomerFeedbackApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::CustomerFeedbackApiModel::V20240601::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Retrieve the topics that customers mention when they return items in a browse node.
     # @param browse_node_id A browse node ID is a unique identifier for a browse node. A browse node is a named location in a browse tree that is used for navigation, product classification, and website content.

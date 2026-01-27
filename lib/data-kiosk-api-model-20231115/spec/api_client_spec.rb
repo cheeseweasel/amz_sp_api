@@ -22,7 +22,7 @@ describe AmzSpApi::DataKioskApiModel::ApiClient do
 
         it 'removes https from host' do
           AmzSpApi::DataKioskApiModel.configure { |c| c.host = 'https://wookiee.com' }
-          expect(AmzSpApi::DataKioskApiModel::ApiClient.default.config.host).to eq('wookiee.com')
+          expect(AmzSpApi::DataKioskApiModel::AmzSpApi::DataKioskApiModel::V20231115::ApiClient.default.config.host).to eq('wookiee.com')
         end
 
         it 'removes trailing path from host' do

@@ -22,7 +22,7 @@ describe AmzSpApi::FbaInventoryApiModel::ApiClient do
 
         it 'removes https from host' do
           AmzSpApi::FbaInventoryApiModel.configure { |c| c.host = 'https://wookiee.com' }
-          expect(AmzSpApi::FbaInventoryApiModel::ApiClient.default.config.host).to eq('wookiee.com')
+          expect(AmzSpApi::FbaInventoryApiModel::AmzSpApi::FbaInventoryApiModel::V0::ApiClient.default.config.host).to eq('wookiee.com')
         end
 
         it 'removes trailing path from host' do

@@ -13,8 +13,9 @@ module AmzSpApi::SupplySourcesApiModel::V20200701
   class SupplySourcesApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::SupplySourcesApiModel::V20200701::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Archive a supply source, making it inactive. Cannot be undone.
     # @param supply_source_id The unique identifier of a supply source.

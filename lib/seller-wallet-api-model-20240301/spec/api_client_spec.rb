@@ -22,7 +22,7 @@ describe AmzSpApi::SellerWalletApiModel::ApiClient do
 
         it 'removes https from host' do
           AmzSpApi::SellerWalletApiModel.configure { |c| c.host = 'https://wookiee.com' }
-          expect(AmzSpApi::SellerWalletApiModel::ApiClient.default.config.host).to eq('wookiee.com')
+          expect(AmzSpApi::SellerWalletApiModel::AmzSpApi::SellerWalletApiModel::V20240301::ApiClient.default.config.host).to eq('wookiee.com')
         end
 
         it 'removes trailing path from host' do

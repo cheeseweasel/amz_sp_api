@@ -13,8 +13,9 @@ module AmzSpApi::SellerWalletApiModel::V20240301
   class AccountsApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::SellerWalletApiModel::V20240301::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Find particular Amazon SW account by Amazon account identifier
     # Retrieve a Seller Wallet bank account by Amazon account identifier.

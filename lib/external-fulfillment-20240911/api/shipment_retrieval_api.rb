@@ -13,8 +13,9 @@ module AmzSpApi::ExternalFulfillment::V20240911
   class ShipmentRetrievalApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::ExternalFulfillment::V20240911::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Get a single shipment with the ID you specify.
     # @param shipment_id The ID of the shipment you want to retrieve.

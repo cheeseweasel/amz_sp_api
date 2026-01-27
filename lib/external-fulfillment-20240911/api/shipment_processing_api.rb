@@ -13,8 +13,9 @@ module AmzSpApi::ExternalFulfillment::V20240911
   class ShipmentProcessingApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::ExternalFulfillment::V20240911::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Provide details about the packages in the specified shipment.
     # @param body A list of packages in the shipment.

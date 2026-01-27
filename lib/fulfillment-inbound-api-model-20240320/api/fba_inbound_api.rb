@@ -13,8 +13,9 @@ module AmzSpApi::FulfillmentInboundApiModel::V20240320
   class FbaInboundApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::FulfillmentInboundApiModel::V20240320::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Cancels an Inbound Plan. Charges may apply if the cancellation is performed outside of a void window. The window for Amazon Partnered Carriers is 24 hours for Small Parcel Delivery (SPD) and one hour for Less-Than-Truckload (LTL) carrier shipments.
     # @param inbound_plan_id Identifier of an inbound plan.

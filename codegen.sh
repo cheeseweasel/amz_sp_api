@@ -103,12 +103,17 @@ for FILE in $(find "$MODELS_ROOT" -name "*.json" | sort); do
     -e "s/module AmzSpApi::${MODULE_BASE}/module AmzSpApi::${MODULE_NAME}/g" \
     -e "s/require 'amz_sp_api\//require '${API_NAME}\//g" \
     -e "s/AmzSpApi::${MODULE_BASE}\.const_get/AmzSpApi::${MODULE_NAME}.const_get/g" \
+    -e "s/ApiClient\.default/AmzSpApi::${MODULE_NAME}::ApiClient.default/g" \
+    -e "s|@base_path = 'https://sellingpartnerapi-na.amazon.com/'|@base_path = '/'|g" \
+    -e "s/@api_client = api_client/@api_client = api_client\n      @api_client.model_namespace = Module.nesting[1]/g" \
     {} \;
 
   if [ -f "$ENTRY_TARGET" ]; then
     sed -i "s/module AmzSpApi::${MODULE_BASE}/module AmzSpApi::${MODULE_NAME}/" "$ENTRY_TARGET"
     sed -i "s/require 'amz_sp_api\//require '${API_NAME}\//g" "$ENTRY_TARGET"
     sed -i "s/AmzSpApi::${MODULE_BASE}\.const_get/AmzSpApi::${MODULE_NAME}.const_get/g" "$ENTRY_TARGET"
+    sed -i "s/ApiClient\.default/AmzSpApi::${MODULE_NAME}::ApiClient.default/g" "$ENTRY_TARGET"
+    sed -i "s|@base_path = 'https://sellingpartnerapi-na.amazon.com/'|@base_path = '/'|g" "$ENTRY_TARGET"
     echo "Patched module/require in $ENTRY_TARGET"
   fi
 

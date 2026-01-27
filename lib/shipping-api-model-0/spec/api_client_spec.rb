@@ -22,7 +22,7 @@ describe AmzSpApi::ShippingApiModel::ApiClient do
 
         it 'removes https from host' do
           AmzSpApi::ShippingApiModel.configure { |c| c.host = 'https://wookiee.com' }
-          expect(AmzSpApi::ShippingApiModel::ApiClient.default.config.host).to eq('wookiee.com')
+          expect(AmzSpApi::ShippingApiModel::AmzSpApi::ShippingApiModel::V0::ApiClient.default.config.host).to eq('wookiee.com')
         end
 
         it 'removes trailing path from host' do

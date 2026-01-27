@@ -13,8 +13,9 @@ module AmzSpApi::SellerWalletApiModel::V20240301
   class TransferScheduleApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default)
+    def initialize(api_client = AmzSpApi::SellerWalletApiModel::V20240301::ApiClient.default)
       @api_client = api_client
+      @api_client.model_namespace = Module.nesting[1]
     end
     # Create a transfer schedule request from Amazon SW account to another customer provided account
     # Create a transfer schedule request from a Seller Wallet account to another customer-provided account.
